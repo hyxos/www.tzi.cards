@@ -1,5 +1,6 @@
 import Typography from 'typography'
 import '../fonts/fonts.css'
+import themeTrajan from 'typography-theme-trajan'
 
 export const fonts = {
   regular: 'Inter UI Regular',
@@ -10,13 +11,8 @@ export const fonts = {
   boldItalic: 'Inter UI Bold Italic',
 }
 
-const typography = new Typography({
-  baseFontSize: '17px',
-  baseLineHeight: 1.55,
-  headerLineHeight: 1.4,
-  headerFontFamily: [fonts.semibold, 'sans-serif'],
-  bodyFontFamily: [fonts.regular, 'sans-serif'],
-})
+const typography = new Typography(themeTrajan)
+
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {
   typography.injectStyles()

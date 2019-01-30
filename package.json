@@ -29,7 +29,7 @@
     "gatsby-plugin-offline": "^2.0.20",
     "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-sharp": "^2.0.17",
-    "gatsby-plugin-typography": "^2.2.5",
+    "gatsby-plugin-typography": "^2.2.6",
     "gatsby-remark-copy-linked-files": "^2.0.8",
     "gatsby-remark-images": "^2.0.6",
     "gatsby-remark-prismjs": "^3.2.0",
@@ -47,8 +47,10 @@
     "react-live": "^1.12.0",
     "react-typography": "^0.16.18",
     "semantic-ui-less": "^2.4.1",
+    "semantic-ui-react": "^0.84.0",
     "serve": "^10.1.1",
-    "typography": "^0.16.18"
+    "typography": "^0.16.18",
+    "typography-theme-trajan": "^0.1.3"
   },
   "devDependencies": {
     "babel-preset-gatsby": "^0.1.6",
