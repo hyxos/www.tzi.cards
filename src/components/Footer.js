@@ -6,7 +6,7 @@ import { fonts } from '../lib/typography'
 
 import Container from './Container'
 
-import { Twitter, GitHub, LinkedIn } from '../images/social'
+import { Twitter } from '../images/social'
 
 const Footer = () => (
   <footer
@@ -175,22 +175,10 @@ const Footer = () => (
               `}
             >
               <Link
-                to="https://twitter.com/moonhighway/"
+                to="https://twitter.com/tzi_cards/"
                 aria-label="Visit our Twitter"
               >
                 <Twitter color={`#797979`} />
-              </Link>
-              <Link
-                to="https://www.linkedin.com/company/moon-highway"
-                aria-label="Visit our LinkedIn"
-              >
-                <LinkedIn color={`#797979`} />
-              </Link>
-              <Link
-                to="https://github.com/MoonHighway"
-                aria-label="Visit our GitHub"
-              >
-                <GitHub color={`#797979`} />
               </Link>
             </div>
           </div>
