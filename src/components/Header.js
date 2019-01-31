@@ -11,11 +11,11 @@ const Header = ({ dark }) => (
       width: 100%;
       flex-shrink: 0;
       background: none;
-      padding: 30px 0 0 0;
+      padding: 0 0 0 0;
       ${bpMaxSM} {
         padding: 20px 0 0 0;
       }
-      background: ${dark ? '#090909' : 'none'};
+      background: ${dark ? 'white' : 'none'};
     `}
   >
     <MenuBar />

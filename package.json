@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-egghead-blog",
-  "description": "This is a starter for egghead content creator blogs",
-  "version": "1.0.0",
-  "author": "egghead.io <support@egghead.io> (https://egghead.io)",
-  "repository": "https://github.com/eggheadio/gatsby-starter-egghead-blog",
+  "name": "www.tzi.cards",
+  "description": "An ancient past, a new beginning...",
+  "version": "0.1.0",
+  "author": "hyxos.io <tzi@tzi.cards> (https://hyxos.io)",
+  "repository": "https://github.com/hyxos/www.tzi.cards.git",
   "dependencies": {
     "@emotion/core": "^10.0.5",
     "@emotion/styled": "^10.0.5",

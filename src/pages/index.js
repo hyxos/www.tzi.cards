@@ -6,12 +6,14 @@ import Link from '../components/Link'
 import Container from 'components/Container'
 import { bpMaxSM, bpMaxMD } from '../lib/breakpoints'
 import SubscribeForm from '../components/SubscribeForm'
+import { Advertisement, Image } from 'semantic-ui-react'
+import tzi_latin from '../images/tzi_latin.svg'
 
 const Hero = () => (
   <section
     css={css`
       width: 100%;
-      background: #090909;
+      background: white;
       padding: 30px 0 50px 0;
       height: 25vh;
       display: flex;
@@ -32,6 +34,11 @@ const Hero = () => (
         flex-direction: column;
       `}
     >
+      <div>
+        <Advertisement unit="top banner">
+          <Image src={tzi_latin} alt="TZI" size="medium"/>
+        </Advertisement>  
+      </div>
       <div
         css={css`
           display: flex;
@@ -54,10 +61,10 @@ const Hero = () => (
             }
           `}
         >
-          <h1
+         <h1
             css={css`
-              color: #fff;
-              font-size: 2.1rem;
+              color: black;
+              font-size: 1.5rem;
               line-height: 1.5;
               margin: 0;
               max-width: 540px;
@@ -67,7 +74,7 @@ const Hero = () => (
               }
             `}
           >
-            Your blog says the things you want to say.
+            An Ancient Past, A New Beginning...
           </h1>
         </div>
         <div
@@ -111,6 +118,10 @@ export default function Index({ data: { site } }) {
               }
             `}
           >
+            <p>
+              Inspired by the cosmic patterns behind the ancient Chinese system of <em>Ganzhi</em>,{" "}
+              <strong>TZI Cards</strong> is a unique deck of sixty bridge sized playing cards.
+            </p>
             <Link to="/blog">There are things to see over here.</Link>
             <div
               css={css`
