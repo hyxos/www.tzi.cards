@@ -23,7 +23,7 @@ The winner is the first player to reach 360 points or whoever has the the highes
 </div>
 
 <div id="setup">
-<br >
+<br />
 
 ## Setup
 
@@ -31,7 +31,10 @@ Each player needs a flat area to build a 3 X 4 [grid formation](formations "Form
 
 Distribute one of the default grid formation cards to new players so that they have a blueprint to build from.
 
-<img src="images/bw_grid_card.png" style="width: 150px"/><br/><small>*Formation Card*</small>
+<img src="images/bw_grid_card.png" style="width: 150px"/><br/><small>Formation Card</small>
+
+<br />
+<br />
 
 Players will need to see each other's formation(s) as the game progresses, so a nice table top is the perfect spot.
 
@@ -50,20 +53,19 @@ The person holding the cards shuffles the cards. Cards are then dealt face-up to
 
 That's right, because in TZI, rats are number one, baby! That means they are the highest valued cards by *order* (The number inside the hexagon is always a 1 for a rat). In fact, the Chinese word for the *earthly branch* for all rats is where we got the name for this game (TZOH!). Think of them kind of like Aces, but only très cooler.
 
-<img alt="Wood Rat Card" src="images/01_wood_rat_card.png" style="width: 150px" />
+<img alt="Wood Rat Card" src="images/01_wood_rat_card.png" style="width: 120px" />
 
-<img alt="Fire Rat Card" src="images/13_fire_rat_card.png" style="width: 150px" />
+<img alt="Fire Rat Card" src="images/13_fire_rat_card.png" style="width: 120px" />
 
-<img alt="Earth Rat Card" src="images/25_earth_rat_card.png" style="width: 150px" />
+<img alt="Earth Rat Card" src="images/25_earth_rat_card.png" style="width: 120px" />
 
-<img alt="Metal Rat Card" src="images/37_metal_rat_card.png" style="width: 150px" />
+<img alt="Metal Rat Card" src="images/37_metal_rat_card.png" style="width: 120px" />
 
-<img alt="Water Rat Card" src="images/49_water_rat_card.png" style="width: 150px" />
+<img alt="Water Rat Card" src="images/49_water_rat_card.png" style="width: 120px" />
 
 The following round, dealer moves to the player on the left, or clockwise.
 </div>
 <br />
-
 <div id="dealing">
 
 ## Deal those cards!
@@ -82,6 +84,7 @@ Once all the players have their cards, the rest of the deck is placed face-down 
 Play begins to the left of the dealer (clockwise).
 
 A turn is composed of three phases:
+
 1. Recruiting Phase
     * Draw a card for your formation from the stock pile or the top card of the discard pile.
 1. Building Phase 
@@ -92,6 +95,7 @@ A turn is composed of three phases:
     * Discard a card from your hand face-up onto the discard pile.
  
 \* *If there are more than three players, you may start a second discard pile on the other side of the stock pile*
+<br />
 
 <div id="recruit">
 
@@ -110,7 +114,8 @@ All players have strengths and weaknesses, and some work together better than ot
 Check out the section on [formations](formations "Formations") to get a better idea of what you are trying to accomplish.
 
 </div>
-<br/>
+
+<br />
 
 <div id="build">
 
@@ -146,7 +151,9 @@ You've got some hard choices to make. I mean, all of the cards are special in th
 
 You end your turn by discarding a card from your hand to the discard pile. In a four or five-player game, an additional discard pile should be formed on the other side of the stockpile. After dealing, only one card is flipped but players may subsequently discard to or draw from either pile.
 
-<div>
+</div>
+
+<br />
 
 <div id="next-player">
 
@@ -156,7 +163,9 @@ Play continues to the left until the final player completes their formation, or 
 In the case that where the stockpile has been exhausted and not all players have completed their formations, players may still draw a card from the discard pile and discard as usual, or choose to do nothing and pass. Once all players have passed, or the final player completes their formation (whichever comes first), play stops.
 
 </div>
+
 </div>
+
 <br />
 
 <div id="complete-round">
@@ -173,9 +182,8 @@ When/If the last player completes their formation, they draw from the stock pile
 
 ### The Tǔ Zǐ Phase  
 
-<img alt="Tǔ Zǐ" src="images/25_earth_rat_icon.svg" style="width: 100px;">
-
-<small>*Behold the all-powerful Tǔ Zǐ*</small>
+<img alt="Tǔ Zǐ" src="images/25_earth_rat_icon.png" style="width: 100px;" /><br />
+<small>Behold the all-powerful Tǔ Zǐ</small>
 
 #### What Makes You So Special?
 
@@ -185,15 +193,19 @@ That's because in addition to the *color* of the cards, the *dots* on the TZI Gl
 
 And the glyph for Tǔ Zǐ is the most simple of them all. It's just a centered, yellow, *vertical line*. That's because when there are *no dots*, we are always dealing with a TZI Glyph of the element earth.
 
-<img alt="Tǔ Zǐ" src="images/25_earth_rat_glyph.svg" style="width: 100px;">
+<img alt="Tǔ Zǐ" src="images/25_earth_rat_glyph.png" style="width: 100px;"/>
+<br />
+<small><em>Consider this glyph to be like a super symbol on earth rat's chest</em></small>
 
-<small>*Consider this glyph to be like a super symbol on earth rat's chest*</small>
+<br />
 
 If you were wondering why this game has such a silly name, well now you know. We could have just called it *Earth Rat* but now how fun now is that?
 
 <img alt="Earth Rat Card" src="images/25_earth_rat_card.png" style="width: 150px" />
-
-<small>*Hello there, looking for me?*</small>
+<br />
+<small><em>Hello there, looking for me?</em></small>
+<br />
+<br />
 
 So, even though play is over for everyone else, the player who has Tǔ Zǐ in their final formation gets to switch any ONE of the cards in their formation with a card from: 
 * Their own hand 
@@ -210,10 +222,11 @@ There is, however, one way to stay safe from that sly yellow rat, *special hands
 
 I know, by this point some of you may be crying out, "It's not fair!" that Tǔ Zǐ is so special. Well, for the standard game, you'll just have to live with it. However, in the *alternative rules*, each player gets to be their own Tǔ Zǐ for the bonus.
 
-* Check out the Alternative Rules.
-</div>
+*Check out the [Alternative Rules](alt-rules "Alternative Rules").*
 
 </div>
+
+<br />
 
 <div id="scoring">
 
@@ -257,15 +270,5 @@ If your final formation conforms to one of the special hands, then you score the
 | Elemental Imperium    | 360   |
 
 </div>
-
-<div id="winning">
-
-## Winning
-
->This game is called "I Win!"<br /> <small>*~Tu Wei~*</small>
-
-You've battled it out, you've built your *powerful formations* of Trines and Squares, maybe you even managed to reach the glorious achievement of building one of those *special hands*. 
-
-The first player to reach 360, or the player with the highest score after five rounds is declared the winner! If multiple players have surpassed 360 points, the player with the highest score wins. In case of a tie, you must share the glory- or play another round.
 
 </div>

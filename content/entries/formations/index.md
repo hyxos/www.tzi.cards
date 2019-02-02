@@ -38,60 +38,60 @@ For the purpose of the following table, the animals have been represented by the
 <table id="4_trines" style="width:100%">
     <tr>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Rat Glyph" src="images/25_earth_rat_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Rat Glyph" src="images/25_earth_rat_bw_glyph.png"/>
             <div class="tiny">Rat</div>
         </td>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Dragon Glyph" src="images/05_earth_dragon_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Dragon Glyph" src="images/05_earth_dragon_bw_glyph.png"/>
             <div class="tiny">Dragon</div>
         </td>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Monkey Glyph" src="images/45_earth_monkey_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Monkey Glyph" src="images/45_earth_monkey_bw_glyph.png"/>
             <div class="tiny">Monkey</div>
         </td>
         <th>Trine 1 (Yang)</th>
     </tr>
     <tr>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Rooster Glyph" src="images/46_earth_rooster_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Rooster Glyph" src="images/46_earth_rooster_bw_glyph.png"/>
             <div class="tiny">Rooster</div>
         </td>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Ox Glyph" src="images/26_earth_ox_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Ox Glyph" src="images/26_earth_ox_bw_glyph.png"/>
             <div class="tiny">Ox</div>
         </td>  
         <td>
-            <img class="ui bottom aligned tiny image" alt="Snake Glyph" src="images/06_earth_snake_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Snake Glyph" src="images/06_earth_snake_bw_glyph.png"/>
             <div class="tiny">Snake</div>
         </td>
         <th>Trine 2 (Yin)</th>
     </tr>
     <tr>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Horse Glyph" src="images/55_earth_horse_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Horse Glyph" src="images/55_earth_horse_bw_glyph.png"/>
             <div class="tiny">Horse</div>
         </td>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Dog Glyph" src="images/35_earth_dog_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Dog Glyph" src="images/35_earth_dog_bw_glyph.png"/>
             <div class="tiny">Dog</div>
         </td> 
         <td>
-            <img class="ui bottom aligned tiny image" alt="Tiger Glyph" src="images/15_earth_tiger_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Tiger Glyph" src="images/15_earth_tiger_bw_glyph.png"/>
             <div class="tiny">Tiger</div>
         </td>
         <th>Trine 3 (Yang)</th> 
     </tr>
     <tr>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Rabbit Glyph" src="images/16_earth_rabbit_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Rabbit Glyph" src="images/16_earth_rabbit_bw_glyph.png"/>
             <div class="tiny">Rabbit</div>
         </td>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Sheep Glyph" src="images/56_earth_sheep_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Sheep Glyph" src="images/56_earth_sheep_bw_glyph.png"/>
             <div class="tiny">Sheep</div>
         </td>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Pig Glyph" src="images/36_earth_pig_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Pig Glyph" src="images/36_earth_pig_bw_glyph.png"/>
             <div class="tiny">Pig</div>
         </td>
         <th>Trine 4 (Yin)</th>
@@ -183,57 +183,57 @@ Trines can be one of three types, according to how many different elements are r
     </tr>
     <tr>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Rat Glyph" src="images/25_earth_rat_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Rat Glyph" src="images/25_earth_rat_bw_glyph.png"/>
             <div class="tiny" class="center aligned">Rat</div>
         </td>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Dragon Glyph" src="images/05_earth_dragon_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Dragon Glyph" src="images/05_earth_dragon_bw_glyph.png"/>
             <div class="tiny">Dragon</div>
         </td>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Monkey Glyph" src="images/45_earth_monkey_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Monkey Glyph" src="images/45_earth_monkey_bw_glyph.png"/>
             <div class="tiny">Monkey</div>
         </td>
     </tr>
     <tr>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Rooster Glyph" src="images/46_earth_rooster_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Rooster Glyph" src="images/46_earth_rooster_bw_glyph.png"/>
             <div class="tiny">Rooster</div>
         </td>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Ox Glyph" src="images/26_earth_ox_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Ox Glyph" src="images/26_earth_ox_bw_glyph.png"/>
             <div class="tiny">Ox</div>
         </td>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Snake Glyph" src="images/06_earth_snake_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Snake Glyph" src="images/06_earth_snake_bw_glyph.png"/>
             <div class="tiny">Snake</div>
         </td>
     </tr>
     <tr>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Horse Glyph" src="images/55_earth_horse_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Horse Glyph" src="images/55_earth_horse_bw_glyph.png"/>
             <div class="tiny">Horse</div>
         </td>  
         <td>    
-            <img class="ui bottom aligned tiny image" alt="Dog Glyph" src="images/35_earth_dog_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Dog Glyph" src="images/35_earth_dog_bw_glyph.png"/>
             <div class="tiny">Dog</div>
         </td>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Tiger Glyph" src="images/15_earth_tiger_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Tiger Glyph" src="images/15_earth_tiger_bw_glyph.png"/>
             <div class="tiny">Tiger</div>
         </td>
     </tr>
     <tr>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Rabbit Glyph" src="images/16_earth_rabbit_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Rabbit Glyph" src="images/16_earth_rabbit_bw_glyph.png"/>
             <div class="tiny">Rabbit</div>
         </td>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Sheep Glyph" src="images/56_earth_sheep_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Sheep Glyph" src="images/56_earth_sheep_bw_glyph.png"/>
             <div class="tiny">Sheep</div>
         </td>
         <td>
-            <img class="ui bottom aligned tiny image" alt="Pig Glyph" src="images/36_earth_pig_bw_glyph.svg"/>
+            <img class="ui bottom aligned tiny image" alt="Pig Glyph" src="images/36_earth_pig_bw_glyph.png"/>
             <div class="tiny">Pig</div>
         </td>
     </tr>
