@@ -1,5 +1,5 @@
 ---
-path: "/formations"
+slug: "formations"
 title: "Formations"
 ---
 

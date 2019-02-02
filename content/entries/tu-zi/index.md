@@ -1,7 +1,6 @@
 ---
-path: "/tu-zi"
+slug: "tu-zi"
 title: "Tǔ Zǐ"
-slug: 'tu-zi'
 tags: ['game', 'introduction', 'instructions']
 chapter: 0
 section: 0

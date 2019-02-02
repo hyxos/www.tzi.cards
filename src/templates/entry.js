@@ -87,7 +87,6 @@ export const entryQuery = graphql`
     mdx(fields: { id: { eq: $id } }) {
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
         banner {
           childImageSharp {
             sizes(maxWidth: 900) {

@@ -1,5 +1,5 @@
 ---
-path: "/animals"
+slug: "animals"
 title: "The Twelve Animals"
 tags: ['game', 'introduction', 'instructions', 'animals']
 chapter: 1

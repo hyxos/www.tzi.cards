@@ -1,5 +1,5 @@
 ---
-path: '/in-the-box'
+slug: 'in-the-box'
 title: 'In The Box'
 ---
 

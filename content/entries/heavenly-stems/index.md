@@ -1,4 +1,4 @@
 ---
-path: "/heavenly-stems"
+slug: "heavenly-stems"
 title: "The Heavenly Stems"
 ---

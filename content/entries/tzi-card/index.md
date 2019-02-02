@@ -1,5 +1,4 @@
 ---
-path: "/tzi-card"
 slug: "tzi-card"
 title: "The Anatomy of a TZI Card"
 posttype: 'deck'

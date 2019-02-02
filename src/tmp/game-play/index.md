@@ -1,5 +1,5 @@
 ---
-path: 'tu-zi-game-play'
+slug: 'tu-zi-game-play'
 title: 'Tǔ Zǐ Game Play'
 ---
 

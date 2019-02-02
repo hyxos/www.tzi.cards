@@ -20,16 +20,28 @@ const createPosts = (createPage, createRedirect, edges) => {
         })
       })
     }
-
-    createPage({
-      path: pagePath,
-      component: path.resolve(`./src/templates/post.js`),
-      context: {
-        id: node.id,
-        prev,
-        next,
-      },
-    })
+    if (node.frontmatter === 'entry') {
+      createPage({
+        path: pagePath,
+        component: path.resolve(`./src/templates/entry.js`),
+        context: {
+          id: node.id,
+          prev,
+          next,
+        },
+      })
+    }
+    else {
+      createPage({
+        path: pagePath,
+        component: path.resolve(`./src/templates/post.js`),
+        context: {
+          id: node.id,
+          prev,
+          next,
+        },
+      })
+    }    
   })
 }
 

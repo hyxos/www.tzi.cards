@@ -1,5 +1,5 @@
 ---
-path: "/glossary"
+slug: "glossary"
 title: "Glossary"
 ---
 

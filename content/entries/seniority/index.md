@@ -1,5 +1,5 @@
 ---
-path: "/seniority"
+slug: "seniority"
 title: "The Order of the Deck"
 tags: ['game', 'introduction', 'instructions', 'seniority']
 chapter: 1

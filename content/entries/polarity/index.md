@@ -1,5 +1,5 @@
 ---
-path: "/polarity"
+slug: "polarity"
 title: "The Darkness and the Light"
 tags: ['game', 'introduction', 'instructions', 'animals']
 chapter: 1

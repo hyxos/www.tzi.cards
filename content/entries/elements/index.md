@@ -1,5 +1,5 @@
 ---
-path: "/elements"
+slug: "elements"
 title: "The Five Elements"
 tags: ['game', 'introduction', 'instructions', 'elements']
 chapter: 1

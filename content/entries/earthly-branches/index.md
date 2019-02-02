@@ -1,4 +1,4 @@
 ---
-path: "/earthly-branches"
+slug: "earthly-branches"
 title: "The Earthly Branches"
 ---

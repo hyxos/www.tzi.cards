@@ -1,5 +1,5 @@
 ---
-path: "/tzi-glyph"
+slug: "tzi-glyph"
 title: "The Anatomy of a TZI Glyph"
 tags: ['game', 'introduction', 'instructions', 'glyph']
 chapter: 1
