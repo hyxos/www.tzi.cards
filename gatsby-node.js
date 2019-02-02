@@ -20,10 +20,10 @@ const createPosts = (createPage, createRedirect, edges) => {
         })
       })
     }
-    if (node.frontmatter === 'entry') {
+    if (node.frontmatter === 'blog') {
       createPage({
         path: pagePath,
-        component: path.resolve(`./src/templates/entry.js`),
+        component: path.resolve(`./src/templates/post.js`),
         context: {
           id: node.id,
           prev,
@@ -34,7 +34,7 @@ const createPosts = (createPage, createRedirect, edges) => {
     else {
       createPage({
         path: pagePath,
-        component: path.resolve(`./src/templates/post.js`),
+        component: path.resolve(`./src/templates/entry.js`),
         context: {
           id: node.id,
           prev,
