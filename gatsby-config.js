@@ -1,29 +1,35 @@
+const config = require('./config/website')
+const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
+
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
 module.exports = {
-  pathPrefix: '/',
+  pathPrefix: config.pathPrefix,
   siteMetadata: {
-    siteUrl: 'https://www.tzi.cards/',
-    title: 'TZI Cards Homepage',
-    description: 'An ancient past, a new beginning',
-    keywords: ['Ganzhi', 'China', 'astrology', 'games'],
-    canonicalUrl: 'https://www.tzi.cards',
-    image: 'https://www.tzi.cards/images/tzi.png',
+    siteUrl: config.siteUrl + pathPrefix,
+    title: config.siteTitle,
+    twitterHandle: config.twitterHandle,
+    description: config.siteDescription,
+    keywords: ['Video Blogger'],
+    canonicalUrl: config.siteUrl,
+    image: config.siteLogo,
     author: {
-      name: 'www.tzi.cards',
+      name: config.author,
       minibio: `
-        <strong>WWW.TZI.CARDS</strong> is the home of the legandary TZI Cards.
+        <strong>egghead</strong> is the premier place on the internet for 
+        experienced developers to enhance their skills and stay current
+        in the fast-faced field of web development.
       `,
     },
     organization: {
-      name: 'Hyxos Inc.',
-      url: 'https://hyxos.io',
-      logo: 'https://hyxos.io/hyxos.png',
+      name: config.organization,
+      url: config.siteUrl,
+      logo: config.siteLogo,
     },
     social: {
-      twitter: '@hyxos',
+      twitter: config.twitterHandle,
       fbAppID: '',
     },
   },
@@ -57,6 +63,7 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
+              backgroundColor: '#fafafa',
               maxWidth: 1035,
               sizeByPixelDensity: true,
             },
@@ -69,17 +76,28 @@ module.exports = {
     'gatsby-plugin-emotion',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
-    `gatsby-plugin-less`,
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Video Blogger',
-        short_name: 'EGGcreator',
-        start_url: '/',
-        background_color: '#fff',
-        theme_color: '#525dce',
+        name: config.siteTitle,
+        short_name: config.siteTitleShort,
+        description: config.siteDescription,
+        start_url: config.pathPrefix,
+        background_color: config.backgroundColor,
+        theme_color: config.themeColor,
         display: 'standalone',
-        icon: 'assets/logo.png',
+        icons: [
+          {
+            src: '/favicons/android-chrome-192x192.png',
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: '/favicons/android-chrome-512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
+          },
+        ],
       },
     },
     {

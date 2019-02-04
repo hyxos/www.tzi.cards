@@ -98,9 +98,6 @@ exports.onCreateWebpackConfig = ({ actions }) => {
       alias: {
         $components: path.resolve(__dirname, 'src/components'),
       },
-      alias: {
-        '../../theme.config$': path.join(__dirname, 'tzi-theme/theme.config')  
-      },
     },
   })
 }
