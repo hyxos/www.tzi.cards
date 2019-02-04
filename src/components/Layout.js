@@ -3,7 +3,6 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import { MDXProvider } from '@mdx-js/tag'
 import { css, Global } from '@emotion/core'
-import "semantic-ui-less/semantic.less"; 
 import { fonts } from '../lib/typography'
 import { bpMaxSM } from '../lib/breakpoints'
 
