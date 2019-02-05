@@ -6,9 +6,8 @@ chapter: 1
 section: 1
 subsection: 1
 excerpt: "There is darnkess, and there is light"
+banner: "./yin_yang.png"
 ---
-
-<img alt="Yin Yang" src="images/yin_yang.png" style="width: 250px" /> 
 
 >The beginning was where it all started. <br /><small><em>~Mu Mao~</em> <strong>The Book of TZI</strong></small>
 
