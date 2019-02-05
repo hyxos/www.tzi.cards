@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { css } from '@emotion/core'
 import theme from '../../config/theme'
-
+import logo from '../images/tzi_symbol_inverted.svg'
 import Container from './Container'
 
 const Header = ({
@@ -39,8 +39,22 @@ const Header = ({
         `}
       >
         <Link to="/" aria-label="go to homepage" activeClassName="active">
-          {siteTitle}
+          <img className="" src={logo} alt="TZI Logo"
+            style={{
+            height: '40px',
+            marginBottom:'0',
+            }}
+          />
         </Link>
+        <Link to="/deck" aria-label="go to deck" activeClassName="active">
+          Deck
+        </Link>
+        <Link to="/games" aria-label="go to deck" activeClassName="active">
+          Games
+        </Link>
+        <a href="https://shop.tzi.cards">
+          Store
+        </a>
         <div
           css={css`
             font-size: 16px;
