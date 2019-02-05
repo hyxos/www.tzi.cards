@@ -3,7 +3,7 @@ import { css } from '@emotion/core'
 import Container from 'components/Container'
 import { rhythm } from '../lib/typography'
 import theme from '../../config/theme'
-import tzi_latin from '../images/tzi_latin_yellow.svg'
+import tzi_latin from '../images/tzi_latin_shadow.png'
 
 const Hero = () => (
     <section
@@ -23,12 +23,17 @@ const Hero = () => (
           flex-direction: column;
         `}
       >
-        <img className="" src={tzi_latin} alt="TZI Logo"
-              style={{
-              height: '200px',
-              marginBottom:'0',
-              }}
-        />
+        <span style={{
+            textAlign: 'center'
+            }}
+        >
+            <img className="" src={tzi_latin} alt="TZI Logo"
+                style={{
+                width: '300px',
+                marginBottom:'0',
+                }}
+            />
+        </span>
         <h4
           css={css`
             position: relative;
