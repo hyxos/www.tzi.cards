@@ -10,8 +10,7 @@ excerpt: "There is darnkess, and there is light"
 
 <img alt="Yin Yang" src="images/yin_yang.png" style="width: 250px" /> 
 
-The beginning was where it all started.<br />
-<small>*~Mu Mao~* **The Book of TZI**</small>
+>The beginning was where it all started. <br /><small><em>~Mu Mao~</em> <strong>The Book of TZI</strong></small>
 
 All cultures have their own creation stories, and the ancient Chinese tale of the origin of the universe is told to us through the 道 (Dào). 
 
