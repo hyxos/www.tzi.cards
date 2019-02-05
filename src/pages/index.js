@@ -7,6 +7,7 @@ import Link from '../components/Link'
 import Container from 'components/Container'
 import { rhythm } from '../lib/typography'
 import theme from '../../config/theme'
+import tzi_latin from '../images/tzi_latin_inverted.svg'
 
 const Hero = () => (
   <section
@@ -26,7 +27,13 @@ const Hero = () => (
         flex-direction: column;
       `}
     >
-      <h1
+      <img className="" src={tzi_latin} alt="TZI Logo"
+            style={{
+            height: '200px',
+            marginBottom:'0',
+            }}
+      />
+      <h4
         css={css`
           position: relative;
           z-index: 5;
@@ -35,8 +42,8 @@ const Hero = () => (
           max-width: ${rhythm(15)};
         `}
       >
-        Your blog says the things you want to say.
-      </h1>
+        An Ancient Past, A New Beginning...
+      </h4>
     </Container>
     <div
       css={css`
@@ -74,31 +81,10 @@ export default function Index({ data: { site, allMdx } }) {
           padding-bottom: 0;
         `}
       >
-        {allMdx.edges.map(({ node: post }) => (
-          <div
-            key={post.id}
-            css={css`
-              margin-bottom: 40px;
-            `}
-          >
-            <Link
-              to={post.frontmatter.slug}
-              aria-label={`View ${post.frontmatter.title}`}
-            >
-              <PostTitle>{post.frontmatter.title}</PostTitle>
-            </Link>
-            <Description>
-              {post.excerpt}{' '}
-              <Link
-                to={post.frontmatter.slug}
-                aria-label={`View ${post.frontmatter.title}`}
-              >
-                Read Article →
-              </Link>
-            </Description>
-            <span />
-          </div>
-        ))}
+        <p>
+          Inspired by the cosmic patterns behind the ancient Chinese system of <em>Ganzhi</em>,{" "}
+          <strong>TZI Cards</strong> is a unique deck of sixty bridge sized playing cards.
+        </p>
         <Link
           to="/blog"
           aria-label="Visit blog page"
