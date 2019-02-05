@@ -1,38 +1,80 @@
 import React from 'react'
-import Layout from '../components/Layout'
-import { Link } from 'gatsby'
-import Container from 'components/Container'
-import { bpMaxSM, bpMaxMD } from '../lib/breakpoints'
+import { graphql } from 'gatsby'
 import { css } from '@emotion/core'
-import { List } from 'semantic-ui-react'
+import styled from '@emotion/styled'
+import Layout from '../components/Layout'
+import Link from '../components/Link'
+import Container from 'components/Container'
+import { rhythm } from '../lib/typography'
+import theme from '../../config/theme'
 
-const DeckPage = ({ data: { site } }) => {
-  return (
-    <Layout site={site} dark>
-      <section
+const Hero = () => (
+  <section
+    css={css`
+      * {
+        color: ${theme.colors.white};
+      }
+      width: 100%;
+      background: ${theme.brand.primary};
+      padding: 20px 0 30px 0;
+      display: flex;
+    `}
+  >
+    <Container
+      css={css`
+        display: flex;
+        flex-direction: column;
+      `}
+    >
+      <h1
         css={css`
-          padding: 100px 0 20px 0;
-          ${bpMaxMD} {
-            padding: 40px 0;
-          }
-          ${bpMaxSM} {
-            padding: 20px 0;
-          }
+          position: relative;
+          z-index: 5;
+          line-height: 1.5;
+          margin: 0;
+          max-width: ${rhythm(15)};
         `}
       >
-        <Container maxWidth={920}>
-          <div
-            css={css`
-              margin-top: 50px;
-              ${bpMaxSM} {
-                margin-top: 50px;
-                border-top: 1px solid #f1f1f1;
-                padding-top: 30px;
-              }
-            `}
-          >
-            <div>
-              <h2>An Ancient Past</h2>
+        Your blog says the things you want to say.
+      </h1>
+    </Container>
+    <div
+      css={css`
+        height: 150px;
+        overflow: hidden;
+      `}
+    />
+  </section>
+)
+
+const PostTitle = styled.h2`
+  margin-bottom: ${rhythm(0.3)};
+  transition: ${theme.transition.ease};
+  :hover {
+    color: ${theme.brand.primary};
+    transition: ${theme.transition.ease};
+  }
+`
+
+const Description = styled.p`
+  margin-bottom: 10px;
+  display: inline-block;
+`
+
+export default function Index({ data: { site, allMdx } }) {
+  return (
+    <Layout
+      site={site}
+      headerColor={theme.colors.white}
+      headerBg={theme.brand.primary}
+    >
+      <Hero />
+      <Container
+        css={css`
+          padding-bottom: 0;
+        `}
+      >
+        <h2>An Ancient Past</h2>
               <p>TZI Cards draw their inspiration from a variety of sources, primarily the ancient
         Chinese system of <em>Ganzhi (干支)</em>. The name, <em>TZI</em>, is in fact a
         {" "}<a href="https://en.wikipedia.org/wiki/Romanization">romanization</a>
@@ -54,95 +96,130 @@ const DeckPage = ({ data: { site } }) => {
     between the cards.
       </p>
               <h3>The Deets</h3>
-              <List bulleted>
-                <List.Item>
+              <ul>
+                <li>
                   <Link to="in-the-box">In the Box</Link>
-                </List.Item>
-                <List.Item>
+                </li>
+                <li>
                   <Link to="tzi-card">
                     Anatomy of a TZI Card
                   </Link>
-                  <List.List>
-                    <List.Item>
+                  <ul>
+                    <li>
                       <Link to="polarity">
                         The Darkness and the Light
                       </Link>
-                    </List.Item>
-                    <List.Item>
+                    </li>
+                    <li>
                       <Link to="elements">
                         The Five Elements of Change
                       </Link>
-                    </List.Item>
-                    <List.Item>
+                    </li>
+                    <li>
                       <Link to="animals">
                         The Twelve Animals
                       </Link>
-                    </List.Item>
-                    <List.Item>
+                    </li>
+                    <li>
                       <Link to="seniority">
                         The Order of the Deck
                       </Link>
-                    </List.Item>
-                    <List.Item>
+                    </li>
+                    <li>
                       <Link to="earthly-branches">
                         The Earthly Branches
                       </Link>
-                    </List.Item>
-                    <List.Item>
+                    </li>
+                    <li>
                       <Link to="heavenly-stems">
                         The Heavenly Stems
                       </Link>
-                    </List.Item>
-                    <List.Item>
+                    </li>
+                    <li>
                       <Link to="seniority">
                         Seniority
                       </Link>
-                    </List.Item>
-                    <List.Item>
+                    </li>
+                    <li>
                       <Link to="tzi-glyph">
                         The TZI Glyph
                     </Link>
-                      <List.List>
-                        <List.Item>
+                      <ul>
+                        <li>
                           <Link to="trigram">
                             The Trigram of Heaven
                         </Link>
-                          <List.List>
-                            <List.Item>Horizontal Bars</List.Item>
-                            <List.Item>Vertical Bars</List.Item>
-                            <List.Item>Dots</List.Item>
-                          </List.List>
-                        </List.Item>
-                      </List.List>
-                    </List.Item>
-                    <List.Item>
+                          <ul>
+                            <li>Horizontal Bars</li>
+                            <li>Vertical Bars</li>
+                            <li>Dots</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
                       Extra Cards
-                    <List.List>
-                        <List.Item>
+                    <ul>
+                        <li>
                           Chinese New Years Cards
-                      </List.Item>
-                        <List.Item>
+                      </li>
+                        <li>
                           Formation Cards
-                      </List.Item>
-                      </List.List>
-                    </List.Item>
-                  </List.List>
-                </List.Item>
-              </List>
-            </div>
-          </div>
-        </Container>
-      </section>
+                      </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+        <hr />
+      </Container>
     </Layout>
   )
 }
-
-export default DeckPage
 
 export const pageQuery = graphql`
   query {
     site {
       ...site
+      siteMetadata {
+        title
+      }
+    }
+    allMdx(
+      limit: 5
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { published: { ne: false } } }
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 190)
+          id
+          fields {
+            title
+            slug
+            date
+          }
+          parent {
+            ... on File {
+              sourceInstanceName
+            }
+          }
+          frontmatter {
+            title
+            date(formatString: "MMMM DD, YYYY")
+            description
+            banner {
+              childImageSharp {
+                sizes(maxWidth: 720) {
+                  ...GatsbyImageSharpSizes
+                }
+              }
+            }
+            slug
+            keywords
+          }
+        }
+      }
     }
   }
 `
