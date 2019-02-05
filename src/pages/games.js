@@ -1,65 +1,11 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { css } from '@emotion/core'
-import styled from '@emotion/styled'
 import Layout from '../components/Layout'
 import Link from '../components/Link'
 import Container from 'components/Container'
-import { rhythm } from '../lib/typography'
+import Hero from '../components/Hero'
 import theme from '../../config/theme'
-
-const Hero = () => (
-  <section
-    css={css`
-      * {
-        color: ${theme.colors.white};
-      }
-      width: 100%;
-      background: ${theme.brand.primary};
-      padding: 20px 0 30px 0;
-      display: flex;
-    `}
-  >
-    <Container
-      css={css`
-        display: flex;
-        flex-direction: column;
-      `}
-    >
-      <h1
-        css={css`
-          position: relative;
-          z-index: 5;
-          line-height: 1.5;
-          margin: 0;
-          max-width: ${rhythm(15)};
-        `}
-      >
-        Your blog says the things you want to say.
-      </h1>
-    </Container>
-    <div
-      css={css`
-        height: 150px;
-        overflow: hidden;
-      `}
-    />
-  </section>
-)
-
-const PostTitle = styled.h2`
-  margin-bottom: ${rhythm(0.3)};
-  transition: ${theme.transition.ease};
-  :hover {
-    color: ${theme.brand.primary};
-    transition: ${theme.transition.ease};
-  }
-`
-
-const Description = styled.p`
-  margin-bottom: 10px;
-  display: inline-block;
-`
 
 export default function Index({ data: { site, allMdx } }) {
   return (

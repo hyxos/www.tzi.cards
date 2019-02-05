@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { css } from '@emotion/core'
 import theme from '../../config/theme'
-import logo from '../images/tzi_symbol_inverted.svg'
+import logo from '../images/tzi_logo_color.png'
 import Container from './Container'
 
 const Header = ({
@@ -41,7 +41,7 @@ const Header = ({
         <Link to="/" aria-label="go to homepage" activeClassName="active">
           <img className="" src={logo} alt="TZI Logo"
             style={{
-            height: '40px',
+            height: '70px',
             marginBottom:'0',
             }}
           />
