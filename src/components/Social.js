@@ -92,3 +92,26 @@ export const GitHub = ({
     </svg>
   </Link>
 )
+
+export const CC = ({
+  color = `${theme.colors.body_color}`,
+  url = `http://creativecommons.org/licenses/by-nc-sa/2.0/`,
+}) => (
+  <Link
+    to={url}
+    css={css`
+      margin-left: 10px;
+      color: ${color};
+      :hover {
+        color: ${theme.brand.primary};
+      }
+    `}
+    aria-label="Creative Commons License"
+  >
+    <img alt="Creative Commons License" 
+          css={css`
+          margin-bottom: 0px;
+        `}
+          height="23" src="https://i.creativecommons.org/l/by-nc-sa/2.0/88x31.png" />
+  </Link>
+)

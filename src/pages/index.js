@@ -45,7 +45,7 @@ export default function Index({ data: { site, allMdx } }) {
           aria-label="Visit blog page"
           className="button-secondary"
         >
-          View all articles
+          View all entries
         </Link>
         <hr />
       </Container>
