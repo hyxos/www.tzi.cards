@@ -9,10 +9,10 @@ import Message from '../ConfirmMessage/Message'
 import { PleaseConfirmIllustration } from '../ConfirmMessage/Illustrations'
 
 const SubscribeSchema = Yup.object().shape({
-  email_address: Yup.string()
+  EMAIL: Yup.string()
     .email('Invalid email address')
     .required('Required'),
-  first_name: Yup.string(),
+  FNAME: Yup.string(),
 })
 
 const PostSubmissionMessage = ({ response }) => {
@@ -86,8 +86,8 @@ class SignUp extends React.Component {
         {!successful && (
           <Formik
             initialValues={{
-              email_address: '',
-              first_name: '',
+              EMAIL: '',
+              FNAME: '',
             }}
             validationSchema={SubscribeSchema}
             onSubmit={values => this.handleSubmit(values)}
@@ -127,7 +127,7 @@ class SignUp extends React.Component {
                   }
                 `}
               >
-                <label htmlFor="first_name">
+                <label htmlFor="FNAME">
                   <div
                     css={css`
                       display: flex;
@@ -137,7 +137,7 @@ class SignUp extends React.Component {
                   >
                     First Name
                     <ErrorMessage
-                      name="first_name"
+                      name="FNAME"
                       component="span"
                       className="field-error"
                     />
@@ -145,12 +145,12 @@ class SignUp extends React.Component {
                   <Field
                     aria-label="your first name"
                     aria-required="false"
-                    name="first_name"
+                    name="FNAME"
                     placeholder="Jane"
                     type="text"
                   />
                 </label>
-                <label htmlFor="email">
+                <label htmlFor="EMAIL">
                   <div
                     css={css`
                       display: flex;
@@ -160,7 +160,7 @@ class SignUp extends React.Component {
                   >
                     Email
                     <ErrorMessage
-                      name="email_address"
+                      name="EMAIL"
                       component="span"
                       className="field-error"
                     />
@@ -168,7 +168,7 @@ class SignUp extends React.Component {
                   <Field
                     aria-label="your email address"
                     aria-required="true"
-                    name="email_address"
+                    name="EMAIL"
                     placeholder="jane@acme.com"
                     type="email"
                   />
