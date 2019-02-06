@@ -20,7 +20,7 @@ The TZI cards are composed using a combination of numbers and symbols. All words
 * [Polarity](../polarity "Polarity")
 * [Element](elements "Element")
 * [Animal](animals "Animal")
-* [Animal Order](animal-order "Animal Order")
+* [Animal Order](animals "Animal")
 * [TZI Glyph](tzi-glyph "TZI Glyph")
 * [Seniority](seniority "Seniority")
 * [Earthly Branch](earthly-branch "Earthly Branch")

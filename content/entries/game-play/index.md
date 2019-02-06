@@ -8,7 +8,7 @@ title: 'Tǔ Zǐ Game Play'
 <div id="overview">
 
 ## Overview
-In Tǔ Zǐ, players compete to build the most *powerful [formations](formations "Formations")* and score points to win! 
+In Tǔ Zǐ, players compete to build the most *[Powerful Formations](formations#powerful-formations "Formations")* to score points and win! 
 
 Play is divided into rounds. During each round, players take turns *recruiting* by drawing cards, *building* by adding cards to their formation, and *discarding*. *See [Turn Actions](#turn-actions "turn actions").*
 
@@ -31,7 +31,7 @@ Each player needs a flat area to build a 3 X 4 [grid formation](formations "Form
 
 Distribute one of the default grid formation cards to new players so that they have a blueprint to build from.
 
-<img src="images/bw_grid_card.png" style="width: 150px"/><br/><small>Formation Card</small>
+<img src="images/bw_grid_card.png" style="width: 150px"/><br /><small>Formation Card</small>
 
 <br />
 <br />
@@ -51,7 +51,7 @@ The person holding the cards shuffles the cards. Cards are then dealt face-up to
 
 ### Awe, Rats!
 
-That's right, because in TZI, rats are number one, baby! That means they are the highest valued cards by *order* (The number inside the hexagon is always a 1 for a rat). In fact, the Chinese word for the *earthly branch* for all rats is where we got the name for this game (TZOH!). Think of them kind of like Aces, but only très cooler.
+That's right, because in TZI, rats are number one, baby! That means they are the highest valued cards by *order* (The number inside the hexagon is always a 1 for a rat). In fact, the Chinese word for the *earthly branch* for all rats, is where we got the name for this game (TZOH!). Think of them kind of like Aces, but only très cooler.
 
 <img alt="Wood Rat Card" src="images/01_wood_rat_card.png" style="width: 120px" />
 
@@ -88,9 +88,9 @@ A turn is composed of three phases:
 1. Recruiting Phase
     * Draw a card for your formation from the stock pile or the top card of the discard pile.
 1. Building Phase 
-    * Add a *Trine* or *Square* to your formation if you are able and willing.
-    * Exchange cards between your hand and formation in order to get more points (e.g. replacing *wood rat* with *fire rat* in order to create a *Unity Trine*).
-    * Recruit another card for every *completed* Trine or Square you add to your formation (this can continue as long as you are able to add Trines and Squares to your formation).
+    * Add a [*Trine*](formations/#trines "trines") or a [*Square*](formations/#squares "Square") to your formation if you are able and willing.
+     * Recruit an additional card for every *completed* Trine or Square you add to your formation (this can continue as long as you are able to add Trines and Squares to your formation).
+     * Exchange cards between your hand and formation in order to get more points (e.g. replacing *wood rat* with *fire rat* in order to create a *Unity Trine*).
 1. Dismissal Phase 
     * Discard a card from your hand face-up onto the discard pile.
  
@@ -103,13 +103,13 @@ A turn is composed of three phases:
 
 > I'm ready to go in coach, just give me a chance! <br /><small>*~Ace Ventura~ Pet Detective*</small>
 
-Start your turn by *recruiting*: draw a card, either from the stock pile, or the discard pile, and add it to your hand.
+Start your turn by *recruiting*- draw a card, either from the stock pile, or the discard pile- and add it to your hand.
 
-Which card should you draw? Remember, the goal of Tǔ Zǐ is to compete against other players to build the most *powerful formation*.
+Which card should you draw? Remember, the goal of Tǔ Zǐ is toget the most points, by building the most *powerful formation*.
 
 What makes a formation *powerful*? Building your formation is like building a team. If you were a coach trying to make the greatest basketball team *eva*, you could just take in any rando who comes in off the street, but unless you were just unimaginably lucky that strategy isn't gonna cut it. 
 
-All players have strengths and weaknesses, and some work together better than others. A *powerful formation* is one that has certain qualities. The qualities that make a great team in Tǔ Zǐ are *Diversity*, *Unity* or some combination of the two. The difficulty of making a *powerful formation* increases as the formation becomes more powerful.
+All players have strengths and weaknesses, and some work together better than others. A *powerful formation* is one that has certain qualities. The qualities that make a great team in Tǔ Zǐ are *Diversity* and *Unity*, or some combination of the two. *Diversity* means all different elements and *Unity* means they are all the same element. The difficulty of making a *powerful formation* increases as the formation becomes more powerful.
 
 Check out the section on [formations](formations "Formations") to get a better idea of what you are trying to accomplish.
 
@@ -123,15 +123,15 @@ Check out the section on [formations](formations "Formations") to get a better i
 
 >Unlimited Power!<br /><small>~Emperor Palpatine~ The Revenge of the Sith</small>
 
-When starting out, it can be challenging just grouping the cards together into Trines and Squares, much less building *powerful formations*.
+When starting out, it can be challenging just grouping the cards together into [Trines](formations/#trines "trines") and [Squares](formations/#squares "Square"), much less building *powerful formations*.
 
 Fear not, in time you will learn to wield that power!
 
-Beginners may find it helpful to place all their cards face-up in front of them in the appropriate spots, even if they do not have any complete formations. Prior to familiarity with the TZI Glyphs, it can be a helpful way to see which cards are you need.
+Beginners may find it helpful to place all their cards face-up in front of them in the appropriate spots, even if they do not have any complete formations. Prior to familiarity with the TZI Glyphs, it can be a helpful way to see which cards you need.
 
-Now, look at the the cards in your hand (or in front of you if you're playing open hand), can you complete a square or trine? If so, (and you haven't already), place it on the table in front of you face-up. This is how you begin your formation! Use the TZI Glyph in the top left hand corner of the cards to help you see which cards belong in which group. Refer to the default *formation card* if you need help.
+Now, look at the the cards in your hand (or in front of you if you're playing open hand), can you complete a [square](formations#squares "Square") or [trine](formations#trines "Trines")? If so, (and you haven't already), place it on the table in front of you face-up. This is how you begin your grid formation! Use the TZI Glyph in the top left hand corner of the cards to help you see which cards belong in which group. Refer to the default *formation card* if you need help.
 
-*Powerful formations* are made up of trines and squares where the *elements* are all different (see *diversity*), or all the same (see *unity*). There are also *super powerful formations* called *special hands* where the Trines and Squares align in an extra special way.
+[*Powerful formations*](formations/#powerful-formations "Powerful Formations") are Trines and Squares where the *elements* are all different (see *diversity*), or all the same (see *unity*). There are also *super powerful formations* called [*special hands*](formations/#special-hands "Special Hands"), where the Trines and Squares align in an extra special way.
 
 If you complete a Trine or Square, recruit an additional card from the stockpile or the discard pile. Sometimes it is possible to complete *both* a Trine and a Square with one card - in this case you pick up *two* cards.
 

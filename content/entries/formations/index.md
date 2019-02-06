@@ -3,13 +3,13 @@ slug: "formations"
 title: "Formations"
 ---
 
-During game play, the bulk of each player's turn consists of *recruiting* and *building*.
+During [Tu Zi game play](tu-zi-game-play "Tu Zi Game Play"), the bulk of each player's turn consists of *recruiting* and *building*.
 
 *Recruiting* is performed by drawing a card from the *stock pile* or *discard pile*.
 
 *Building* is performed by creating *formations* with the cards you have in your hand.
 
-Building *powerful formations* is the process of *recruiting* the specific cards that make up those *powerful formations*.
+Building *Powerful Formations* is the process of *Recruiting* the specific cards that make up those *Powerful Formations*.
 
 <div id="basic">
 
@@ -18,10 +18,10 @@ Building *powerful formations* is the process of *recruiting* the specific cards
 <div id="trines">
 
 ### Trines
-* three animals sharing the same number of horizontal bars in their TZI glyphs
+* three animals that share the same number of horizontal bars in their TZI glyphs
 * can have either 0, 1, 2 or 3 horizontal bars
-* the trine formation is the three cards placed side-by-side in a horizontal line 
-* there are four different trines in a standard deck- two yin & two yang
+* the Trine formation is the three cards placed side-by-side in a horizontal arrangement 
+* there are four different Trines in a standard deck- two yin & two yang
     1. Rat/ Dragon/ Monkey (yang)
         * no horizontal lines
     1. Rooster/ Ox/ Snake (yin)
@@ -35,7 +35,7 @@ Building *powerful formations* is the process of *recruiting* the specific cards
 
 For the purpose of the following table, the animals have been represented by their black & white glyphs- without any elemental dots.
 
-<table id="4_trines" style="width:100%">
+<table id="4-trines" style="width:100%">
     <tr>
         <td>
             <img class="ui bottom aligned tiny image" alt="Rat Glyph" src="images/25_earth_rat_bw_glyph.png"/>
@@ -99,9 +99,17 @@ For the purpose of the following table, the animals have been represented by the
 </table>
 
 #### <h4>Types of Trines</h4>
+
 Trines can be one of three types, according to how many different elements are represented.
 
-<table id="trine_examples" style="width:100%">
+1. Basic Trine
+    * Two Different Elements
+1. Diversity Trine
+    * Three Different Elements
+1. Unity Trine
+    * All the same Element
+
+<table id="trine-examples" style="width:100%">
     <caption><em>Examples</em></caption>
     <tr>
         <td>
@@ -162,10 +170,10 @@ Trines can be one of three types, according to how many different elements are r
 <div id="squares">
 
 ### Squares
-* four animals sharing the same number of vertical bars in their TZI glyphs
+* four animals that share the same number of vertical bars in their TZI glyphs
 * can be either 1, 2 or 3 vertical bars
-* the square formation is the four cards placed top-to-bottom, with alternating [yin & yang](polarity "Polarity"), in a vertical line
-* there are three different squares in a standard deck
+* the Square formation is the four cards placed top-to-bottom, with alternating [yin & yang](polarity "Polarity"), in a vertical arrangement
+* there are three different Squares in a standard deck
     1. Rat/ Rooster/ Horse/ Rabbit 
         * 1 vertical glyph bar
     1. Dragon/ Ox/ Dog/ Sheep 
@@ -174,7 +182,7 @@ Trines can be one of three types, according to how many different elements are r
         * 2 vertical glyph bars
 
 #### <h4>The Three Squares</h4>
-<table id="3_squares" style="width:100%">
+<table id="3-squares" style="width:100%">
     <caption>For the purpose of the following table, the animals have been represented by their black & white glyphs- without any elemental dots.</caption>
     <tr>
         <th class="ui center aligned header"><h4>Square 1</h4></th>
@@ -242,7 +250,15 @@ Trines can be one of three types, according to how many different elements are r
 #### <h4>Types of Squares</h4>
 Squares can be one of three types, according to which elements are represented. When looking at the chart below, read from top to bottom, then left to right.
 
-<table id="square_examples" style="width:100%">
+1. Basic Square
+    * Two or Three Different Elements
+1. Diversity Square
+    * Four Different Elements
+1. Unity Square
+    * All the same Element
+
+
+<table id="square-examples" style="width:100%">
     <caption>Examples</caption>
     <tr>
         <th><h4>1. Basic</h4>
@@ -315,20 +331,31 @@ Squares can be one of three types, according to which elements are represented. 
 
 </div>
 
+<div id="powerful-formations">
+
+## Powerful Formations
+
+All [Trines](#trines "Trines") and [Squares](#squares "Squares") that have Diversity or Unity are considered *Powerful*, and score points. 
+
+<a id="diversity"><b>Diversity</b></a> occurs when all the elements in the formation are different. 
+
+<a id="unity">Unity</a> occurs when all the elements in the formation are the same.
+
+</div>
+
 <div id="grid">
 
 ### Complete Formation (Grid)
 
-* the group of twelve unique animals can be placed in a three-cards-across by four-cards-down formation to create the grid (also four trines top-to-bottom; or three squares side-by-side)
-
-* there are five grid layout key cards included in a standard deck of TZI cards. Although this is not a set grid, it is often helpful for beginners to visualize the <a href="#trines">trines</a> & <a href="#squares">squares</a>.
+* the group of twelve unique animals can be placed in a three-cards-across by four-cards-down formation to create the grid (also four [Trines](#trines "Trines") top-to-bottom; or three [Squares](#squares "Squares") side-by-side)
+* there are five grid layout key cards included in a standard deck of TZI cards. Although this is not a set grid, it is often helpful for beginners to visualize the <a href="#trines">Trines</a> & <a href="#squares">Squares</a>.
     
     <img alt="Grid Card" src="images/bw_grid_card.png" width="120px"/> 
     <div class="tiny">Grid Formation Card</div>
 
 ### Example Grid Formation
 
-<table id="example_grid" style="width:100%">
+<table id="example-grid" style="width:100%">
     <caption></caption>
     <tr>
         <td><h4>Diversity<br />Square</h4>
@@ -394,9 +421,9 @@ Squares can be one of three types, according to which elements are represented. 
 * you may compose your grid anyway you wish, as long as the following are true
     * vertical bars line up *and* 
     * horizontal bars line up *and*
-    * trines must alternate between [yin & yang](polarity "Polarity")
-        * a single yang "bridge card" is required to play two yin <a href="#trines">trines</a>
-        * a single yin "bridge card" is required to play two yang <a href="#trines">trines</a>
+    * Trines must alternate between [yin & yang](polarity "Polarity")
+        * a single yang "bridge card" is required to play two yin <a href="#trines">Trines</a>
+        * a single yin "bridge card" is required to play two yang <a href="#trines">Trines</a>
 
 <table id="bridge_card" style="width:100%">
     <caption></caption>
@@ -462,7 +489,7 @@ There are Five Special hands:
 <div id="feng-shui">
 
 ## Feng Shui (Five Elements)
-All trines and squares in the grid are diverse,  uses all five elements. <br />
+All Trines and Squares in the grid are diverse,  uses all five elements. <br />
 Scores 180 points.
 
 ### Feng Shui
@@ -535,8 +562,8 @@ Scores 180 points.
 ## Coup D'Etat (Four Elements)
 
 Two different types
-1. Special Feng Shui- all trines and squares are all diverse- but uses four different elements.
-1. Four unity trines using four different elements.
+1. Special Feng Shui- all Trines and Squares are all diverse- but uses four different elements.
+1. Four Unity Trines using four different elements.
 
 ### Coup D'Etat Type 1
 <table id="coup-detat-1" style="width:100%">
@@ -672,8 +699,8 @@ Two different types
 ## Triumverate (Three Elements)
 
 Two types 
-1. Three Unity squares using three different elements
-1. Four Unity trines using three different elements.
+1. Three Unity Squares using three different elements
+1. Four Unity Trines using three different elements.
 
 ### Triumverate Type 1 *example*
 <table id="triumverate-1" style="width:100%">
@@ -809,8 +836,8 @@ Two types
 ## Church & State (Two Elements)
 
 Three types
-1. Three Unity squares using two different elements
-1. Four Unity trines using two different elements
+1. Three Unity Squares using two different elements
+1. Four Unity Trines using two different elements
 1. Checkerboard grid pattern using two elements
 
 ### Church & State Type 1 *example*
@@ -945,13 +972,13 @@ Three types
 <table id="church-state-3" style="width:100%">
     <caption>Checkerboard Pattern Using Two Elements: Water, Metal</caption>
     <tr>
-        <td><h4>Basic Square</h4>
+        <td><h4>Basic<br />Square</h4>
             <div class="tiny"></div>
         </td>
-        <td><h4>Basic Square</h4>
+        <td><h4>Basic<br />Square</h4>
             <div class="tiny"></div>
         </td>
-        <td><h4>Basic Square</h4>
+        <td><h4>Basic<br />Square</h4>
             <div class="tiny"></div>
         </td>
     </tr>
@@ -1001,7 +1028,7 @@ Three types
         <td>
             <img class="ui bottom aligned small image" alt="Metal Pig" src="images/48_metal_pig_card.png"/>
         </td>
-        <td><h4>Unity Trine</h4></td>
+        <td><h4>Basic Trine</h4></td>
     </tr>
 </table>
 </div>
