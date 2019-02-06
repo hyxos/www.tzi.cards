@@ -51,7 +51,7 @@ The person holding the cards shuffles the cards. Cards are then dealt face-up to
 
 ### Awe, Rats!
 
-That's right, because in TZI, rats are number one, baby! That means they are the highest valued cards by *order* (The number inside the hexagon is always a 1 for a rat). In fact, the Chinese word for the *earthly branch* for all rats, is where we got the name for this game (TZOH!). Think of them kind of like Aces, but only très cooler.
+That's right, because in TZI, rats are number one, baby! That means they are the highest valued cards by [*order*](seniority "Order") (The number inside the hexagon is always a 1 for a rat). In fact, the Chinese word for the *earthly branch* for all rats, is where we got the name for this game (TZOH!). Think of them kind of like Aces, but only très cooler.
 
 <img alt="Wood Rat Card" src="images/01_wood_rat_card.png" style="width: 120px" />
 
@@ -72,7 +72,7 @@ The following round, dealer moves to the player on the left, or clockwise.
 
 After choosing the dealer, it's time to deal. The dealer shuffles the cards again, then starts with the top card on the deck and goes clockwise around the table, dealing one card to each player until all players have seven cards.
 
-Once all the players have their cards, the rest of the deck is placed face-down in a central location and is now called the *stock pile*. The top card is flipped over next to the stock pile. The face-up card is now the top card of the *discard pile*.
+Once all the players have their cards, the rest of the deck is placed face-down in a central location and is now called the *stock pile*. The top card is flipped over next to the stock pile. This face-up card is now the top card of the *discard pile*.
 
 </div>
 <br />
@@ -88,11 +88,11 @@ A turn is composed of three phases:
 1. Recruiting Phase
     * Draw a card for your formation from the stock pile or the top card of the discard pile.
 1. Building Phase 
-    * Add a [*Trine*](formations/#trines "trines") or a [*Square*](formations/#squares "Square") to your formation if you are able and willing.
+    * Add a [*Trine*](formations#trines "trines") or a [*Square*](formations#squares "Square") to your formation if you are able and willing.
      * Recruit an additional card for every *completed* Trine or Square you add to your formation (this can continue as long as you are able to add Trines and Squares to your formation).
      * Exchange cards between your hand and formation in order to get more points (e.g. replacing *wood rat* with *fire rat* in order to create a *Unity Trine*).
 1. Dismissal Phase 
-    * Discard a card from your hand face-up onto the discard pile.
+    * Discard a card from your hand face-up onto the discard pile. Your turn is now over.
  
 \* *If there are more than three players, you may start a second discard pile on the other side of the stock pile*
 <br />
@@ -123,7 +123,7 @@ Check out the section on [formations](formations "Formations") to get a better i
 
 >Unlimited Power!<br /><small>~Emperor Palpatine~ The Revenge of the Sith</small>
 
-When starting out, it can be challenging just grouping the cards together into [Trines](formations/#trines "trines") and [Squares](formations/#squares "Square"), much less building *powerful formations*.
+When starting out, it can be challenging just grouping the cards together into [Trines](formations#trines "trines") and [Squares](formations#squares "Square"), much less building *powerful formations*.
 
 Fear not, in time you will learn to wield that power!
 
@@ -131,7 +131,7 @@ Beginners may find it helpful to place all their cards face-up in front of them 
 
 Now, look at the the cards in your hand (or in front of you if you're playing open hand), can you complete a [square](formations#squares "Square") or [trine](formations#trines "Trines")? If so, (and you haven't already), place it on the table in front of you face-up. This is how you begin your grid formation! Use the TZI Glyph in the top left hand corner of the cards to help you see which cards belong in which group. Refer to the default *formation card* if you need help.
 
-[*Powerful formations*](formations/#powerful-formations "Powerful Formations") are Trines and Squares where the *elements* are all different (see *diversity*), or all the same (see *unity*). There are also *super powerful formations* called [*special hands*](formations/#special-hands "Special Hands"), where the Trines and Squares align in an extra special way.
+[*Powerful formations*](formations#powerful-formations "Powerful Formations") are Trines and Squares where the *elements* are all different (see *diversity*), or all the same (see *Unity*). There are also *super powerful formations* called [*Special Hands*](formations#special-hands "Special Hands"), where the Trines and Squares align in an extra special way.
 
 If you complete a Trine or Square, recruit an additional card from the stockpile or the discard pile. Sometimes it is possible to complete *both* a Trine and a Square with one card - in this case you pick up *two* cards.
 
@@ -147,9 +147,9 @@ You may play as many face-up cards that fit in your formation, and may swap out 
 
 ### Dismissing
 
-You've got some hard choices to make. I mean, all of the cards are special in their own way, but not all of them can help your build your *powerful formation*? And also, if you say bye-bye to *wood ox*, is that going to help your oppenent get *Feng Shui*?
+You've got some hard choices to make. I mean, all of the cards are special in their own way, but not all of them can help your build your *powerful formation*? And also, if you say bye-bye to *wood ox*, is that going to help your opponent get [*Feng Shui*](formations/#feng-shui "Feng Shui")?
 
-You end your turn by discarding a card from your hand to the discard pile. In a four or five-player game, an additional discard pile should be formed on the other side of the stockpile. After dealing, only one card is flipped but players may subsequently discard to or draw from either pile.
+You end your turn by discarding a card from your hand to the discard pile. In a four or five-player game, an additional discard pile should be formed on the other side of the stockpile. After dealing, only one card is flipped, but players may subsequently discard to or draw from either pile.
 
 </div>
 
@@ -174,7 +174,7 @@ In the case that where the stockpile has been exhausted and not all players have
 
 The main portion of the round is over when all players have completed their formations or the stock pile is empty and all players have passed on recruiting any of the remaining top cards from the discard piles, whichever comes first.
 
-A complete formation should consist of exactly three squares and four trines. Every one of the twelve animals should be represented, though the different elements may vary. For beginners, The TZI Glyphs from each card should line up like they do in the default *formation card*. (see *formations* for information on alternate arrangements).
+A complete formation should consist of exactly three squares and four trines. Every one of the twelve animals should be represented, though the different elements may vary. For beginners, the TZI Glyphs from each card should line up like they do in the default *formation card*. (see [*formations*](formations "Formations") for information on alternate arrangements).
 
 When/If the last player completes their formation, they draw from the stock pile accordingly if there are any cards left in it, and then discard exactly as they would in any other turn. The game immediately moves to the Tǔ Zǐ phase.
 
@@ -189,9 +189,9 @@ When/If the last player completes their formation, they draw from the stock pile
 
 By now, if you have been paying attention and are starting to get to know your way around the TZI Glyphs, you'll probably have noticed that the TZI Glyphs on the default *formation card* aren't just any TZI Glyphs. That's right, they are all TZI Glyphs of a certain element, that element being *earth*. (If you still don't get it, no worries. Check out [The Antomy of a TZI Glyph](tzi-glyph "The Anatomy of a TZI Glyph"))
 
-That's because in addition to the *color* of the cards, the *dots* on the TZI Glyphs tell you what *element* the card is.
+That's because in addition to the *colour* of the cards, the *dots* on the TZI Glyphs tell you what *element* the card is.
 
-And the glyph for Tǔ Zǐ is the most simple of them all. It's just a centered, yellow, *vertical line*. That's because when there are *no dots*, we are always dealing with a TZI Glyph of the element earth.
+And the glyph for Tǔ Zǐ is the most simple of them all. It's just a centered, yellow, *vertical line*. That's because when there are *no dots*, we are always dealing with a TZI Glyph of the [element](elements "Elements") earth.
 
 <img alt="Tǔ Zǐ" src="images/25_earth_rat_glyph.png" style="width: 100px;"/>
 <br />
@@ -216,7 +216,7 @@ So, even though play is over for everyone else, the player who has Tǔ Zǐ in th
 
 If the player with Tǔ Zǐ takes a card from another player's formation, they must have a card to exchange (e.g. Player 1 takes *green dragon* from their formation and switches it with *red dragon* from Player 2's formation). They cannot simply take a card from another player's formation and add it to their own!
 
-There is, however, one way to stay safe from that sly yellow rat, *special hands* are immune to Tǔ Zǐ! She isn't allowed to work her magic on any player whose formation is a special hand.
+There is, however, one way to stay safe from that sly yellow rat, [*special hands*](formations#special-hands "Special Hands") are immune to Tǔ Zǐ! She isn't allowed to work her magic on any player whose formation is a special hand.
 
 #### What About Me?
 
@@ -234,13 +234,13 @@ I know, by this point some of you may be crying out, "It's not fair!" that Tǔ Z
 
 At the end of each round, the points from each player's formation are calculated and added to the points of the previous round (if any).
 
-Building [*Powerful Formations*](formations/#powerful-formations "Powerful Formations") is the bread and butter of winning at Tǔ Zǐ. But just what is it that makes these formations *powerful* in the first place? It's all about *probabilities*.
+Building [*Powerful Formations*](formations#powerful-formations "Powerful Formations") is the bread and butter of winning at Tǔ Zǐ. But just what is it that makes these formations *powerful* in the first place? It's all about *probabilities*.
 
 ### Probably Maybe
 
 We won't get into [probabality mathematics](https://en.wikipedia.org/wiki/Probability "Probability") here, but the jist is this: The points scored for building each formation are related to the *probability* of getting that formation; the *lower* the probability, the *higher* the points.
 
-In other words, the *probability* of forming a *basic* Trine or Square, through the course of a game of Tǔ Zǐ is relatively high, so they're not worth any points. Forming a Unity Trine or a Unity Square however, is much more difficult, and since less likely to happen, it's worth more points.
+In other words, the *probability* of forming a *basic* [Trine](formations#trines "Trines") or [Square](formations#squares "Squares"), through the course of a game of Tǔ Zǐ, is relatively high, so they're not worth any points. Forming a Unity Trine or a Unity Square however, is much more difficult. Since Unity is less likely to happen, it's worth more points.
 
 <br />
 
@@ -254,20 +254,32 @@ In other words, the *probability* of forming a *basic* Trine or Square, through 
 | Unity Trine                   |  30   |
 | Unity Square                  |  50   |
 
-*Special Hands* are even more difficult to pull off and therefore worth even more points! If you are able to create one of these formations during gameplay they have the additional benefit of protecting you from Tǔ Zǐ at the end of the game.
+[*Special Hand*](formations#special-hands "Special Hands")  are even more difficult to pull off and therefore worth even more points! If you are able to create one of these formations during gameplay, they have the additional benefit of protecting you from Tǔ Zǐ at the end of the game.
 
-In fact, you can potentially win the game in *one round* if you get that most special of special hands: *Elemental Imperium*!
+In fact, you can potentially win the game in *one round* if you get that most special of special hands: [*Elemental Imperium*](formations#elemental-imperium "Elemental Imperium")!
 
 If your final formation conforms to one of the special hands, then you score them according to the chart below.
 
-#### Scoring for Special Hands
-| *Special Hand*        | *Points* |
-|-----------------------|-------|
-| Feng Shui             | 180   |
-| Coup D'Etat           | 210   |
-| Triumverate           | 250   |
-| Church & State        | 300   |
-| Elemental Imperium    | 360   |
+#### Scoring for [Special Hands](formations/#special-hands "Special Hands")
+| [*Special Hand*](formations/#special-hands "Special Hands")                | *Points* |
+|----------------------------------------------------------------------------|----------|
+| [Feng Shui](formations#feng-shui "Feng Shui")                                | 180   |
+| [Coup D'Etat](formations#coup-detat "Coup D'Etat")                           | 210   |
+| [Triumverate](formations#triumverate "Triumverate")                          | 250   |
+| [Church & State](formations#church-state "Church and State")                 | 300   |
+| [Elemental Imperium](formations#elemental-imperium "Elemental Imperium")     | 360   |
+
+</div>
+
+<div id="winning">
+
+## Winning
+
+>This game is called "I Win!"<br /> <small>*~Tu Wei~*</small>
+
+You've battled it out, you've built your *powerful formations* of Trines and Squares, maybe you even managed to reach the glorious achievement of building one of those *Special Hands*! 
+
+The first player to reach 360, or the player with the highest score after five rounds is declared the winner! If multiple players have surpassed 360 points, the player with the highest score wins. In case of a tie, you must share the glory- or play another round.
 
 </div>
 

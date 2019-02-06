@@ -4,4 +4,4 @@ title: "Alternative TZI Phase"
 tags: ['game', 'introduction', 'instructions']
 excerpt: "Instead of using earth rat for in the final phase, the players may decide beforehad to use the card that represents the Chinese New Year that they were born in."
 ---
-Filler
+Instead of using earth rat for in the final phase, the players may decide beforehand to use the card that represents the Lunar New Year that they were born in. See included Chinese New Year Date Cards.
