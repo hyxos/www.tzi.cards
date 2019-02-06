@@ -36,10 +36,10 @@ export default function Index({ data: { site, allMdx } }) {
       <ul>
         <li><Link to="seniority">Seniority</Link> vs Rank (Cards Ordering of Value increases as 
           the card number decreases vs deuce low ace high)</li>
-        <li>Five <Link to="elements">elements</Link> instead of four suits (Wood, Fire, Earth, Metal, Water 
+        <li>Five <Link to="elements">elements</Link> vs Four suits (Wood, Fire, Earth, Metal, Water 
           vs Hearts, Diamonds, Clubs, Spades)</li>
-        <li>Twelve cards of an element instead of thirteen in a suit</li>
-        <li>Sixty cards instead of Fifty-two</li>
+        <li>Twelve cards of an element vs Thirteen in a suit</li>
+        <li>Sixty cards vs Fifty-twoc cards</li>
         <ul><li>12 <Link to="animals">animals</Link> x 5 elements vs 13 cards x 4 suits</li></ul>
       </ul>
       <p>We encourage you to try playing your favourite card game 
@@ -54,7 +54,7 @@ export default function Index({ data: { site, allMdx } }) {
       <h3><Link to="tu-zi">Tǔ Zǐ</Link></h3>
       <h4>2 - 5 Players, 30 Minutes</h4>
       <p>
-        <em>Guided by the <Link to="tzi-glyph">TZI Glyph</Link> you compete against opponents 
+        <em>Guided by the <Link to="tzi-glyph">TZI Glyph</Link> players compete against opponents 
         to build the most powerful formation.</em>
       </p>
       <p>Developed by Tu Wei. The first game made escpecially for the TZI 

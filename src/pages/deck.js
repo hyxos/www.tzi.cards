@@ -111,7 +111,7 @@ export default function Index({ data: { site } }) {
                           Chinese New Years Cards
                       </li>
                         <li>
-                          Formation Cards
+                          Grid Formation Cards
                       </li>
                       </ul>
                     </li>

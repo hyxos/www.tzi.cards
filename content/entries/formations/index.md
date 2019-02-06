@@ -476,20 +476,17 @@ All [Trines](#trines "Trines") and [Squares](#squares "Squares") that have Diver
 
 There are Five Special hands:
 
-# Special Hands 
-| Special Hand                  | Points|
-|-----------------------        |-------|
-| Feng Shui                     | 180   |
-| Coup D'Etat                   | 210   |
-| Triumverate                   | 250   |
-| Church & State                | 300   |
-| Elemental Imperium            | 360   |
+1. [Feng Shui](#feng-shui "Feng Shui")
+1. [Coup D'Etat](#coup-detat "Coup D'Etat")
+1. [Triumverate](#triumverate "Triumverate")
+1. [Church & State](#church-state "Church & State")
+1. [Elemental Imperium](#elemental-imperium "Elemental Imperium")
 
 <div id="feng-shui">
 
 ## Feng Shui (Five Elements)
-All Trines and Squares in the grid are diverse,  uses all five elements. <br />
-Scores 180 points.
+
+All Trines and Squares in the grid are diverse,  uses all five elements.
 
 ### Feng Shui
 <table id="feng-shui" style="width:100%">
@@ -561,6 +558,7 @@ Scores 180 points.
 ## Coup D'Etat (Four Elements)
 
 Two different types
+
 1. Special Feng Shui- all Trines and Squares are all diverse- but uses four different elements.
 1. Four Unity Trines using four different elements.
 
@@ -698,6 +696,7 @@ Two different types
 ## Triumverate (Three Elements)
 
 Two types 
+
 1. Three Unity Squares using three different elements
 1. Four Unity Trines using three different elements.
 
@@ -835,6 +834,7 @@ Two types
 ## Church & State (Two Elements)
 
 Three types
+
 1. Three Unity Squares using two different elements
 1. Four Unity Trines using two different elements
 1. Checkerboard grid pattern using two elements
@@ -967,7 +967,7 @@ Three types
     </tr>
 </table>
 
-### Church & state Type 3 *example*
+### Church & State Type 3 *example*
 <table id="church-state-3" style="width:100%">
     <caption>Checkerboard Pattern Using Two Elements: Water, Metal</caption>
     <tr>

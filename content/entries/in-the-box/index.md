@@ -9,7 +9,7 @@ title: 'In The Box'
 ### Five Grid Formation layout key cards
 <img alt="Grid Card" src="images/bw_grid_card.png" style="width: 150px"/>
 
-### Five Chinese New Year Dates Cards
+### Five Lunar New Year Dates Cards
 <img alt="Cohort One" src="images/1_cohort_90.png" style="width: 210px"/>
 <img alt="Cohort Two" src="images/2_cohort_90.png" style="width: 210px"/>
 <img alt="Cohort Three" src="images/3_cohort_90.png" style="width: 210px"/>
@@ -21,4 +21,4 @@ title: 'In The Box'
 
 ### One standard 60 card [TZI deck](deck "Deck")
 
-The standard TZI deck is 60 cards, composed of 12 different [animals](animals "Animals") of 5 different [elements](elements "Elements"). Each animal is represented by a [glyph](tzi-glyph "Tzi Glyph") composed of horizontal and vertical lines, as well as two strategically placed dots. 
+The standard TZI deck is 60 cards, composed of 12 different [animals](animals "Animals") of 5 different [elements](elements "Elements"). Each animal is represented by a [glyph](tzi-glyph "Tzi Glyph") composed of horizontal and vertical bars, as well as two strategically placed dots. 
