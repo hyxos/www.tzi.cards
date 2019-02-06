@@ -8,8 +8,6 @@ import { bpMaxSM } from '../../lib/breakpoints'
 import Message from '../ConfirmMessage/Message'
 import { PleaseConfirmIllustration } from '../ConfirmMessage/Illustrations'
 
-const FORM_ID = process.env.CONVERTKIT_SIGNUP_FORM
-
 const SubscribeSchema = Yup.object().shape({
   email_address: Yup.string()
     .email('Invalid email address')
@@ -39,9 +37,10 @@ class SignUp extends React.Component {
     this.setState({ submitted: true, loading: true })
     try {
       const response = await fetch(
-        `https://app.convertkit.com/forms/${FORM_ID}/subscriptions`,
+        `https://hyxos.us10.list-manage.com/subscribe/post?u=1cb0b142f71bdb1ca1c6b9f3b&amp;id=10882e50c0`,
         {
           method: 'post',
+          mode: "no-cors",
           body: JSON.stringify(values, null, 2),
           headers: {
             Accept: 'application/json',
