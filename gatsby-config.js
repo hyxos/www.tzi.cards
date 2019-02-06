@@ -56,6 +56,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://hyxos.us10.list-manage.com/subscribe/post?u=1cb0b142f71bdb1ca1c6b9f3b&amp;id=10882e50c0',
+      },
+    },
+    {
       resolve: `gatsby-mdx`,
       options: {
         extensions: ['.mdx', '.md', '.markdown'],

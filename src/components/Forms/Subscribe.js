@@ -7,12 +7,13 @@ import { rhythm } from '../../lib/typography'
 import { bpMaxSM } from '../../lib/breakpoints'
 import Message from '../ConfirmMessage/Message'
 import { PleaseConfirmIllustration } from '../ConfirmMessage/Illustrations'
+import addToMailchimp from 'gatsby-plugin-mailchimp'
 
 const SubscribeSchema = Yup.object().shape({
-  EMAIL: Yup.string()
+  email_address: Yup.string()
     .email('Invalid email address')
     .required('Required'),
-  FNAME: Yup.string(),
+  first_name: Yup.string(),
 })
 
 const PostSubmissionMessage = ({ response }) => {
@@ -36,28 +37,18 @@ class SignUp extends React.Component {
   async handleSubmit(values) {
     this.setState({ submitted: true, loading: true })
     try {
-      const response = await fetch(
-        `https://hyxos.us10.list-manage.com/subscribe/post?u=1cb0b142f71bdb1ca1c6b9f3b&amp;id=10882e50c0`,
-        {
-          method: 'post',
-          mode: "no-cors",
-          body: JSON.stringify(values, null, 2),
-          headers: {
-            Accept: 'application/json',
-            'Content-Type': 'application/json',
-          },
-        },
-      )
-
-      const responseJson = await response.json()
+      const email = values['email_address']
+      const listFields = { FNAME: values['first_name']}
+      const response = await addToMailchimp(email, listFields)      
 
       this.setState({
         submitted: true,
         loading: false,
-        response: responseJson,
+        response: response,
         errorMessage: null,
       })
     } catch (error) {
+      console.log(error)
       this.setState({
         submitted: false,
         loading: false,
@@ -86,8 +77,8 @@ class SignUp extends React.Component {
         {!successful && (
           <Formik
             initialValues={{
-              EMAIL: '',
-              FNAME: '',
+              email_address: '',
+              first_name: '',
             }}
             validationSchema={SubscribeSchema}
             onSubmit={values => this.handleSubmit(values)}
@@ -127,7 +118,7 @@ class SignUp extends React.Component {
                   }
                 `}
               >
-                <label htmlFor="FNAME">
+                <label htmlFor="first_name">
                   <div
                     css={css`
                       display: flex;
@@ -137,7 +128,7 @@ class SignUp extends React.Component {
                   >
                     First Name
                     <ErrorMessage
-                      name="FNAME"
+                      name="first_name"
                       component="span"
                       className="field-error"
                     />
@@ -145,12 +136,12 @@ class SignUp extends React.Component {
                   <Field
                     aria-label="your first name"
                     aria-required="false"
-                    name="FNAME"
+                    name="first_name"
                     placeholder="Jane"
                     type="text"
                   />
                 </label>
-                <label htmlFor="EMAIL">
+                <label htmlFor="email">
                   <div
                     css={css`
                       display: flex;
@@ -160,7 +151,7 @@ class SignUp extends React.Component {
                   >
                     Email
                     <ErrorMessage
-                      name="EMAIL"
+                      name="email_address"
                       component="span"
                       className="field-error"
                     />
@@ -168,7 +159,7 @@ class SignUp extends React.Component {
                   <Field
                     aria-label="your email address"
                     aria-required="true"
-                    name="EMAIL"
+                    name="email_address"
                     placeholder="jane@acme.com"
                     type="email"
                   />
