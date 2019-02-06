@@ -30,17 +30,17 @@ export default function Index({ data: { site, allMdx } }) {
       </blockquote>
       <p>Many games that can be played with traditional 
         playing cards can be adapted to play with the TZI deck. 
-        There are a few differences that should be kept in mind.
+        There are a few key differences that should be kept in mind.
       </p>
       <h4>TZI Cards vs Traditional Playing Cards</h4>
       <ul>
-        <li>Seniority vs Rank (Cards Ordering of Value increases as 
+        <li><Link to="seniority">Seniority</Link> vs Rank (Cards Ordering of Value increases as 
           the card number decreases vs deuce low ace high)</li>
-        <li>Five suits instead of four (Wood, Fire, Earth, Metal, Water 
+        <li>Five <Link to="elements">elements</Link> instead of four suits (Wood, Fire, Earth, Metal, Water 
           vs Hearts, Diamonds, Clubs, Spades)</li>
-        <li>Twelve cards in a suit instead of thirteen</li>
+        <li>Twelve cards of an element instead of thirteen in a suit</li>
         <li>Sixty cards instead of Fifty-two</li>
-        <ul><li>12 animals X 5 elements vs 13 cards x 4 suits</li></ul>
+        <ul><li>12 <Link to="animals">animals</Link> x 5 elements vs 13 cards x 4 suits</li></ul>
       </ul>
       <p>We encourage you to try playing your favourite card game 
         with the TZI Cards deck (e.g. Rummy, Poker, etc.). Children's 

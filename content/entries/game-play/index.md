@@ -27,7 +27,7 @@ The winner is the first player to reach 360 points or whoever has the the highes
 
 ## Setup
 
-Each player needs a flat area to build a 3 X 4 [grid formation](formations "Formations") in front of them. You can play up to five players, but you will need a lot of space in order to do so!
+Each player needs a flat area to build a 3 X 4 [grid formation](formations#grid "Formations") in front of them. You can play up to five players, but you will need a lot of space in order to do so!
 
 Distribute one of the default grid formation cards to new players so that they have a blueprint to build from.
 

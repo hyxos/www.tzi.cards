@@ -1,6 +1,6 @@
 ---
 slug: "seniority"
-title: "The Order of the Deck"
+title: "Seniority of the Deck"
 tags: ['game', 'introduction', 'instructions', 'seniority']
 chapter: 1
 section: 4
@@ -13,7 +13,7 @@ Each card has their *seniority* indicated in the top left hand corner inside a c
 
 One (Wood Rat) is the highest seniority while sixty (Water Pig) is the lowest seniority.
 
-An index key card of the 60 glyphs in order, arranged in their cohorts, is included in a standard TZI deck.
+An index key card of the 60 glyphs in seniority, arranged in their cohorts, is included in a standard TZI deck.
 
 <img alt="Glyph Index" src="images/glyph_card_90.png" style="width: 700px"/>
 
