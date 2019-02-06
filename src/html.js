@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
 export default class HTML extends React.Component {
   render() {
@@ -16,7 +16,6 @@ export default class HTML extends React.Component {
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
-          <noscript>This site runs best with JavaScript enabled.</noscript>
           <div
             key={`body`}
             id="___gatsby"
