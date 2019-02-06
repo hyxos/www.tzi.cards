@@ -147,7 +147,7 @@ You may play as many face-up cards that fit in your formation, and may swap out 
 
 ### Dismissing
 
-You've got some hard choices to make. I mean, all of the cards are special in their own way, but not all of them can help your build your *powerful formation*? And also, if you say bye-bye to *wood ox*, is that going to help your opponent get [*Feng Shui*](formations/#feng-shui "Feng Shui")?
+You've got some hard choices to make. I mean, all of the cards are special in their own way, but not all of them can help your build your *powerful formation*? And also, if you say bye-bye to *wood ox*, is that going to help your opponent get [*Feng Shui*](formations#feng-shui "Feng Shui")?
 
 You end your turn by discarding a card from your hand to the discard pile. In a four or five-player game, an additional discard pile should be formed on the other side of the stockpile. After dealing, only one card is flipped, but players may subsequently discard to or draw from either pile.
 
@@ -260,8 +260,8 @@ In fact, you can potentially win the game in *one round* if you get that most sp
 
 If your final formation conforms to one of the special hands, then you score them according to the chart below.
 
-#### Scoring for [Special Hands](formations/#special-hands "Special Hands")
-| [*Special Hand*](formations/#special-hands "Special Hands")                | *Points* |
+#### Scoring for [Special Hands](formations#special-hands "Special Hands")
+| [*Special Hand*](formations#special-hands "Special Hands")                | *Points* |
 |----------------------------------------------------------------------------|----------|
 | [Feng Shui](formations#feng-shui "Feng Shui")                                | 180   |
 | [Coup D'Etat](formations#coup-detat "Coup D'Etat")                           | 210   |
