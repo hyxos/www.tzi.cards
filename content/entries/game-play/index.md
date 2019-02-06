@@ -234,7 +234,7 @@ I know, by this point some of you may be crying out, "It's not fair!" that Tǔ Z
 
 At the end of each round, the points from each player's formation are calculated and added to the points of the previous round (if any).
 
-Building *Powerful formations* is the bread and butter of winning at Tǔ Zǐ. But just what is it that makes these formations *powerful* in the first place? It's all about *probabilities*.
+Building [*Powerful Formations*](formations/#powerful-formations "Powerful Formations") is the bread and butter of winning at Tǔ Zǐ. But just what is it that makes these formations *powerful* in the first place? It's all about *probabilities*.
 
 ### Probably Maybe
 

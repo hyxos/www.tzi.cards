@@ -4,7 +4,7 @@ title: "Tǔ Zǐ"
 tags: ['game', 'introduction', 'instructions']
 chapter: 0
 section: 0
-excerpt: "Compete to create powerful formations by grouping cards into trines and squares using unity and diversity to guide you."
+excerpt: "Compete to create powerful formations by grouping cards into Trines and Squares using Unity and Diversity to guide you."
 ---
 #### 2 - 5 Players, 30-90 Minutes
 
@@ -38,7 +38,7 @@ Little Tǔ Zǐ loved playing games, but the thing she loved the most was *winnin
         * [Trines](formations#trines "Trines")
         * [Squares](formations#squares "Squares")
         * [Grid](formations#grid "Grid")
-    * [Powerful Formations](powerful-formations "Powerful Formations")
+    * [Powerful Formations](formations/#powerful-formations "Powerful Formations")
         * [Diversity](formations#diversity "Diversity")
         * [Unity](formations#unity "Unity")
         * [Special Hands](formations#special-hands "Special Hands")

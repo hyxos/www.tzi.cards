@@ -25,7 +25,7 @@ export default function Index({ data: { site } }) {
               <p>TZI Cards draw their inspiration from a variety of sources, primarily the ancient
         Chinese system of <em>Ganzhi (干支)</em>. The name, <em>TZI</em>, is in fact a
         {" "}<a href="https://en.wikipedia.org/wiki/Romanization">romanization</a>
-                {" "}of the character 子 (pinyin: zǐ), the first <Link to="earthly-branch">Earthly Branch</Link>.
+                {" "}of the character 子 (pinyin: zǐ), the first <Link to="earthly-branches">Earthly Branch</Link>.
                 In its origins, Ganzhi was primarily used as a way of
         organizing time through a <a href="https://en.wikipedia.org/wiki/Sexagenary_cycle">
                   sexagenary</a> (base-60) cycle. The sixty cards of the deck correspond

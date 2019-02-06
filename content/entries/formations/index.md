@@ -3,7 +3,7 @@ slug: "formations"
 title: "Formations"
 ---
 
-During [Tu Zi game play](tu-zi-game-play "Tu Zi Game Play"), the bulk of each player's turn consists of *recruiting* and *building*.
+During [Tǔ Zǐ game play](tu-zi-game-play "Tǔ Zǐ Game Play"), the bulk of each player's turn consists of *recruiting* and *building*.
 
 *Recruiting* is performed by drawing a card from the *stock pile* or *discard pile*.
 
@@ -256,7 +256,6 @@ Squares can be one of three types, according to which elements are represented. 
     * Four Different Elements
 1. Unity Square
     * All the same Element
-
 
 <table id="square-examples" style="width:100%">
     <caption>Examples</caption>
