@@ -38,8 +38,8 @@ export default function Index({ data: { site, allMdx } }) {
           the card number decreases vs deuce low ace high)</li>
         <li>Five <Link to="elements">elements</Link> vs Four suits (Wood, Fire, Earth, Metal, Water 
           vs Hearts, Diamonds, Clubs, Spades)</li>
-        <li>Twelve cards of an element vs Thirteen in a suit</li>
-        <li>Sixty cards vs Fifty-twoc cards</li>
+        <li>Twelve cards of an element vs Thirteen cards of a suit</li>
+        <li>Sixty cards vs Fifty-two cards</li>
         <ul><li>12 <Link to="animals">animals</Link> x 5 elements vs 13 cards x 4 suits</li></ul>
       </ul>
       <p>We encourage you to try playing your favourite card game 
