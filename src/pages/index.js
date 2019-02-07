@@ -40,6 +40,7 @@ export default function Index({ data: { site, allMdx } }) {
           Inspired by the cosmic patterns behind the ancient Chinese system of <em>Ganzhi</em>,{" "}
           <strong>TZI Cards</strong> is a unique deck of sixty bridge sized playing cards.
         </p>
+        {/* Link to blog posts
         <Link
           to="/blog"
           aria-label="Visit blog page"
@@ -47,6 +48,14 @@ export default function Index({ data: { site, allMdx } }) {
         >
           View all entries
         </Link>
+        */}
+        <a
+          href="https://shop.tzi.cards/products/tzi-playing-cards"
+          aria-label="Buy Now"
+          className="button-secondary"
+        >
+          Buy Now!
+        </a>
         <hr />
       </Container>
     </Layout>
