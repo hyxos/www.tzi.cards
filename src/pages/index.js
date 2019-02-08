@@ -1,27 +1,10 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { css } from '@emotion/core'
-import styled from '@emotion/styled'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
-import Link from '../components/Link'
 import Container from 'components/Container'
-import { rhythm } from '../lib/typography'
 import theme from '../../config/theme'
-
-const PostTitle = styled.h2`
-  margin-bottom: ${rhythm(0.3)};
-  transition: ${theme.transition.ease};
-  :hover {
-    color: ${theme.brand.primary};
-    transition: ${theme.transition.ease};
-  }
-`
-
-const Description = styled.p`
-  margin-bottom: 10px;
-  display: inline-block;
-`
 
 export default function Index({ data: { site, allMdx } }) {
   return (

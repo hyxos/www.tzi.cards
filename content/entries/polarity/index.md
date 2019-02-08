@@ -15,7 +15,7 @@ All cultures have their own creation stories, and the ancient Chinese tale of th
 
 In English, this is usually translated as **Tao**, aka: *The Way*. Its origins can be traced to over 2500 years ago, primarily through the text of Laozi (*I Ching* - The Book of Changes). Today there are approximately [two and a half million adherents of Taoism](https://www.wolframalpha.com/input/?i=taoism "Wolfram Alpha: Taoism") worldwide, mostly located in Taiwan.
 
-The symbol above, in the west commonly known as the "Yin Yang" symbol, is one of many symbols of *T'ai chi* - 太極 - tàijí: *The Supreme Ultimate*, which signifies the oneness of the universe that existed before the duality of light and darkness emerged.
+The symbol above, commonly known as the "Yin Yang" symbol (see [Yin](yin 'Yin') and [Yang](yang 'Yang')), is one of many symbols of *T'ai chi* - 太極 - tàijí: *The Supreme Ultimate*, which signifies the oneness of the universe that existed before the duality of light and darkness emerged.
 
 ## Every Card has a Polarity
 
