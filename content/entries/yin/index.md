@@ -1,7 +1,7 @@
 ---
 slug: "yin"
 title: "Yin"
-banner: "./yin.png"
+banner: "./moon_banner.png"
 ---
 
 import React from 'react'
