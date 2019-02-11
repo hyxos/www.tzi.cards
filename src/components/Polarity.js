@@ -1,5 +1,5 @@
 import React from 'react'
-import { Global, css } from '@emotion/core'
+import { css } from '@emotion/core'
 
 const polarityStyles = css`
     table {
