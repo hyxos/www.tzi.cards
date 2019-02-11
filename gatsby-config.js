@@ -12,7 +12,7 @@ module.exports = {
     title: config.siteTitle,
     twitterHandle: config.twitterHandle,
     description: config.siteDescription,
-    keywords: ['Video Blogger'],
+    keywords: ['TZI Cards'],
     canonicalUrl: config.siteUrl,
     image: config.siteLogo,
     author: {

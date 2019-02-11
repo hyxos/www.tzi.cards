@@ -8,7 +8,7 @@ const elementStyles = css`
         border: 1px solid #d3d3d3;
     }
     caption {
-        border: 15px solid #141414;
+        border: 15px solid #757d75;
         padding: 10px 15px;
     }
     td, td:first-child {
@@ -20,7 +20,6 @@ const elementStyles = css`
 
 const Element = ({data}) => {
     const elementColor = theme.colors[data.color]
-    console.log(elementColor)
 
     return (
         <div css={elementStyles}>
