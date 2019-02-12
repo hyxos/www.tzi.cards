@@ -2,75 +2,45 @@ import React from 'react'
 import { css } from '@emotion/core'
 import theme from '../../config/theme'
 import { Link } from 'gatsby'
+import { lighten } from 'polished'
 
-const elementsStyles = css`
-    table {
-        border-collapse: collapse;
+const ElementButton = props => (
+    <Link to={props.to} className="eb" css={css`
+        background-color: ${lighten(0.25,theme.colors[props.color])};
         border: 1px solid #d3d3d3;
-    }
-    caption {
-        background: #d3d3d3;
-        border: 15px solid #757d75;
-        padding: 10px 15px;
-    }
-    td, td:first-child {
-        text-align: center; 
-        border: 1px solid #cecfd5;
-        padding: 10px 15px;
-        margin: 10px;
-    }
-    td a {
-        color: white;
-    }
-    }
-    button {
-        border: 1px solid #cecfd5;
-        border: none;
-        width: 80px;
-        :hover {
-            background: #fce3c0
+        border-radius: 9px;
+        color: black;
+        width: 100px;
+        margin: 10px 12px;
+        padding: 10px 12px;
+        text-align: center;
+        &:hover {
+            background-color: ${theme.colors[props.color]};
+            color: white;
         }
-    }
-`
+    `}>
+        {props.value}
+    </Link>
+)
 
-const Elements = ({data}) => {
+const Elements = () => {
     
     return (
-        <div css={elementsStyles}>
-            <table>
-                <caption>The Five Elements</caption>
-                <tbody>
-                    <tr>
-                        <td>
-                            <button  css={css`background: ${theme.colors.green};`}>
-                            <Link className="button" to="wood">Wood</Link>
-                            </button>
-                        </td>
-                        <td>
-                            <button css={css`background: ${theme.colors.red};`}>
-                                <Link to="fire">Fire</Link>
-                            </button>
-                        </td>
-                        <td>
-                            <button css={css`background: ${theme.colors.yellow};`}>
-                                <Link to="earth">Earth</Link>
-                            </button>
-                        </td>
-                        <td>
-                            <button css={css`background: ${theme.colors.gray};`}>
-                                <Link to="metal">Metal</Link>
-                            </button>
-                        </td>
-                        <td>
-                            <button css={css`background: ${theme.colors.blue};`}>
-                                <Link to="water">Water</Link>
-                            </button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <div>
+            <div css={css`
+            margin-bottom: 20px;
+            border: 1px solid #d3d3d3;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;`
+            }>
+                <ElementButton to="wood" color="green" value="wood" />
+                <ElementButton to="fire" color="red" value="fire" />
+                <ElementButton to="earth" color="yellow" value="earth" />
+                <ElementButton to="metal" color="gray" value="metal" />
+                <ElementButton to="water" color="blue" value="water" />                                                
+            </div>
         </div>
-
     )
 }
 
