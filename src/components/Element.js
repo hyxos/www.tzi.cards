@@ -44,14 +44,6 @@ const Element = ({data}) => {
                     </tr>
                     <tr>
                         <td>
-                            Romanization
-                        </td>
-                        <td>
-                            {data.name}
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
                             Pinyin
                         </td>
                         <td>
@@ -81,7 +73,23 @@ const Element = ({data}) => {
                         <td>
                             {data.astro}
                         </td>
-                    </tr>  
+                    </tr>
+                    <tr>
+                        <td>
+                           Heavenly Stem (Yang)
+                        </td>
+                        <td>
+                            {data.yang_stem}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Heavenly Stem (Yin)
+                        </td>
+                        <td>
+                            {data.yin_stem}
+                        </td>
+                    </tr>                                          
                 </tbody>
             </table>
         </div>
