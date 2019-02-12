@@ -9,13 +9,17 @@ excerpt: "There is darnkess, and there is light"
 banner: "./yin_yang.png"
 ---
 
+import Polarities from '../../../src/components/Polarities'
+
+<Polarities />
+
 >The beginning was where it all started. <br /><small><em>~Mu Mao~</em> <strong>The Book of TZI</strong></small>
 
 All cultures have their own creation stories, and the ancient Chinese tale of the origin of the universe is told to us through the 道 (Dào). 
 
 In English, this is usually translated as **Tao**, aka: *The Way*. Its origins can be traced to over 2500 years ago, primarily through the text of Laozi (*I Ching* - The Book of Changes). Today there are approximately [two and a half million adherents of Taoism](https://www.wolframalpha.com/input/?i=taoism "Wolfram Alpha: Taoism") worldwide, mostly located in Taiwan.
 
-The symbol above, commonly known as the "Yin Yang" symbol (see [Yin](yin 'Yin') and [Yang](yang 'Yang')), is one of many symbols of *T'ai chi* - 太極 - tàijí: *The Supreme Ultimate*, which signifies the oneness of the universe that existed before the duality of light and darkness emerged.
+The symbol above, commonly known as the "Yin Yang" symbol is one of many symbols of *T'ai chi* - 太極 - tàijí: *The Supreme Ultimate*, which signifies the oneness of the universe that existed before the duality of light and darkness emerged.
 
 ## Every Card has a Polarity
 

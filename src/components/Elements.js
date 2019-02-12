@@ -30,7 +30,7 @@ const Elements = () => {
             <div css={css`
                         display: flex;
                         flex-wrap: wrap;
-                        justify-content: space-between;
+                        justify-content: center;
                         align-content: space-around;
                         margin-bottom: 20px;
                     `
