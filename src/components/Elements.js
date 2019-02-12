@@ -11,7 +11,7 @@ const ElementButton = props => (
         border-radius: 9px;
         color: black;
         width: 100px;
-        margin: 10px 12px;
+        margin: 5px 5px;
         padding: 10px 12px;
         text-align: center;
         &:hover {
@@ -28,11 +28,12 @@ const Elements = () => {
     return (
         <div>
             <div css={css`
-            margin-bottom: 20px;
-            border: 1px solid #d3d3d3;
-            border-radius: 5px;
-            display: flex;
-            justify-content: space-between;`
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        align-content: space-around;
+                        margin-bottom: 20px;
+                    `
             }>
                 <ElementButton to="wood" color="green" value="wood" />
                 <ElementButton to="fire" color="red" value="fire" />
