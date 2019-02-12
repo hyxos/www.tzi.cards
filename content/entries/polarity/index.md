@@ -16,7 +16,7 @@ import PolarityExample from '../../../src/components/PolarityExample'
 
 >The beginning was where it all started. <br /><small><em>~Mu Mao~</em> <strong>The Book of TZI</strong></small>
 
-All cultures have their own creation stories, and the ancient Chinese tale of the origin of the universe is told to us through the 道 (Dào). 
+All cultures have their own creation stories, and one ancient Chinese tale of the origin of the universe is told to us through the 道 (Dào). 
 
 In English, this is usually translated as the [Tao](https://en.wikipedia.org/wiki/Tao 'Tao'), aka: *The Way*. Its origins can be traced to over 2500 years ago, primarily through the text of [Laozi](https://en.wikipedia.org/wiki/Laozi 'Laozi') in the text [Tao Te Ching](https://en.wikipedia.org/wiki/Tao_Te_Ching 'Tao Te Ching'). Today there are approximately [two and a half million adherents of Taoism](https://www.wolframalpha.com/input/?i=taoism "Wolfram Alpha: Taoism") worldwide, mostly located in Taiwan.
 
@@ -27,37 +27,15 @@ The symbol above, commonly known as the [Yin Yang](https://en.wikipedia.org/wiki
 >When it's time to change, you've got to rearrange
 <small><strong>The Brady Bunch</strong></small>
 
-A fundamental idea behind Taoism and its related philosophy is that *change* is a fundamental aspect of the universe. The *Tai Ti Ching* is also known as *The Book of Changes* for that very reason. 
+A fundamental idea behind Taoism and its related philosophy is that *change* is a fundamental aspect of the universe. 
 
-The exemplaries of this idea were known as the *Seven Luminaries*. These are the classical *planets* of the Western tradition that were visible from earth to the naked eye before the invention of the telescope.
+The exemplaries of this idea were known as the *Seven Luminaries*. These are the classical *planets* of the Western tradition that were visible to ancient humans from Earth before the invention of the telescope.
 
-<ul>
-    <li>
-        Sun
-    </li>
-    <li>
-        Moon
-    </li>
-    <li>
-        Mercury
-    </li>
-    <li>
-        Venus
-    </li>
-    <li>
-        Mars
-    </li>
-    <li>
-        Jupiter
-    </li>
-    <li>
-        Saturn
-    </li>
-</ul>
+Though the positions of the Seven Luminaries were constantly changing, over long enough time spans patterns in their movements emerged. Understanding these cycles and looking for relationships between the movements in the Heavens and corresponding events on Earth form the foundation of the field today known as astrology. The modern but related field of astronomy builds on this ancient tradition but is focused entirely on observation and prediction of the movement of the objects in the Heavens and maintains a relatively agnostic view of their influence over the Earth.
 
 The Yang corresponds to the Sun, the dominant luminary of the day, while the Yin corresponds the Moon, the dominant luminary of the night.
 
-The remaing five luminaries correspond to the [Five Elements](elements 'Five Elements') of Ghanzi.
+The remaing five luminaries correspond to the [Five Elements](elements 'Five Elements') of [Wu Xing](https://en.wikipedia.org/wiki/Wu_Xing 'Wu Xing').
 
 ## Every Card has a Polarity
 
