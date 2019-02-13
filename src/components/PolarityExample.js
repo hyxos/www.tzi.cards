@@ -18,7 +18,7 @@ const ExampleStyles = css`
         border: 15px solid #a9a9a9;
         padding: 10px 15px;
     }
-    td, td:first-child {
+    td, td:first-of-type {
         border: 1px solid #cecfd5;
         text-align: center;
         padding: 20px 20px;
@@ -33,22 +33,26 @@ const PolarityExample = () => (
     <div css={ExampleStyles}>
         <table>
             <caption>TZI Cards indicate their polarity through their background color</caption>
-            <tr>
-                <th scope="col">
-                    Yang
-                </th>
-                <th scope="col" css={css`color: white; background: black;`}>
-                    Yin
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    <img alt="Wood Rat" src={WoodRat} /> 
-                </td>
-                <td css={css`background: black;`}>
-                    <img alt="Wood Ox" src={WoodOx} />
-                </td>
-            </tr>
+            <thead>
+                <tr>
+                    <th scope="col">
+                        Yang
+                    </th>
+                    <th scope="col" css={css`color: white; background: black;`}>
+                        Yin
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img alt="Wood Rat" src={WoodRat} /> 
+                    </td>
+                    <td css={css`background: black;`}>
+                        <img alt="Wood Ox" src={WoodOx} />
+                    </td>
+                </tr>
+            </tbody>
         </table>
     </div>
 )
