@@ -1,10 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { css } from '@emotion/core'
-import styled from '@emotion/styled'
 import Layout from '../components/Layout'
 import Link from '../components/Link'
-import Hero from '../components/Hero'
 import Container from 'components/Container'
 import theme from '../../config/theme'
 
@@ -15,8 +13,7 @@ export default function Index({ data: { site } }) {
       headerColor={theme.colors.white}
       headerBg={theme.brand.primary}
     >
-      <Hero />
-      <Container
+        <Container
         css={css`
           padding-bottom: 0;
         `}
@@ -36,9 +33,7 @@ export default function Index({ data: { site } }) {
               <h2>A New Beginning</h2>
               <p>
                 TZI Cards incorporate a new figure, the <strong>TZI Glyph</strong>, visually inspired
-        by the <em><Link to="trigram">Trigram of Heaven</Link></em>: ☰, which is described in another
-        ancient Chinese work called the <em>I Ching</em> (aka: <strong><a href="https://en.wikipedia.org/wiki/I_Ching">
-                  The Book of Changes</a></strong>). The TZI
+        by the <em><Link to="trigram">Trigram of Heaven</Link></em>: ☰. The TZI
     Glyph can be used as a key to differentiate each card and reveal patterns that exist
     between the cards.
       </p>

@@ -27,9 +27,9 @@ The symbol above, commonly known as the [Yin Yang](https://en.wikipedia.org/wiki
 >When it's time to change, you've got to rearrange
 <small><strong>The Brady Bunch</strong></small>
 
-A fundamental idea behind Taoism and its related philosophy is that *change* is a fundamental aspect of the universe. 
+A central idea of Taoist philosophy is that *change* is a fundamental aspect of the universe. 
 
-The exemplaries of this idea were known as the *Seven Luminaries*. These are the classical *planets* of the Western tradition that were visible to ancient humans from Earth before the invention of the telescope.
+The exemplaries of this idea were known as the *Seven Luminaries*. These are the classical *planets* of the Western tradition; visible to ancient humans before the invention of the telescope.
 
 Though the positions of the Seven Luminaries were constantly changing, over long enough time spans patterns in their movements emerged. Understanding these cycles and looking for relationships between the movements in the Heavens and corresponding events on Earth form the foundation of the field today known as astrology. The modern but related field of astronomy builds on this ancient tradition but is focused entirely on observation and prediction of the movement of the objects in the Heavens and maintains a relatively agnostic view of their influence over the Earth.
 

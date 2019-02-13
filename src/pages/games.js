@@ -4,7 +4,6 @@ import { css } from '@emotion/core'
 import Layout from '../components/Layout'
 import Link from '../components/Link'
 import Container from 'components/Container'
-import Hero from '../components/Hero'
 import theme from '../../config/theme'
 
 export default function Index({ data: { site, allMdx } }) {
@@ -14,7 +13,6 @@ export default function Index({ data: { site, allMdx } }) {
       headerColor={theme.colors.white}
       headerBg={theme.brand.primary}
     >
-      <Hero />
       <Container
         css={css`
           padding-bottom: 0;
