@@ -1,0 +1,17 @@
+{
+   "order": 1,
+   "seniority": 1,
+   "color": "green",
+   "element": "wood",
+   "element_chinese": "木",
+   "element_pinyin": "mù",
+   "animal": "rat",
+   "animal_chinese": "鼠",
+   "animal_pinyin": "shǔ",
+   "heavenly_stem_chinese": "子",
+   "heavenly_stem_pinyin": "zǐ",
+   "heavenly_stem_meaning": "child",
+   "earthly_branch_chinese": "甲",
+   "earthly_branch_pinyin": "jiǎ",
+   "earthly_branch_letter": "A"
+}

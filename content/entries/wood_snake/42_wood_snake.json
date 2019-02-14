@@ -1,0 +1,17 @@
+{
+   "order": 42,
+   "seniority": 6,
+   "color": "green",
+   "element": "wood",
+   "element_chinese": "木",
+   "element_pinyin": "mù",
+   "animal": "snake",
+   "animal_chinese": "蛇",
+   "animal_pinyin": "shé",
+   "heavenly_stem_chinese": "巳",
+   "heavenly_stem_pinyin": "sì",
+   "heavenly_stem_meaning": "snake",
+   "earthly_branch_chinese": "乙",
+   "earthly_branch_pinyin": "yǐ",
+   "earthly_branch_letter": "B"
+}

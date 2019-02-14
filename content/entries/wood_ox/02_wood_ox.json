@@ -1,0 +1,17 @@
+{
+   "order": 2,
+   "seniority": 2,
+   "color": "green",
+   "element": "wood",
+   "element_chinese": "木",
+   "element_pinyin": "mù",
+   "animal": "ox",
+   "animal_chinese": "牛",
+   "animal_pinyin": "niú",
+   "heavenly_stem_chinese": "丑",
+   "heavenly_stem_pinyin": "chǒu",
+   "heavenly_stem_meaning": "clown",
+   "earthly_branch_chinese": "乙",
+   "earthly_branch_pinyin": "yǐ",
+   "earthly_branch_letter": "B"
+}

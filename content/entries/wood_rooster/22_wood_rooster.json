@@ -1,0 +1,17 @@
+{
+   "order": 22,
+   "seniority": 10,
+   "color": "green",
+   "element": "wood",
+   "element_chinese": "木",
+   "element_pinyin": "mù",
+   "animal": "rooster",
+   "animal_chinese": "鸡",
+   "animal_pinyin": "jī",
+   "heavenly_stem_chinese": "酉",
+   "heavenly_stem_pinyin": "yǒu",
+   "heavenly_stem_meaning": "unitary",
+   "earthly_branch_chinese": "乙",
+   "earthly_branch_pinyin": "yǐ",
+   "earthly_branch_letter": "B"
+}
