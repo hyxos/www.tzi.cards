@@ -1,6 +1,5 @@
 const tzi = require('./tzi.json')
 const Crud = require('./crud')
-const DD = require('./dd')
 
 function doubleDigits(num) {
     if (num < 10 ) {
@@ -12,7 +11,6 @@ function doubleDigits(num) {
 }
 
 const crud = new Crud
-const dd = new DD
 
 for (let data of tzi) {
     let tziObject = {
@@ -32,6 +30,6 @@ for (let data of tzi) {
         "earthly_branch_pinyin": data[13],
         "earthly_branch_letter": data[14]
     }
-    const fileName = dd.dd(data[0]) + "_" + data[3] + "_" + data[6]
+    let fileName = data[3] + "_" + data[6]
     crud.create(fileName, tziObject)
 }

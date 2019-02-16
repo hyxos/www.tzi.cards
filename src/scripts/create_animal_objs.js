@@ -1,10 +1,7 @@
 const data = require('./tzi.json')
 const Crud = require('./crud')
-const DD = require('./dd')
 
 const crud = new Crud
-const dd = new DD
-console.log(dd)
 for (i = 0; i < 12; i++) {
     let animalObj = {
         "order": i,
@@ -15,7 +12,7 @@ for (i = 0; i < 12; i++) {
         "earthly_branch_pinyin": data[i][13],
         "earthly_branch_letter": data[i][14]
     }
-    let fileName = dd.dd(i+1) + "_" + data[i][6]
+    let fileName = data[i][6]
     crud.create(fileName, animalObj)
 }
 
