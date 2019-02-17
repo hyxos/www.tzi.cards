@@ -11,11 +11,11 @@ const indexMD = function (dirName, animalName, fileName) {
 slug: '${dirName}'
 title: '${animalName}'
 ---
-    
+
 import React from 'react'
 import Animal from '../../../src/components/Animal'
 import ${fileName} from './${fileName}.json'
-    
+
 <Animal data={${fileName}} />
 `
 }

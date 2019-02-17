@@ -18,7 +18,6 @@ const animalStyles = css`
     }  
 `
 
-  
 const Animal = ({data}) => {
     const animalInfo = Object.entries(data).map(([key,value])=>{
         return (
