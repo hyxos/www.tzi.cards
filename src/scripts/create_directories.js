@@ -16,7 +16,7 @@ for (i = 0; i < 12; i++) {
 }
 
 for (let data of tzi) {
-    let fileName = data[3] + "_" + data[6]
-    let dirPath = path.resolve(`../../content/entries/${fileName}`)
+    let dirName = data[3] + "-" + data[6]
+    let dirPath = path.resolve(`../../content/entries/${dirName}`)
     mkdirSync(dirPath)
 }

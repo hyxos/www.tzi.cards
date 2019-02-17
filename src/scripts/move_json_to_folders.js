@@ -4,7 +4,7 @@ const data = require('./tzi.json')
 
 for (i = 0; i < 12; i++) {
   let fileName = data[i][6] + ".json"
-  let oldPath = path.resolve(`./animals/${fileName}`)
+  let oldPath = path.resolve(`./json/${fileName}`)
   let newPath = path.resolve(`../../content/entries/${data[i][6]}/${fileName}`)
 
   fs.rename(oldPath, newPath, (err) => {
@@ -15,8 +15,8 @@ for (i = 0; i < 12; i++) {
 
 for (let card of data) {
     let fileName = card[3] + "_" + card[6] + ".json"
-    let dirName = card[3] + "_" + card[6]
-    let oldPath = path.resolve(`./animals/${fileName}`)
+    let dirName = card[3] + "-" + card[6]
+    let oldPath = path.resolve(`./json/${fileName}`)
     let newPath = path.resolve(`../../content/entries/${dirName}/${fileName}`)
 
     fs.rename(oldPath, newPath, (err) => {

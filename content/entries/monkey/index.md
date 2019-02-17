@@ -1,10 +1,10 @@
 ---
-slug: 'rat'
-title: 'rat'
+slug: 'monkey'
+title: 'monkey'
 ---
     
 import React from 'react'
 import Animal from '../../../src/components/Animal'
-import rat from './rat.json'
+import monkey from './monkey.json'
     
-<Animal data={rat} />
+<Animal data={monkey} />

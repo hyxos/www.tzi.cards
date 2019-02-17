@@ -1,15 +1,6 @@
 const tzi = require('./tzi.json')
 const Crud = require('./crud')
 
-function doubleDigits(num) {
-    if (num < 10 ) {
-        return '0' + num
-    }
-    else {
-        return num
-    }
-}
-
 const crud = new Crud
 
 for (let data of tzi) {
