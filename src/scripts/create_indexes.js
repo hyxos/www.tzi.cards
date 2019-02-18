@@ -31,8 +31,10 @@ const mkIndexFile = function (dirName, data) {
 }
 
 for (i = 0; i < 12; i++) {
-    let animalName = tzi[i][6]
-    mkIndexFile(animalName, indexMD(animalName, animalName, animalName))
+    let dirName = tzi[i][6]
+    let fileName = tzi[i][6]
+    let animalName = capFirst(tzi[i][6])
+    mkIndexFile(animalName, indexMD(dirName, animalName, fileName))
 }
 
 for (let data of tzi) {

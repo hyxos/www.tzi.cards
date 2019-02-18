@@ -1,6 +1,6 @@
 ---
 slug: 'ox'
-title: 'ox'
+title: 'Ox'
 ---
 
 import React from 'react'

@@ -1,6 +1,6 @@
 ---
 slug: 'tiger'
-title: 'tiger'
+title: 'Tiger'
 ---
 
 import React from 'react'

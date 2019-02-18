@@ -4,7 +4,7 @@ const Crud = require('./crud')
 const crud = new Crud
 for (i = 0; i < 12; i++) {
     let animalObj = {
-        "order": i,
+        "order": i+1,
         "animal": data[i][6],
         "animal_chinese": data[i][7],
         "animal_pinyin": data[i][8],
