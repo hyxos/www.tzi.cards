@@ -12,7 +12,7 @@ const animalStyles = css`
         border: 15px solid #757d75;
         padding: 10px 15px;
     }
-    td, td:first-child {
+    td, td:first-of-type {
         border: 1px solid #cecfd5;
         padding: 10px 15px;
         margin: 10px;
@@ -20,14 +20,13 @@ const animalStyles = css`
 `
 
 const hasElement = (data) => {
-    return (data['element'] ? data['element'] : null)
+    return data['element'] ? data['element'] : null
 }
 
 const Animal = ({data}) => {
-    console.log(hasElement(data))
-    let dd = new DD
-    let iconName = (hasElement(data) ? dd.dd(data['order']) + "_" + data['element'] + "_" + data['animal'] + '_icon.png' :
-    dd.dd(data['order']) + "_" + data['animal'] + '_icon.png')
+    let dd = new DD()
+    let fullName = hasElement(data) ? data['element'] + "_" + data['animal'] : data['animal']
+    let iconName = dd.dd(data['order']) + "_" + fullName + '_icon.png' 
     let icon = `../images/${iconName}`
     const animalInfo = Object.entries(data).map(([key,value])=>{
         return (
@@ -39,7 +38,7 @@ const Animal = ({data}) => {
       })
     return (
         <div>
-            <img src={icon} width="900"/>
+            <img alt={fullName} src={icon} width="900"/>
             <table css={animalStyles}>
                 <tbody>
                     {animalInfo}

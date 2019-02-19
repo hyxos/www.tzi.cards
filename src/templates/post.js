@@ -90,7 +90,7 @@ export default function Post({
   )
 }
 
-export const pageQuery = graphql`
+export const postQuery = graphql`
   query($id: String!) {
     site {
       ...site

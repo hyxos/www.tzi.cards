@@ -11,7 +11,7 @@ const polarityStyles = css`
         border: 15px solid #a9a9a9;
         padding: 10px 15px;
     }
-    td, td:first-child {
+    td, td:first-of-type {
         border: 1px solid #cecfd5;
         padding: 10px 15px;
         margin: 10px;

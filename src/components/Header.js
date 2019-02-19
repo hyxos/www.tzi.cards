@@ -4,6 +4,7 @@ import { css } from '@emotion/core'
 import theme from '../../config/theme'
 import logo from '../images/tzi_logo_color.png'
 import Container from './Container'
+import { StaticQuery, graphql } from 'gatsby'
 
 const Header = ({
   dark,
@@ -91,7 +92,8 @@ const Header = ({
 
 export default Header
 
-export const pageQuery = graphql`
+export const headerQuery = 
+<StaticQuery query={graphql`
   query {
     site {
       siteMetadata {
@@ -100,3 +102,4 @@ export const pageQuery = graphql`
     }
   }
 `
+}/>

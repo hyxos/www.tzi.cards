@@ -11,7 +11,7 @@ import Share from '../components/Share'
 import config from '../../config/website'
 import { bpMaxSM } from '../lib/breakpoints'
 
-export default function Post({
+export default function Entry({
   data: { site, mdx },
   pageContext: { next, prev },
 }) {

@@ -11,7 +11,7 @@ const elementStyles = css`
         border: 15px solid #757d75;
         padding: 10px 15px;
     }
-    td, td:first-child {
+    td, td:first-of-type {
         border: 1px solid #cecfd5;
         padding: 10px 15px;
         margin: 10px;
