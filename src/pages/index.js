@@ -20,7 +20,7 @@ export default function Index({ data: { site, allMdx } }) {
         `}
       >
         <p>
-          Inspired by the cosmic patterns behind the ancient Chinese system of <em>Ganzhi</em>,{" "}
+          Inspired by the cosmic patterns behind the ancient <em>Lunar Calendar</em>,{" "}
           <strong>TZI Cards</strong> is a unique deck of sixty bridge sized playing cards.
         </p>
         {/* Link to blog posts
@@ -32,13 +32,15 @@ export default function Index({ data: { site, allMdx } }) {
           View all entries
         </Link>
         */}
-        <a
-          href="https://shop.tzi.cards/products/tzi-playing-cards"
-          aria-label="Buy Now"
-          className="button-secondary"
-        >
-          Buy Now!
-        </a>
+        <p css={css`text-align: center;`}>
+          <a
+            href="https://shop.tzi.cards/products/tzi-playing-cards"
+            aria-label="Buy Now"
+            className="button-tertiary"
+          >
+            Buy Now!
+          </a>
+        </p>
         <hr />
       </Container>
     </Layout>

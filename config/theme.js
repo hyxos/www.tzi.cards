@@ -11,11 +11,14 @@ const brand = {
   //primary: '#9B59B6',
   //primary: '#6420E5',
   secondary: '#EFAA18',
+  tertiary: '#53B236',
 }
 
 const colors = {
   primary_light: `${lighten(0.55, brand.primary)}`,
   secondary_light: `${lighten(0.25, brand.secondary)}`,
+  tertiary_light: `${lighten(0.25, brand.tertiary)}`,
+  tertiary_dark: `${darken(0.20, brand.tertiary)}`,
   gray: '#D3D3D3',
   black: '#000',
   white: '#fff',

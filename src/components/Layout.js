@@ -12,12 +12,27 @@ import reset from '../lib/reset'
 import { fonts } from '../lib/typography'
 import config from '../../config/website'
 import Footer from '../components/Footer'
+import { lighten } from 'polished'
 
 export const globalStyles = css`
   .button-secondary {
     border-radius: 4px;
     padding: 12px 12px;
     background: ${theme.colors.secondary_light};
+  }
+  .button-tertiary {
+    background-color: ${theme.brand.tertiary};;
+    border: 1px solid #d3d3d3;
+    border-radius: 9px;
+    color: black;
+    width: 100px;
+    margin: 5px 5px;
+    padding: 10px 12px;
+    text-align: center;
+    &:hover {
+        background-color: ${theme.colors.tertiary_dark};
+        color: white;
+    }
   }
   ${bpMaxSM} {
     p,
