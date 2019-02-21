@@ -109,6 +109,7 @@ export const postQuery = graphql`
         }
         slug
         keywords
+        posttype
       }
       code {
         body

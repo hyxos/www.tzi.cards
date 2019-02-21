@@ -20,7 +20,7 @@ const createPosts = (createPage, createRedirect, edges) => {
         })
       })
     }
-    if (node.frontmatter === 'blog') {
+    if (node.frontmatter.posttype === 'blog') {
       createPage({
         path: pagePath,
         component: path.resolve(`./src/templates/post.js`),
@@ -41,7 +41,7 @@ const createPosts = (createPage, createRedirect, edges) => {
           next,
         },
       })
-    }    
+    }
   })
 }
 
@@ -55,6 +55,9 @@ exports.createPages = ({ actions, graphql }) =>
         edges {
           node {
             id
+            frontmatter {
+              posttype
+            }
             parent {
               ... on File {
                 name

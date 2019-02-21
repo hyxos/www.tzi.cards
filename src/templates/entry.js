@@ -85,7 +85,7 @@ export default function Entry({
   )
 }
 
-export const pageQuery = graphql`
+export const entryQuery = graphql`
   query($id: String!) {
     site {
       ...site
