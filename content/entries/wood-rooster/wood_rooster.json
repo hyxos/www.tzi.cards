@@ -1,8 +1,9 @@
 {
-   "order": 22,
-   "seniority": 10,
+   "seniority": 22,
+   "order": 10,
    "color": "green",
    "element": "wood",
+   "polarity": "yin",
    "element_chinese": "木",
    "element_pinyin": "mù",
    "animal": "rooster",

@@ -1,8 +1,9 @@
 {
-   "order": 42,
-   "seniority": 6,
+   "seniority": 42,
+   "order": 6,
    "color": "green",
    "element": "wood",
+   "polarity": "yin",
    "element_chinese": "木",
    "element_pinyin": "mù",
    "animal": "snake",

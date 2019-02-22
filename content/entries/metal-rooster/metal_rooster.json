@@ -1,8 +1,9 @@
 {
-   "order": 58,
-   "seniority": 10,
+   "seniority": 58,
+   "order": 10,
    "color": "black",
    "element": "metal",
+   "polarity": "yin",
    "element_chinese": "金",
    "element_pinyin": "jīn",
    "animal": "rooster",

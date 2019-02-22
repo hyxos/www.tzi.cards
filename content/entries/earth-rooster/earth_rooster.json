@@ -1,8 +1,9 @@
 {
-   "order": 46,
-   "seniority": 10,
+   "seniority": 46,
+   "order": 10,
    "color": "yellow",
    "element": "earth",
+   "polarity": "yin",
    "element_chinese": "土",
    "element_pinyin": "tǔ",
    "animal": "rooster",

@@ -5,10 +5,11 @@ const crud = new Crud
 
 for (let data of tzi) {
     let tziObject = {
-        "order": data[0],
-        "seniority": data[1],
+        "seniority": data[0],
+        "order": data[1],
         "color": data[2],
         "element": data[3],
+        "polarity": data[0] % 2 === 0 ? 'yin': 'yang',
         "element_chinese": data[4],
         "element_pinyin": data[5],
         "animal": data[6],

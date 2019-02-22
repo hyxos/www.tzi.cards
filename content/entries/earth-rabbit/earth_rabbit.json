@@ -1,8 +1,9 @@
 {
-   "order": 16,
-   "seniority": 4,
+   "seniority": 16,
+   "order": 4,
    "color": "yellow",
    "element": "earth",
+   "polarity": "yin",
    "element_chinese": "土",
    "element_pinyin": "tǔ",
    "animal": "rabbit",

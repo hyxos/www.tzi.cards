@@ -6,17 +6,17 @@ function capFirst(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-const indexMD = function (dirName, animalName, fileName) {
+const indexMD = function (dirName, animalName, fileName, componentName) {
     return `---
 slug: '${dirName}'
 title: '${animalName}'
 ---
 
 import React from 'react'
-import Animal from '../../../src/components/Animal'
+import ${componentName} from '../../../src/components/${componentName}'
 import ${fileName} from './${fileName}.json'
 
-<Animal data={${fileName}} />
+<${componentName} data={${fileName}} />
 `
 }
 
@@ -34,12 +34,14 @@ for (i = 0; i < 12; i++) {
     let dirName = tzi[i][6]
     let fileName = tzi[i][6]
     let animalName = capFirst(tzi[i][6])
-    mkIndexFile(animalName, indexMD(dirName, animalName, fileName))
+    let componentName = 'Animal'
+    mkIndexFile(animalName, indexMD(dirName, animalName, fileName, componentName))
 }
 
 for (let data of tzi) {
     let dirName = data[3] + "-" + data[6]
     let fileName = data[3] + "_" + data[6]
     let animalName = capFirst(data[3]) + " " + capFirst(data[6])
-    mkIndexFile(dirName, indexMD(dirName, animalName, fileName))
+    let componentName = 'Card'
+    mkIndexFile(dirName, indexMD(dirName, animalName, fileName, componentName))
 }

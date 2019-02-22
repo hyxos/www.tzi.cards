@@ -1,8 +1,9 @@
 {
-   "order": 47,
-   "seniority": 11,
+   "seniority": 47,
+   "order": 11,
    "color": "black",
    "element": "metal",
+   "polarity": "yang",
    "element_chinese": "金",
    "element_pinyin": "jīn",
    "animal": "dog",

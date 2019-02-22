@@ -4,7 +4,7 @@ title: 'Water Rooster'
 ---
 
 import React from 'react'
-import Animal from '../../../src/components/Animal'
+import Card from '../../../src/components/Card'
 import water_rooster from './water_rooster.json'
 
-<Animal data={water_rooster} />
+<Card data={water_rooster} />

@@ -4,7 +4,7 @@ title: 'Fire Dog'
 ---
 
 import React from 'react'
-import Animal from '../../../src/components/Animal'
+import Card from '../../../src/components/Card'
 import fire_dog from './fire_dog.json'
 
-<Animal data={fire_dog} />
+<Card data={fire_dog} />

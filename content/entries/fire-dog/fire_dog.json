@@ -1,8 +1,9 @@
 {
-   "order": 23,
-   "seniority": 11,
+   "seniority": 23,
+   "order": 11,
    "color": "red",
    "element": "fire",
+   "polarity": "yang",
    "element_chinese": "火",
    "element_pinyin": "huǒ",
    "animal": "dog",

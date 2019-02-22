@@ -1,8 +1,9 @@
 {
-   "order": 34,
-   "seniority": 10,
+   "seniority": 34,
+   "order": 10,
    "color": "red",
    "element": "fire",
+   "polarity": "yin",
    "element_chinese": "火",
    "element_pinyin": "huǒ",
    "animal": "rooster",

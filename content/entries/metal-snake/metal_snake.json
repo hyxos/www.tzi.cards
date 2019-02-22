@@ -1,8 +1,9 @@
 {
-   "order": 18,
-   "seniority": 6,
+   "seniority": 18,
+   "order": 6,
    "color": "black",
    "element": "metal",
+   "polarity": "yin",
    "element_chinese": "金",
    "element_pinyin": "jīn",
    "animal": "snake",

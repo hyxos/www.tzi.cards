@@ -1,8 +1,9 @@
 {
-   "order": 11,
    "seniority": 11,
+   "order": 11,
    "color": "green",
    "element": "wood",
+   "polarity": "yang",
    "element_chinese": "木",
    "element_pinyin": "mù",
    "animal": "dog",

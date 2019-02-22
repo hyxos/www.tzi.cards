@@ -1,8 +1,9 @@
 {
-   "order": 29,
-   "seniority": 5,
+   "seniority": 29,
+   "order": 5,
    "color": "blue",
    "element": "water",
+   "polarity": "yang",
    "element_chinese": "水",
    "element_pinyin": "shuǐ",
    "animal": "dragon",

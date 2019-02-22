@@ -1,8 +1,9 @@
 {
-   "order": 37,
-   "seniority": 1,
+   "seniority": 37,
+   "order": 1,
    "color": "black",
    "element": "metal",
+   "polarity": "yang",
    "element_chinese": "金",
    "element_pinyin": "jīn",
    "animal": "rat",

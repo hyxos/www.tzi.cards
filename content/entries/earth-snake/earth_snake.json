@@ -1,8 +1,9 @@
 {
-   "order": 6,
    "seniority": 6,
+   "order": 6,
    "color": "yellow",
    "element": "earth",
+   "polarity": "yin",
    "element_chinese": "土",
    "element_pinyin": "tǔ",
    "animal": "snake",

@@ -4,7 +4,7 @@ title: 'Wood Rat'
 ---
 
 import React from 'react'
-import Animal from '../../../src/components/Animal'
+import Card from '../../../src/components/Card'
 import wood_rat from './wood_rat.json'
 
-<Animal data={wood_rat} />
+<Card data={wood_rat} />

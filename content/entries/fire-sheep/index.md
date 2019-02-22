@@ -4,7 +4,7 @@ title: 'Fire Sheep'
 ---
 
 import React from 'react'
-import Animal from '../../../src/components/Animal'
+import Card from '../../../src/components/Card'
 import fire_sheep from './fire_sheep.json'
 
-<Animal data={fire_sheep} />
+<Card data={fire_sheep} />

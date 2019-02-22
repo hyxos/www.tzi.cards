@@ -1,8 +1,9 @@
 {
-   "order": 45,
-   "seniority": 9,
+   "seniority": 45,
+   "order": 9,
    "color": "yellow",
    "element": "earth",
+   "polarity": "yang",
    "element_chinese": "土",
    "element_pinyin": "tǔ",
    "animal": "monkey",

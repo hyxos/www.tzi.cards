@@ -1,8 +1,9 @@
 {
-   "order": 60,
-   "seniority": 12,
+   "seniority": 60,
+   "order": 12,
    "color": "blue",
    "element": "water",
+   "polarity": "yin",
    "element_chinese": "水",
    "element_pinyin": "shuǐ",
    "animal": "pig",

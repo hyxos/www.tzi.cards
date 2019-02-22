@@ -1,8 +1,9 @@
 {
-   "order": 41,
-   "seniority": 5,
+   "seniority": 41,
+   "order": 5,
    "color": "green",
    "element": "wood",
+   "polarity": "yang",
    "element_chinese": "木",
    "element_pinyin": "mù",
    "animal": "dragon",

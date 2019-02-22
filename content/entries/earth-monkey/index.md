@@ -4,7 +4,7 @@ title: 'Earth Monkey'
 ---
 
 import React from 'react'
-import Animal from '../../../src/components/Animal'
+import Card from '../../../src/components/Card'
 import earth_monkey from './earth_monkey.json'
 
-<Animal data={earth_monkey} />
+<Card data={earth_monkey} />

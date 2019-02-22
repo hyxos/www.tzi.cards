@@ -1,8 +1,9 @@
 {
-   "order": 5,
    "seniority": 5,
+   "order": 5,
    "color": "yellow",
    "element": "earth",
+   "polarity": "yang",
    "element_chinese": "土",
    "element_pinyin": "tǔ",
    "animal": "dragon",

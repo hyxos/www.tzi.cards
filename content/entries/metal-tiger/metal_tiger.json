@@ -1,8 +1,9 @@
 {
-   "order": 27,
-   "seniority": 3,
+   "seniority": 27,
+   "order": 3,
    "color": "black",
    "element": "metal",
+   "polarity": "yang",
    "element_chinese": "金",
    "element_pinyin": "jīn",
    "animal": "tiger",

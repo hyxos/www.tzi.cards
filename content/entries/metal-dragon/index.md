@@ -4,7 +4,7 @@ title: 'Metal Dragon'
 ---
 
 import React from 'react'
-import Animal from '../../../src/components/Animal'
+import Card from '../../../src/components/Card'
 import metal_dragon from './metal_dragon.json'
 
-<Animal data={metal_dragon} />
+<Card data={metal_dragon} />

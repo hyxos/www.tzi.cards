@@ -1,8 +1,9 @@
 {
-   "order": 31,
-   "seniority": 7,
+   "seniority": 31,
+   "order": 7,
    "color": "green",
    "element": "wood",
+   "polarity": "yang",
    "element_chinese": "木",
    "element_pinyin": "mù",
    "animal": "horse",

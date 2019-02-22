@@ -1,8 +1,9 @@
 {
-   "order": 10,
    "seniority": 10,
+   "order": 10,
    "color": "blue",
    "element": "water",
+   "polarity": "yin",
    "element_chinese": "水",
    "element_pinyin": "shuǐ",
    "animal": "rooster",

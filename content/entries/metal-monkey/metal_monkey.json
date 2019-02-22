@@ -1,8 +1,9 @@
 {
-   "order": 57,
-   "seniority": 9,
+   "seniority": 57,
+   "order": 9,
    "color": "black",
    "element": "metal",
+   "polarity": "yang",
    "element_chinese": "金",
    "element_pinyin": "jīn",
    "animal": "monkey",

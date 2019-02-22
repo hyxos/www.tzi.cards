@@ -16,9 +16,9 @@ import PolarityExample from '../../../src/components/PolarityExample'
 
 >The beginning was where it all started. <br /><small><em>~Mu Mao~</em> <strong>The Book of TZI</strong></small>
 
-All cultures have their own creation stories, and one ancient Chinese tale of the origin of the universe is told to us through the 道 (Dào). 
+All cultures have their own creation stories. There is a tale from ancient China about the origin of the universe known as the 道 (Dào). 
 
-In English, this is usually translated as the [Tao](https://en.wikipedia.org/wiki/Tao 'Tao'), aka: *The Way*. Its origins can be traced to over 2500 years ago, primarily through the text of [Laozi](https://en.wikipedia.org/wiki/Laozi 'Laozi') in the text [Tao Te Ching](https://en.wikipedia.org/wiki/Tao_Te_Ching 'Tao Te Ching'). Today there are approximately [two and a half million adherents of Taoism](https://www.wolframalpha.com/input/?i=taoism "Wolfram Alpha: Taoism") worldwide, mostly located in Taiwan.
+In English, this is usually translated as the [Tao](https://en.wikipedia.org/wiki/Tao 'Tao'), aka: *The Way*. Its origins can be traced to over 2500 years ago, primarily through the writings of [Laozi](https://en.wikipedia.org/wiki/Laozi 'Laozi') in the text [Tao Te Ching](https://en.wikipedia.org/wiki/Tao_Te_Ching 'Tao Te Ching'). Today there are approximately [two and a half million adherents of Taoism](https://www.wolframalpha.com/input/?i=taoism "Wolfram Alpha: Taoism") worldwide, mostly located in Taiwan.
 
 The symbol above, commonly known as the [Yin Yang](https://en.wikipedia.org/wiki/Yin_and_yang "Yin Yang"), signifies the oneness of the universe that existed before the duality of light and darkness emerged. It is also one of many symbols of [Tai Chi](https://en.wikipedia.org/wiki/Tai_chi 'Tai Chi') - 太極 - tàijí: *The Supreme Ultimate* martial art form.
 

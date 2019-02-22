@@ -1,8 +1,9 @@
 {
-   "order": 7,
    "seniority": 7,
+   "order": 7,
    "color": "black",
    "element": "metal",
+   "polarity": "yang",
    "element_chinese": "金",
    "element_pinyin": "jīn",
    "animal": "horse",

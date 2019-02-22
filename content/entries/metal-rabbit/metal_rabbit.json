@@ -1,8 +1,9 @@
 {
-   "order": 28,
-   "seniority": 4,
+   "seniority": 28,
+   "order": 4,
    "color": "black",
    "element": "metal",
+   "polarity": "yin",
    "element_chinese": "金",
    "element_pinyin": "jīn",
    "animal": "rabbit",

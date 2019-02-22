@@ -1,8 +1,9 @@
 {
-   "order": 15,
-   "seniority": 3,
+   "seniority": 15,
+   "order": 3,
    "color": "yellow",
    "element": "earth",
+   "polarity": "yang",
    "element_chinese": "土",
    "element_pinyin": "tǔ",
    "animal": "tiger",
