@@ -6,7 +6,7 @@ import Link from '../components/Link'
 import Container from 'components/Container'
 import theme from '../../config/theme'
 
-export default function Index({ data: { site, allMdx } }) {
+export default function Games({ data: { site, allMdx } }) {
   return (
     <Layout
       site={site}

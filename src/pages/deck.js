@@ -6,7 +6,7 @@ import Link from '../components/Link'
 import Container from 'components/Container'
 import theme from '../../config/theme'
 
-export default function Index({ data: { site } }) {
+export default function Deck({ data: { site } }) {
   return (
     <Layout
       site={site}
