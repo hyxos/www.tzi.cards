@@ -19,7 +19,7 @@ const colors = {
   secondary_light: `${lighten(0.25, brand.secondary)}`,
   tertiary_light: `${lighten(0.25, brand.tertiary)}`,
   tertiary_dark: `${darken(0.20, brand.tertiary)}`,
-  gray: '#D3D3D3',
+  gray: '#A397A2',
   black: '#000',
   white: '#fff',
   bg_color: '#fafafa',
