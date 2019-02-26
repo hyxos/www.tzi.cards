@@ -18,9 +18,7 @@ module.exports = {
     author: {
       name: config.author,
       minibio: `
-        <strong>egghead</strong> is the premier place on the internet for 
-        experienced developers to enhance their skills and stay current
-        in the fast-faced field of web development.
+        <strong>TZI Cards</strong> is a unique deck of cards inspired by the ancient lunar calendar.
       `,
     },
     organization: {
@@ -109,7 +107,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `GOOGLE_ID`,
+        trackingId: process.env.GOOGLE_ID,
       },
     },
     {

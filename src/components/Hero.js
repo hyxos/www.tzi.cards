@@ -13,7 +13,7 @@ const Hero = () => (
         }
         width: 100%;
         background: ${theme.brand.primary};
-        padding: 0 20px 0 0;
+        padding: 0 0 0 0;
         display: flex;
       `}
     >
