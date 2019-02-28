@@ -1,4 +1,6 @@
 {
+   "name": "Fire Sheep",
+   "kind": "niandai",
    "seniority": 44,
    "order": 8,
    "color": "red",

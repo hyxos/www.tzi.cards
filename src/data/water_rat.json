@@ -1,4 +1,6 @@
 {
+   "name": "Water Rat",
+   "kind": "niandai",
    "seniority": 49,
    "order": 1,
    "color": "blue",

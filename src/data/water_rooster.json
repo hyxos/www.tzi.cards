@@ -1,4 +1,6 @@
 {
+   "name": "Water Rooster",
+   "kind": "niandai",
    "seniority": 10,
    "order": 10,
    "color": "blue",

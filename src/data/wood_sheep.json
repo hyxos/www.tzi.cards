@@ -1,4 +1,6 @@
 {
+   "name": "Wood Sheep",
+   "kind": "niandai",
    "seniority": 32,
    "order": 8,
    "color": "green",

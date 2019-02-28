@@ -12,7 +12,7 @@ import config from '../../config/website'
 import { bpMaxSM } from '../lib/breakpoints'
 
 export default function Animal({
-  data: { site, mdx },
+  data: { site, mdx, allDataJson },
   pageContext: { next, prev },
 }) {
   const title = mdx.frontmatter.title
@@ -82,13 +82,15 @@ export default function Animal({
           twitterHandle={config.twitterHandle}
         />
         <br />
+        {console.log(allDataJson)}
+        {console.log(mdx)}
       </Container>
     </Layout>
   )
 }
 
 export const animalQuery = graphql`
-  query($id: String!) {
+  query($id: String!, $name: String!) {
     site {
       ...site
     }
@@ -108,6 +110,18 @@ export const animalQuery = graphql`
       }
       code {
         body
+      }
+    }
+    allDataJson (filter: {
+      kind: {eq: "animal"}
+      name: {eq: $name}
+    }){
+      edges {
+        node {
+          name
+          order
+          years
+        }
       }
     }
   }

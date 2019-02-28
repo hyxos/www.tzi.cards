@@ -1,4 +1,6 @@
 {
+   "name": "Fire Rat",
+   "kind": "niandai",
    "seniority": 13,
    "order": 1,
    "color": "red",

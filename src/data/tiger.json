@@ -1,4 +1,6 @@
 {
+   "name": "Tiger",
+   "kind": "animal",
    "order": 3,
    "animal": "tiger",
    "animal_chinese": "虎",

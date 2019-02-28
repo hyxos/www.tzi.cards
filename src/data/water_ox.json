@@ -1,4 +1,6 @@
 {
+   "name": "Water Ox",
+   "kind": "niandai",
    "seniority": 50,
    "order": 2,
    "color": "blue",

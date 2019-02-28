@@ -1,4 +1,6 @@
 {
+   "name": "Earth Rat",
+   "kind": "niandai",
    "seniority": 25,
    "order": 1,
    "color": "yellow",

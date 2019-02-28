@@ -1,4 +1,6 @@
 {
+   "name": "Rooster",
+   "kind": "animal",
    "order": 10,
    "animal": "rooster",
    "animal_chinese": "鸡",

@@ -1,4 +1,6 @@
 {
+   "name": "Horse",
+   "kind": "animal",
    "order": 7,
    "animal": "horse",
    "animal_chinese": "马",

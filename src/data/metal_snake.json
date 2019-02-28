@@ -1,4 +1,6 @@
 {
+   "name": "Metal Snake",
+   "kind": "niandai",
    "seniority": 18,
    "order": 6,
    "color": "black",

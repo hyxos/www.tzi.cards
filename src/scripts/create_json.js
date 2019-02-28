@@ -4,8 +4,14 @@ const tzi = require('../data/tzi.json')
 
 const crud = new Crud
 
+function capFirst(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 for (let data of tzi) {
     let tziObject = {
+        "name": capFirst(data[3]) + " " + capFirst(data[6]),
+        "kind": 'niandai',
         "seniority": data[0],
         "order": data[1],
         "color": data[2],
@@ -32,6 +38,8 @@ let data = tzi
 
 for (i = 0; i < 12; i++) {
     let animalObj = {
+        "name": capFirst(data[i][6]),
+        "kind": "animal",
         "order": i+1,
         "animal": data[i][6],
         "animal_chinese": data[i][7],

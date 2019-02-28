@@ -1,4 +1,6 @@
 {
+   "name": "Earth Rabbit",
+   "kind": "niandai",
    "seniority": 16,
    "order": 4,
    "color": "yellow",

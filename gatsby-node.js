@@ -37,6 +37,7 @@ const createPosts = (createPage, createRedirect, edges) => {
         component: path.resolve(`./src/templates/animal.js`),
         context: {
           id: node.id,
+          name: node.fields.title,
           prev,
           next,
         },

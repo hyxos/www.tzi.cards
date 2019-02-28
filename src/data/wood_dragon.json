@@ -1,4 +1,6 @@
 {
+   "name": "Wood Dragon",
+   "kind": "niandai",
    "seniority": 41,
    "order": 5,
    "color": "green",

@@ -1,4 +1,6 @@
 {
+   "name": "Wood Snake",
+   "kind": "niandai",
    "seniority": 42,
    "order": 6,
    "color": "green",

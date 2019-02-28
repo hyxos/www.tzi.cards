@@ -1,4 +1,6 @@
 {
+   "name": "Ox",
+   "kind": "animal",
    "order": 2,
    "animal": "ox",
    "animal_chinese": "牛",

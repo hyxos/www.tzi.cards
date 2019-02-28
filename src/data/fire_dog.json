@@ -1,4 +1,6 @@
 {
+   "name": "Fire Dog",
+   "kind": "niandai",
    "seniority": 23,
    "order": 11,
    "color": "red",

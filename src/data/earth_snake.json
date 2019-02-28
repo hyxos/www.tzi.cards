@@ -1,4 +1,6 @@
 {
+   "name": "Earth Snake",
+   "kind": "niandai",
    "seniority": 6,
    "order": 6,
    "color": "yellow",

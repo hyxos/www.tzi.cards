@@ -1,4 +1,6 @@
 {
+   "name": "Fire Rooster",
+   "kind": "niandai",
    "seniority": 34,
    "order": 10,
    "color": "red",

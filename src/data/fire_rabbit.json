@@ -1,4 +1,6 @@
 {
+   "name": "Fire Rabbit",
+   "kind": "niandai",
    "seniority": 4,
    "order": 4,
    "color": "red",

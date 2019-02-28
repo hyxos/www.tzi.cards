@@ -1,4 +1,6 @@
 {
+   "name": "Rat",
+   "kind": "animal",
    "order": 1,
    "animal": "rat",
    "animal_chinese": "鼠",

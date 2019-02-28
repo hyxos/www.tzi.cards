@@ -1,4 +1,6 @@
 {
+   "name": "Earth Dragon",
+   "kind": "niandai",
    "seniority": 5,
    "order": 5,
    "color": "yellow",

@@ -1,4 +1,6 @@
 {
+   "name": "Fire Pig",
+   "kind": "niandai",
    "seniority": 24,
    "order": 12,
    "color": "red",

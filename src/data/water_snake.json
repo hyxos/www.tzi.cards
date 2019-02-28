@@ -1,4 +1,6 @@
 {
+   "name": "Water Snake",
+   "kind": "niandai",
    "seniority": 30,
    "order": 6,
    "color": "blue",

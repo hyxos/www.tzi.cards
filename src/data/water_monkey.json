@@ -1,4 +1,6 @@
 {
+   "name": "Water Monkey",
+   "kind": "niandai",
    "seniority": 9,
    "order": 9,
    "color": "blue",

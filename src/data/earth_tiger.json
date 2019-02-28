@@ -1,4 +1,6 @@
 {
+   "name": "Earth Tiger",
+   "kind": "niandai",
    "seniority": 15,
    "order": 3,
    "color": "yellow",

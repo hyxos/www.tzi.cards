@@ -1,4 +1,6 @@
 {
+   "name": "Water Rabbit",
+   "kind": "niandai",
    "seniority": 40,
    "order": 4,
    "color": "blue",

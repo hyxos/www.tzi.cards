@@ -1,4 +1,6 @@
 {
+   "name": "Fire Snake",
+   "kind": "niandai",
    "seniority": 54,
    "order": 6,
    "color": "red",

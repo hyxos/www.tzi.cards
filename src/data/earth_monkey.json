@@ -1,4 +1,6 @@
 {
+   "name": "Earth Monkey",
+   "kind": "niandai",
    "seniority": 45,
    "order": 9,
    "color": "yellow",

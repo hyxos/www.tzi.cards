@@ -1,4 +1,6 @@
 {
+   "name": "Earth Dog",
+   "kind": "niandai",
    "seniority": 35,
    "order": 11,
    "color": "yellow",

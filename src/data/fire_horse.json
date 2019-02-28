@@ -1,4 +1,6 @@
 {
+   "name": "Fire Horse",
+   "kind": "niandai",
    "seniority": 43,
    "order": 7,
    "color": "red",

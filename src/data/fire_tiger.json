@@ -1,4 +1,6 @@
 {
+   "name": "Fire Tiger",
+   "kind": "niandai",
    "seniority": 3,
    "order": 3,
    "color": "red",

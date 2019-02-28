@@ -1,4 +1,6 @@
 {
+   "name": "Water Dragon",
+   "kind": "niandai",
    "seniority": 29,
    "order": 5,
    "color": "blue",

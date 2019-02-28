@@ -1,4 +1,6 @@
 {
+   "name": "Pig",
+   "kind": "animal",
    "order": 12,
    "animal": "pig",
    "animal_chinese": "猪",

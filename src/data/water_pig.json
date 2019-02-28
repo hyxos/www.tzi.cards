@@ -1,4 +1,6 @@
 {
+   "name": "Water Pig",
+   "kind": "niandai",
    "seniority": 60,
    "order": 12,
    "color": "blue",

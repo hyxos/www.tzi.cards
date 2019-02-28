@@ -1,4 +1,6 @@
 {
+   "name": "Wood Rat",
+   "kind": "niandai",
    "seniority": 1,
    "order": 1,
    "color": "green",

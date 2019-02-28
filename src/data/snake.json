@@ -1,4 +1,6 @@
 {
+   "name": "Snake",
+   "kind": "animal",
    "order": 6,
    "animal": "snake",
    "animal_chinese": "蛇",
