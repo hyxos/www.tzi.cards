@@ -1,0 +1,32 @@
+{
+   "seniority": 55,
+   "order": 7,
+   "color": "yellow",
+   "element": "earth",
+   "polarity": "yang",
+   "element_chinese": "土",
+   "element_pinyin": "tǔ",
+   "animal": "horse",
+   "animal_chinese": "马",
+   "animal_pinyin": "mǎ",
+   "heavenly_stem_chinese": "午",
+   "heavenly_stem_pinyin": "wǔ",
+   "heavenly_stem_meaning": "horse",
+   "earthly_branch_chinese": "戊",
+   "earthly_branch_pinyin": "wù",
+   "earthly_branch_letter": "E",
+   "years": [
+      [
+         "1918-02-11",
+         "1919-01-31"
+      ],
+      [
+         "1978-02-07",
+         "1979-01-27"
+      ],
+      [
+         "2038-02-04",
+         "2029-01-23"
+      ]
+   ]
+}

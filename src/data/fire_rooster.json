@@ -1,0 +1,32 @@
+{
+   "seniority": 34,
+   "order": 10,
+   "color": "red",
+   "element": "fire",
+   "polarity": "yin",
+   "element_chinese": "火",
+   "element_pinyin": "huǒ",
+   "animal": "rooster",
+   "animal_chinese": "鸡",
+   "animal_pinyin": "jī",
+   "heavenly_stem_chinese": "酉",
+   "heavenly_stem_pinyin": "yǒu",
+   "heavenly_stem_meaning": "unitary",
+   "earthly_branch_chinese": "丁",
+   "earthly_branch_pinyin": "dīng",
+   "earthly_branch_letter": "D",
+   "years": [
+      [
+         "1957-01-31",
+         "1958-02-17"
+      ],
+      [
+         "2017-01-28",
+         "2018-02-15"
+      ],
+      [
+         "2077-01-24",
+         "2078-02-11"
+      ]
+   ]
+}

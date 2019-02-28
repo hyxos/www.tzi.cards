@@ -1,0 +1,32 @@
+{
+   "seniority": 44,
+   "order": 8,
+   "color": "red",
+   "element": "fire",
+   "polarity": "yin",
+   "element_chinese": "火",
+   "element_pinyin": "huǒ",
+   "animal": "sheep",
+   "animal_chinese": "羊",
+   "animal_pinyin": "yáng",
+   "heavenly_stem_chinese": "未",
+   "heavenly_stem_pinyin": "wèi",
+   "heavenly_stem_meaning": "not",
+   "earthly_branch_chinese": "丁",
+   "earthly_branch_pinyin": "dīng",
+   "earthly_branch_letter": "D",
+   "years": [
+      [
+         "1907-02-13",
+         "1908-02-01"
+      ],
+      [
+         "1967-02-09",
+         "1968-01-29"
+      ],
+      [
+         "2027-02-06",
+         "2028-01-25"
+      ]
+   ]
+}

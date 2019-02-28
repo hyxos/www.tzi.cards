@@ -1,0 +1,32 @@
+{
+   "seniority": 20,
+   "order": 8,
+   "color": "blue",
+   "element": "water",
+   "polarity": "yin",
+   "element_chinese": "水",
+   "element_pinyin": "shuǐ",
+   "animal": "sheep",
+   "animal_chinese": "羊",
+   "animal_pinyin": "yáng",
+   "heavenly_stem_chinese": "未",
+   "heavenly_stem_pinyin": "wèi",
+   "heavenly_stem_meaning": "not",
+   "earthly_branch_chinese": "癸",
+   "earthly_branch_pinyin": "guǐ",
+   "earthly_branch_letter": "K",
+   "years": [
+      [
+         "1943-02-05",
+         "1944-01-24"
+      ],
+      [
+         "2003-02-01",
+         "2004-01-21"
+      ],
+      [
+         "2063-01-29",
+         "2064-02-16"
+      ]
+   ]
+}

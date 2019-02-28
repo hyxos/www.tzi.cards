@@ -1,0 +1,32 @@
+{
+   "seniority": 46,
+   "order": 10,
+   "color": "yellow",
+   "element": "earth",
+   "polarity": "yin",
+   "element_chinese": "土",
+   "element_pinyin": "tǔ",
+   "animal": "rooster",
+   "animal_chinese": "鸡",
+   "animal_pinyin": "jī",
+   "heavenly_stem_chinese": "酉",
+   "heavenly_stem_pinyin": "yǒu",
+   "heavenly_stem_meaning": "unitary",
+   "earthly_branch_chinese": "己",
+   "earthly_branch_pinyin": "jǐ",
+   "earthly_branch_letter": "F",
+   "years": [
+      [
+         "1909-01-22",
+         "1910-02-09"
+      ],
+      [
+         "1969-02-17",
+         "1970-02-05"
+      ],
+      [
+         "2029-02-13",
+         "2030-02-02"
+      ]
+   ]
+}

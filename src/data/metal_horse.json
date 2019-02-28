@@ -1,0 +1,32 @@
+{
+   "seniority": 7,
+   "order": 7,
+   "color": "black",
+   "element": "metal",
+   "polarity": "yang",
+   "element_chinese": "金",
+   "element_pinyin": "jīn",
+   "animal": "horse",
+   "animal_chinese": "马",
+   "animal_pinyin": "mǎ",
+   "heavenly_stem_chinese": "午",
+   "heavenly_stem_pinyin": "wǔ",
+   "heavenly_stem_meaning": "horse",
+   "earthly_branch_chinese": "庚",
+   "earthly_branch_pinyin": "gēng",
+   "earthly_branch_letter": "G",
+   "years": [
+      [
+         "1930-01-30",
+         "1931-02-16"
+      ],
+      [
+         "1990-01-27",
+         "1991-02-14"
+      ],
+      [
+         "2050-01-23",
+         "2051-02-10"
+      ]
+   ]
+}

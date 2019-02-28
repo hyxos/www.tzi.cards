@@ -1,0 +1,32 @@
+{
+   "seniority": 31,
+   "order": 7,
+   "color": "green",
+   "element": "wood",
+   "polarity": "yang",
+   "element_chinese": "木",
+   "element_pinyin": "mù",
+   "animal": "horse",
+   "animal_chinese": "马",
+   "animal_pinyin": "mǎ",
+   "heavenly_stem_chinese": "午",
+   "heavenly_stem_pinyin": "wǔ",
+   "heavenly_stem_meaning": "horse",
+   "earthly_branch_chinese": "甲",
+   "earthly_branch_pinyin": "jiǎ",
+   "earthly_branch_letter": "A",
+   "years": [
+      [
+         "1954-02-03",
+         "1955-01-23"
+      ],
+      [
+         "2014-01-31",
+         "2015-02-18"
+      ],
+      [
+         "2074-01-27",
+         "2075-02-14"
+      ]
+   ]
+}

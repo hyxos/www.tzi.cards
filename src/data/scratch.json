@@ -1,0 +1,19 @@
+{
+    "seniority": 35,
+    "order": 11,
+    "color": "yellow",
+    "element": "earth",
+    "polarity": "yang",
+    "element_chinese": "土",
+    "element_pinyin": "tǔ",
+    "animal": "dog",
+    "animal_chinese": "狗",
+    "animal_pinyin": "gǒu",
+    "heavenly_stem_chinese": "戌",
+    "heavenly_stem_pinyin": "xū",
+    "heavenly_stem_meaning": "army",
+    "earthly_branch_chinese": "戊",
+    "earthly_branch_pinyin": "wù",
+    "earthly_branch_letter": "E",
+    "new_years": [["1958-02-18", "1959-02-07"], ["2018-02-16","2019-02-04"], ["2078-02-12", "2079-02-01"]]
+}

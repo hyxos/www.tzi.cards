@@ -1,0 +1,32 @@
+{
+   "seniority": 29,
+   "order": 5,
+   "color": "blue",
+   "element": "water",
+   "polarity": "yang",
+   "element_chinese": "水",
+   "element_pinyin": "shuǐ",
+   "animal": "dragon",
+   "animal_chinese": "龙",
+   "animal_pinyin": "lóng",
+   "heavenly_stem_chinese": "辰",
+   "heavenly_stem_pinyin": "chén",
+   "heavenly_stem_meaning": "dragon",
+   "earthly_branch_chinese": "壬",
+   "earthly_branch_pinyin": "rén",
+   "earthly_branch_letter": "I",
+   "years": [
+      [
+         "1952-01-27",
+         "1953-02-13"
+      ],
+      [
+         "2012-01-23",
+         "2013-02-09"
+      ],
+      [
+         "2072-02-19",
+         "2073-02-06"
+      ]
+   ]
+}

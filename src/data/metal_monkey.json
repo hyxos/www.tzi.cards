@@ -1,0 +1,32 @@
+{
+   "seniority": 57,
+   "order": 9,
+   "color": "black",
+   "element": "metal",
+   "polarity": "yang",
+   "element_chinese": "金",
+   "element_pinyin": "jīn",
+   "animal": "monkey",
+   "animal_chinese": "猴",
+   "animal_pinyin": "hóu",
+   "heavenly_stem_chinese": "申",
+   "heavenly_stem_pinyin": "shēn",
+   "heavenly_stem_meaning": "explain",
+   "earthly_branch_chinese": "庚",
+   "earthly_branch_pinyin": "gēng",
+   "earthly_branch_letter": "G",
+   "years": [
+      [
+         "1920-02-20",
+         "1921-02-07"
+      ],
+      [
+         "1980-02-16",
+         "1981-02-04"
+      ],
+      [
+         "2040-02-12",
+         "2041-01-31"
+      ]
+   ]
+}

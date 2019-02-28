@@ -11,12 +11,12 @@ const mkdirSync = function (dirPath) {
 }
 
 for (i = 0; i < 12; i++) {
-    let dirPath = path.resolve(`../../content/entries/${tzi[i][6]}`)
+    let dirPath = path.resolve(`../../content/animals/${tzi[i][6]}`)
     mkdirSync(dirPath)
 }
 
 for (let data of tzi) {
     let dirName = data[3] + "-" + data[6]
-    let dirPath = path.resolve(`../../content/entries/${dirName}`)
+    let dirPath = path.resolve(`../../content/niandai/${dirName}`)
     mkdirSync(dirPath)
 }

@@ -1,0 +1,32 @@
+{
+   "seniority": 6,
+   "order": 6,
+   "color": "yellow",
+   "element": "earth",
+   "polarity": "yin",
+   "element_chinese": "土",
+   "element_pinyin": "tǔ",
+   "animal": "snake",
+   "animal_chinese": "蛇",
+   "animal_pinyin": "shé",
+   "heavenly_stem_chinese": "巳",
+   "heavenly_stem_pinyin": "sì",
+   "heavenly_stem_meaning": "snake",
+   "earthly_branch_chinese": "己",
+   "earthly_branch_pinyin": "jǐ",
+   "earthly_branch_letter": "F",
+   "years": [
+      [
+         "1929-02-10",
+         "1930-01-29"
+      ],
+      [
+         "1989-02-06",
+         "1990-01-26"
+      ],
+      [
+         "2049-02-02",
+         "2050-01-22"
+      ]
+   ]
+}

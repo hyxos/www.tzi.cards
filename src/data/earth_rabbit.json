@@ -1,0 +1,32 @@
+{
+   "seniority": 16,
+   "order": 4,
+   "color": "yellow",
+   "element": "earth",
+   "polarity": "yin",
+   "element_chinese": "土",
+   "element_pinyin": "tǔ",
+   "animal": "rabbit",
+   "animal_chinese": "兔",
+   "animal_pinyin": "tù",
+   "heavenly_stem_chinese": "卯",
+   "heavenly_stem_pinyin": "mǎo",
+   "heavenly_stem_meaning": "rabbit",
+   "earthly_branch_chinese": "己",
+   "earthly_branch_pinyin": "jǐ",
+   "earthly_branch_letter": "F",
+   "years": [
+      [
+         "1939-02-19",
+         "1940-02-07"
+      ],
+      [
+         "1999-02-16",
+         "2000-02-04"
+      ],
+      [
+         "2059-02-12",
+         "2060-02-01"
+      ]
+   ]
+}

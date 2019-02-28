@@ -1,0 +1,32 @@
+{
+   "seniority": 14,
+   "order": 2,
+   "color": "red",
+   "element": "fire",
+   "polarity": "yin",
+   "element_chinese": "火",
+   "element_pinyin": "huǒ",
+   "animal": "ox",
+   "animal_chinese": "牛",
+   "animal_pinyin": "niú",
+   "heavenly_stem_chinese": "丑",
+   "heavenly_stem_pinyin": "chǒu",
+   "heavenly_stem_meaning": "clown",
+   "earthly_branch_chinese": "丁",
+   "earthly_branch_pinyin": "dīng",
+   "earthly_branch_letter": "D",
+   "years": [
+      [
+         "1937-02-11",
+         "1938-01-30"
+      ],
+      [
+         "1997-02-07",
+         "1998-01-27"
+      ],
+      [
+         "2057-02-04",
+         "2058-01-23"
+      ]
+   ]
+}

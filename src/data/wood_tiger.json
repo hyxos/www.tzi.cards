@@ -1,0 +1,32 @@
+{
+   "seniority": 51,
+   "order": 3,
+   "color": "green",
+   "element": "wood",
+   "polarity": "yang",
+   "element_chinese": "木",
+   "element_pinyin": "mù",
+   "animal": "tiger",
+   "animal_chinese": "虎",
+   "animal_pinyin": "hǔ",
+   "heavenly_stem_chinese": "寅",
+   "heavenly_stem_pinyin": "yín",
+   "heavenly_stem_meaning": "respect",
+   "earthly_branch_chinese": "甲",
+   "earthly_branch_pinyin": "jiǎ",
+   "earthly_branch_letter": "A",
+   "years": [
+      [
+         "1914-01-26",
+         "1915-02-13"
+      ],
+      [
+         "1974-01-23",
+         "1975-02-10"
+      ],
+      [
+         "2034-02-19",
+         "2035-02-07"
+      ]
+   ]
+}

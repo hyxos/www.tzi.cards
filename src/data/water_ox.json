@@ -1,0 +1,32 @@
+{
+   "seniority": 50,
+   "order": 2,
+   "color": "blue",
+   "element": "water",
+   "polarity": "yin",
+   "element_chinese": "水",
+   "element_pinyin": "shuǐ",
+   "animal": "ox",
+   "animal_chinese": "牛",
+   "animal_pinyin": "niú",
+   "heavenly_stem_chinese": "丑",
+   "heavenly_stem_pinyin": "chǒu",
+   "heavenly_stem_meaning": "clown",
+   "earthly_branch_chinese": "癸",
+   "earthly_branch_pinyin": "guǐ",
+   "earthly_branch_letter": "K",
+   "years": [
+      [
+         "1913-02-06",
+         "1914-01-25"
+      ],
+      [
+         "1973-02-03",
+         "1974-01-22"
+      ],
+      [
+         "2033-01-31",
+         "2034-02-18"
+      ]
+   ]
+}

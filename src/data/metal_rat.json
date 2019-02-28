@@ -1,0 +1,36 @@
+{
+   "seniority": 37,
+   "order": 1,
+   "color": "black",
+   "element": "metal",
+   "polarity": "yang",
+   "element_chinese": "金",
+   "element_pinyin": "jīn",
+   "animal": "rat",
+   "animal_chinese": "鼠",
+   "animal_pinyin": "shǔ",
+   "heavenly_stem_chinese": "子",
+   "heavenly_stem_pinyin": "zǐ",
+   "heavenly_stem_meaning": "child",
+   "earthly_branch_chinese": "庚",
+   "earthly_branch_pinyin": "gēng",
+   "earthly_branch_letter": "G",
+   "years": [
+      [
+         "1900-01-31",
+         "1901-02-18"
+      ],
+      [
+         "1960-01-28",
+         "1961-02-14"
+      ],
+      [
+         "2020-01-25",
+         "2021-02-11"
+      ],
+      [
+         "2080-01-23",
+         "2081-02-09"
+      ]
+   ]
+}

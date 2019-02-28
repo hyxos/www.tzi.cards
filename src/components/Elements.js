@@ -5,8 +5,8 @@ import { Link } from 'gatsby'
 import { lighten } from 'polished'
 
 const ElementButton = props => (
-    <Link to={props.to} className="eb" css={css`
-        background-color: ${lighten(0.25,theme.colors[props.color])};
+  <Link to={props.to} className="eb" css={css`
+        background-color: ${lighten(0.25, theme.colors[props.color])};
         border: 1px solid #d3d3d3;
         border-radius: 9px;
         color: black;
@@ -19,30 +19,30 @@ const ElementButton = props => (
             color: white;
         }
     `}>
-        {props.value}
-    </Link>
+    {props.value}
+  </Link>
 )
 
 const Elements = () => {
-    
-    return (
-        <div>
-            <div css={css`
+
+  return (
+    <div>
+      <div css={css`
                         display: flex;
                         flex-wrap: wrap;
                         justify-content: center;
                         align-content: space-around;
                         margin-bottom: 20px;
                     `
-            }>
-                <ElementButton to="wood" color="green" value="wood" />
-                <ElementButton to="fire" color="red" value="fire" />
-                <ElementButton to="earth" color="yellow" value="earth" />
-                <ElementButton to="metal" color="gray" value="metal" />
-                <ElementButton to="water" color="blue" value="water" />                                                
-            </div>
-        </div>
-    )
+      }>
+        <ElementButton to="wood" color="green" value="wood" />
+        <ElementButton to="fire" color="red" value="fire" />
+        <ElementButton to="earth" color="yellow" value="earth" />
+        <ElementButton to="metal" color="gray" value="metal" />
+        <ElementButton to="water" color="blue" value="water" />
+      </div>
+    </div>
+  )
 }
 
 export default Elements

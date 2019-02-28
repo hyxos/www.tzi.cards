@@ -1,0 +1,32 @@
+{
+   "seniority": 32,
+   "order": 8,
+   "color": "green",
+   "element": "wood",
+   "polarity": "yin",
+   "element_chinese": "木",
+   "element_pinyin": "mù",
+   "animal": "sheep",
+   "animal_chinese": "羊",
+   "animal_pinyin": "yáng",
+   "heavenly_stem_chinese": "未",
+   "heavenly_stem_pinyin": "wèi",
+   "heavenly_stem_meaning": "not",
+   "earthly_branch_chinese": "乙",
+   "earthly_branch_pinyin": "yǐ",
+   "earthly_branch_letter": "B",
+   "years": [
+      [
+         "1955-01-24",
+         "1956-02-11"
+      ],
+      [
+         "2015-02-19",
+         "2016-02-07"
+      ],
+      [
+         "2075-02-15",
+         "2076-02-04"
+      ]
+   ]
+}

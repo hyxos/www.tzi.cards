@@ -1,0 +1,32 @@
+{
+   "seniority": 27,
+   "order": 3,
+   "color": "black",
+   "element": "metal",
+   "polarity": "yang",
+   "element_chinese": "金",
+   "element_pinyin": "jīn",
+   "animal": "tiger",
+   "animal_chinese": "虎",
+   "animal_pinyin": "hǔ",
+   "heavenly_stem_chinese": "寅",
+   "heavenly_stem_pinyin": "yín",
+   "heavenly_stem_meaning": "respect",
+   "earthly_branch_chinese": "庚",
+   "earthly_branch_pinyin": "gēng",
+   "earthly_branch_letter": "G",
+   "years": [
+      [
+         "1950-02-17",
+         "1951-02-05"
+      ],
+      [
+         "2010-02-14",
+         "2011-02-02"
+      ],
+      [
+         "2070-02-11",
+         "2071-01-30"
+      ]
+   ]
+}

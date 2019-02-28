@@ -31,6 +31,28 @@ const createPosts = (createPage, createRedirect, edges) => {
         },
       })
     }
+    else if (node.frontmatter.order) {
+      createPage({
+        path: pagePath,
+        component: path.resolve(`./src/templates/animal.js`),
+        context: {
+          id: node.id,
+          prev,
+          next,
+        },
+      })
+    }
+    else if (node.frontmatter.seniority) {
+      createPage({
+        path: pagePath,
+        component: path.resolve(`./src/templates/niandai.js`),
+        context: {
+          id: node.id,
+          prev,
+          next,
+        },
+      })
+    }
     else {
       createPage({
         path: pagePath,
@@ -57,6 +79,8 @@ exports.createPages = ({ actions, graphql }) =>
             id
             frontmatter {
               posttype
+              order
+              seniority
             }
             parent {
               ... on File {

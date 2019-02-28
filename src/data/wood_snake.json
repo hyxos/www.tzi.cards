@@ -1,0 +1,32 @@
+{
+   "seniority": 42,
+   "order": 6,
+   "color": "green",
+   "element": "wood",
+   "polarity": "yin",
+   "element_chinese": "木",
+   "element_pinyin": "mù",
+   "animal": "snake",
+   "animal_chinese": "蛇",
+   "animal_pinyin": "shé",
+   "heavenly_stem_chinese": "巳",
+   "heavenly_stem_pinyin": "sì",
+   "heavenly_stem_meaning": "snake",
+   "earthly_branch_chinese": "乙",
+   "earthly_branch_pinyin": "yǐ",
+   "earthly_branch_letter": "B",
+   "years": [
+      [
+         "1905-02-04",
+         "1906-01-24"
+      ],
+      [
+         "1965-02-02",
+         "1966-01-20"
+      ],
+      [
+         "2025-01-29",
+         "2026-02-16"
+      ]
+   ]
+}

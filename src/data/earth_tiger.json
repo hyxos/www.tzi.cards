@@ -1,0 +1,32 @@
+{
+   "seniority": 15,
+   "order": 3,
+   "color": "yellow",
+   "element": "earth",
+   "polarity": "yang",
+   "element_chinese": "土",
+   "element_pinyin": "tǔ",
+   "animal": "tiger",
+   "animal_chinese": "虎",
+   "animal_pinyin": "hǔ",
+   "heavenly_stem_chinese": "寅",
+   "heavenly_stem_pinyin": "yín",
+   "heavenly_stem_meaning": "respect",
+   "earthly_branch_chinese": "戊",
+   "earthly_branch_pinyin": "wù",
+   "earthly_branch_letter": "E",
+   "years": [
+      [
+         "1938-01-31",
+         "1939-02-18"
+      ],
+      [
+         "1998-01-28",
+         "1999-02-15"
+      ],
+      [
+         "2058-01-24",
+         "2059-02-11"
+      ]
+   ]
+}

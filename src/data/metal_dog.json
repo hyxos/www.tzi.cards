@@ -1,0 +1,32 @@
+{
+   "seniority": 47,
+   "order": 11,
+   "color": "black",
+   "element": "metal",
+   "polarity": "yang",
+   "element_chinese": "金",
+   "element_pinyin": "jīn",
+   "animal": "dog",
+   "animal_chinese": "狗",
+   "animal_pinyin": "gǒu",
+   "heavenly_stem_chinese": "戌",
+   "heavenly_stem_pinyin": "xū",
+   "heavenly_stem_meaning": "army",
+   "earthly_branch_chinese": "庚",
+   "earthly_branch_pinyin": "gēng",
+   "earthly_branch_letter": "G",
+   "years": [
+      [
+         "1910-02-10",
+         "1911-01-29"
+      ],
+      [
+         "1970-02-06",
+         "1971-01-26"
+      ],
+      [
+         "2030-02-03",
+         "2031-01-22"
+      ]
+   ]
+}

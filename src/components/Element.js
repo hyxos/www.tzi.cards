@@ -18,83 +18,83 @@ const elementStyles = css`
     }  
 `
 
-const Element = ({data}) => {
-    const elementColor = theme.colors[data.color]
+const Element = ({ data }) => {
+  const elementColor = theme.colors[data.color]
 
-    return (
-        <div css={elementStyles}>
-            <table>
-                <caption css={css`background: ${elementColor};color: white;`}>The Aspects and Qualities of {data.name}</caption>
-                <tbody>
-                    <tr>
-                        <td>
-                            Order
+  return (
+    <div css={elementStyles}>
+      <table>
+        <caption css={css`background: ${elementColor};color: white;`}>The Aspects and Qualities of {data.name}</caption>
+        <tbody>
+          <tr>
+            <td>
+              Order
                         </td>
-                        <td>
-                            {data.order}
+            <td>
+              {data.order}
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Color
                         </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Color
+            <td css={css`background-color: ${elementColor};color: white;`}>
+              {data.color}
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Pinyin
                         </td>
-                        <td css={css`background-color: ${elementColor};color: white;`}>
-                            {data.color}
+            <td>
+              {data.pinyin}
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Chinese
                         </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Pinyin
+            <td>
+              {data.chinese}
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Celestial Body
                         </td>
-                        <td>
-                            {data.pinyin}
+            <td>
+              {data.planet}
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Astro Glyph
                         </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Chinese
+            <td>
+              {data.astro}
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Heavenly Stem (Yang)
                         </td>
-                        <td>
-                            {data.chinese}
+            <td>
+              {data.yang_stem}
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Heavenly Stem (Yin)
                         </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Celestial Body
-                        </td>
-                        <td>
-                            {data.planet}
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Astro Glyph
-                        </td>
-                        <td>
-                            {data.astro}
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                           Heavenly Stem (Yang)
-                        </td>
-                        <td>
-                            {data.yang_stem}
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Heavenly Stem (Yin)
-                        </td>
-                        <td>
-                            {data.yin_stem}
-                        </td>
-                    </tr>                                          
-                </tbody>
-            </table>
-        </div>
+            <td>
+              {data.yin_stem}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-    )
+  )
 }
 
 export default Element

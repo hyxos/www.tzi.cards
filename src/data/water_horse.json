@@ -1,0 +1,32 @@
+{
+   "seniority": 19,
+   "order": 7,
+   "color": "blue",
+   "element": "water",
+   "polarity": "yang",
+   "element_chinese": "水",
+   "element_pinyin": "shuǐ",
+   "animal": "horse",
+   "animal_chinese": "马",
+   "animal_pinyin": "mǎ",
+   "heavenly_stem_chinese": "午",
+   "heavenly_stem_pinyin": "wǔ",
+   "heavenly_stem_meaning": "horse",
+   "earthly_branch_chinese": "壬",
+   "earthly_branch_pinyin": "rén",
+   "earthly_branch_letter": "I",
+   "years": [
+      [
+         "1942-02-15",
+         "1943-02-04"
+      ],
+      [
+         "2002-02-12",
+         "2003-01-31"
+      ],
+      [
+         "2062-02-09",
+         "2063-01-28"
+      ]
+   ]
+}

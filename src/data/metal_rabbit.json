@@ -1,0 +1,32 @@
+{
+   "seniority": 28,
+   "order": 4,
+   "color": "black",
+   "element": "metal",
+   "polarity": "yin",
+   "element_chinese": "金",
+   "element_pinyin": "jīn",
+   "animal": "rabbit",
+   "animal_chinese": "兔",
+   "animal_pinyin": "tù",
+   "heavenly_stem_chinese": "卯",
+   "heavenly_stem_pinyin": "mǎo",
+   "heavenly_stem_meaning": "rabbit",
+   "earthly_branch_chinese": "辛",
+   "earthly_branch_pinyin": "xīn",
+   "earthly_branch_letter": "H",
+   "years": [
+      [
+         "1951-02-06",
+         "1952-01-26"
+      ],
+      [
+         "2011-02-03",
+         "2012-01-22"
+      ],
+      [
+         "2071-01-31",
+         "2072-02-18"
+      ]
+   ]
+}

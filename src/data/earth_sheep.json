@@ -1,0 +1,32 @@
+{
+   "seniority": 56,
+   "order": 8,
+   "color": "yellow",
+   "element": "earth",
+   "polarity": "yin",
+   "element_chinese": "土",
+   "element_pinyin": "tǔ",
+   "animal": "sheep",
+   "animal_chinese": "羊",
+   "animal_pinyin": "yáng",
+   "heavenly_stem_chinese": "未",
+   "heavenly_stem_pinyin": "wèi",
+   "heavenly_stem_meaning": "not",
+   "earthly_branch_chinese": "己",
+   "earthly_branch_pinyin": "jǐ",
+   "earthly_branch_letter": "F",
+   "years": [
+      [
+         "1919-02-01",
+         "1920-02-19"
+      ],
+      [
+         "1979-01-28",
+         "1980-02-15"
+      ],
+      [
+         "2029-01-24",
+         "2040-02-11"
+      ]
+   ]
+}

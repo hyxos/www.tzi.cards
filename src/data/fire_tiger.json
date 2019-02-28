@@ -1,0 +1,32 @@
+{
+   "seniority": 3,
+   "order": 3,
+   "color": "red",
+   "element": "fire",
+   "polarity": "yang",
+   "element_chinese": "火",
+   "element_pinyin": "huǒ",
+   "animal": "tiger",
+   "animal_chinese": "虎",
+   "animal_pinyin": "hǔ",
+   "heavenly_stem_chinese": "寅",
+   "heavenly_stem_pinyin": "yín",
+   "heavenly_stem_meaning": "respect",
+   "earthly_branch_chinese": "丙",
+   "earthly_branch_pinyin": "bǐng",
+   "earthly_branch_letter": "C",
+   "years": [
+      [
+         "1926-02-13",
+         "1927-02-01"
+      ],
+      [
+         "1986-02-09",
+         "1987-01-28"
+      ],
+      [
+         "2046-02-06",
+         "2047-01-25"
+      ]
+   ]
+}

@@ -1,0 +1,32 @@
+{
+   "seniority": 49,
+   "order": 1,
+   "color": "blue",
+   "element": "water",
+   "polarity": "yang",
+   "element_chinese": "水",
+   "element_pinyin": "shuǐ",
+   "animal": "rat",
+   "animal_chinese": "鼠",
+   "animal_pinyin": "shǔ",
+   "heavenly_stem_chinese": "子",
+   "heavenly_stem_pinyin": "zǐ",
+   "heavenly_stem_meaning": "child",
+   "earthly_branch_chinese": "壬",
+   "earthly_branch_pinyin": "rén",
+   "earthly_branch_letter": "I",
+   "years": [
+      [
+         "1912-02-18",
+         "1913-02-05"
+      ],
+      [
+         "1972-02-15",
+         "1973-02-02"
+      ],
+      [
+         "2032-02-11",
+         "2033-01-30"
+      ]
+   ]
+}

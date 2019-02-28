@@ -1,0 +1,32 @@
+{
+   "seniority": 5,
+   "order": 5,
+   "color": "yellow",
+   "element": "earth",
+   "polarity": "yang",
+   "element_chinese": "土",
+   "element_pinyin": "tǔ",
+   "animal": "dragon",
+   "animal_chinese": "龙",
+   "animal_pinyin": "lóng",
+   "heavenly_stem_chinese": "辰",
+   "heavenly_stem_pinyin": "chén",
+   "heavenly_stem_meaning": "dragon",
+   "earthly_branch_chinese": "戊",
+   "earthly_branch_pinyin": "wù",
+   "earthly_branch_letter": "E",
+   "years": [
+      [
+         "1928-01-23",
+         "1929-02-09"
+      ],
+      [
+         "1988-02-17",
+         "1989-02-05"
+      ],
+      [
+         "2048-02-14",
+         "2049-02-01"
+      ]
+   ]
+}

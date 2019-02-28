@@ -1,0 +1,32 @@
+{
+   "seniority": 18,
+   "order": 6,
+   "color": "black",
+   "element": "metal",
+   "polarity": "yin",
+   "element_chinese": "金",
+   "element_pinyin": "jīn",
+   "animal": "snake",
+   "animal_chinese": "蛇",
+   "animal_pinyin": "shé",
+   "heavenly_stem_chinese": "巳",
+   "heavenly_stem_pinyin": "sì",
+   "heavenly_stem_meaning": "snake",
+   "earthly_branch_chinese": "辛",
+   "earthly_branch_pinyin": "xīn",
+   "earthly_branch_letter": "H",
+   "years": [
+      [
+         "1941-01-27",
+         "1942-02-14"
+      ],
+      [
+         "2001-01-24",
+         "2002-02-11"
+      ],
+      [
+         "2061-01-21",
+         "2062-02-08"
+      ]
+   ]
+}

@@ -1,0 +1,32 @@
+{
+   "seniority": 58,
+   "order": 10,
+   "color": "black",
+   "element": "metal",
+   "polarity": "yin",
+   "element_chinese": "金",
+   "element_pinyin": "jīn",
+   "animal": "rooster",
+   "animal_chinese": "鸡",
+   "animal_pinyin": "jī",
+   "heavenly_stem_chinese": "酉",
+   "heavenly_stem_pinyin": "yǒu",
+   "heavenly_stem_meaning": "unitary",
+   "earthly_branch_chinese": "辛",
+   "earthly_branch_pinyin": "xīn",
+   "earthly_branch_letter": "H",
+   "years": [
+      [
+         "1921-02-08",
+         "1922-01-27"
+      ],
+      [
+         "1981-02-05",
+         "1982-01-24"
+      ],
+      [
+         "2041-02-01",
+         "2042-01-21"
+      ]
+   ]
+}

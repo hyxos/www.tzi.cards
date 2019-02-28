@@ -12,7 +12,6 @@ import reset from '../lib/reset'
 import { fonts } from '../lib/typography'
 import config from '../../config/website'
 import Footer from '../components/Footer'
-import { lighten } from 'polished'
 
 export const globalStyles = css`
   .button-secondary {

@@ -1,0 +1,19 @@
+{
+    "seniority": 33,
+    "order": 9,
+    "color": "red",
+    "element": "fire",
+    "polarity": "yang",
+    "element_chinese": "火",
+    "element_pinyin": "huǒ",
+    "animal": "monkey",
+    "animal_chinese": "猴",
+    "animal_pinyin": "hóu",
+    "heavenly_stem_chinese": "申",
+    "heavenly_stem_pinyin": "shēn",
+    "heavenly_stem_meaning": "explain",
+    "earthly_branch_chinese": "丙",
+    "earthly_branch_pinyin": "bǐng",
+    "earthly_branch_letter": "C",
+    "new_years": [["1956-02-12", "1957-01-30"],["2016-02-08", "2017-01-27"],["2076-02-05", "2077-01-23"]]
+ }

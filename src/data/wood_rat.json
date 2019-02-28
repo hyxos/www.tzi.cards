@@ -1,0 +1,32 @@
+{
+   "seniority": 1,
+   "order": 1,
+   "color": "green",
+   "element": "wood",
+   "polarity": "yang",
+   "element_chinese": "木",
+   "element_pinyin": "mù",
+   "animal": "rat",
+   "animal_chinese": "鼠",
+   "animal_pinyin": "shǔ",
+   "heavenly_stem_chinese": "子",
+   "heavenly_stem_pinyin": "zǐ",
+   "heavenly_stem_meaning": "child",
+   "earthly_branch_chinese": "甲",
+   "earthly_branch_pinyin": "jiǎ",
+   "earthly_branch_letter": "A",
+   "years": [
+      [
+         "1924-02-05",
+         "1925-01-23"
+      ],
+      [
+         "1984-02-02",
+         "1985-02-19"
+      ],
+      [
+         "2044-01-30",
+         "2045-02-16"
+      ]
+   ]
+}

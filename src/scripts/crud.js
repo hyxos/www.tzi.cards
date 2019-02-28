@@ -3,7 +3,7 @@ const path = require('path');
 const { promisify } = require("util");
 const readFile = promisify(fs.readFile);
 
-const baseDir = path.join(__dirname,'./json');
+const baseDir = path.join(__dirname,'../data');
 
 class Crud {
 

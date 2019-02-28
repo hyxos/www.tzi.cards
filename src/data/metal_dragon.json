@@ -1,0 +1,32 @@
+{
+   "seniority": 17,
+   "order": 5,
+   "color": "black",
+   "element": "metal",
+   "polarity": "yang",
+   "element_chinese": "金",
+   "element_pinyin": "jīn",
+   "animal": "dragon",
+   "animal_chinese": "龙",
+   "animal_pinyin": "lóng",
+   "heavenly_stem_chinese": "辰",
+   "heavenly_stem_pinyin": "chén",
+   "heavenly_stem_meaning": "dragon",
+   "earthly_branch_chinese": "庚",
+   "earthly_branch_pinyin": "gēng",
+   "earthly_branch_letter": "G",
+   "years": [
+      [
+         "1940-02-08",
+         "1941-01-26"
+      ],
+      [
+         "2000-02-05",
+         "2001-01-23"
+      ],
+      [
+         "2060-02-02",
+         "2061-01-20"
+      ]
+   ]
+}
