@@ -27,3 +27,21 @@ for (let data of tzi) {
     let fileName = data[3] + "_" + data[6]
     crud.create(fileName, tziObject)
 }
+
+let data = tzi
+
+for (i = 0; i < 12; i++) {
+    let animalObj = {
+        "order": i+1,
+        "animal": data[i][6],
+        "animal_chinese": data[i][7],
+        "animal_pinyin": data[i][8],
+        "earthly_branch_chinese": data[i][12],
+        "earthly_branch_pinyin": data[i][13],
+        "earthly_branch_letter": data[i][14],
+        "years": years(data[i][6])
+    }
+    let fileName = data[i][6]
+    crud.create(fileName, animalObj)
+}
+
