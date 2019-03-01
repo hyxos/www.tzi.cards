@@ -16,20 +16,20 @@ const buildNiandai = (niandai) => {
   let yearsArray = []
   let begins1, begins2, begins3, begins4, ends1, ends2, ends3, ends4
   for (let item of niandai) {
-    begins1 = niandai[0].begins1
-    begins2 = niandai[0].begins2
-    begins3 = niandai[0].begins3
-    begins4 = niandai[0].begins4 
-    ends1 = niandai[0].ends1
-    ends2 = niandai[0].ends2
-    ends3 = niandai[0].ends3
-    ends4 = niandai[0].ends4 
+    begins1 = item.begins1
+    begins2 = item.begins2
+    begins3 = item.begins3
+    begins4 = item.begins4 
+    ends1 = item.ends1
+    ends2 = item.ends2
+    ends3 = item.ends3
+    ends4 = item.ends4 
     let tempArray = []
     tempArray.push([begins1, ends1], [begins2, ends2], [begins3, ends3], [begins4, ends4])
     tempArray[3][0] ? tempArray : tempArray.pop()
     yearsArray.push(...tempArray)
   }
-  return yearsArray
+  return yearsArray.sort()
 }
 
 const buildYears = (animal, element = '') => {
@@ -46,5 +46,6 @@ const buildYears = (animal, element = '') => {
     return buildNiandai(niandai)
   }
 }
-
+console.log(buildYears("rat"))
+console.log(buildYears("Wood", "Rabbit"))
 module.exports = buildYears

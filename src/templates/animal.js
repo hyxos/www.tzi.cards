@@ -82,15 +82,14 @@ export default function Animal({
           twitterHandle={config.twitterHandle}
         />
         <br />
-        {console.log(allDataJson)}
-        {console.log(mdx)}
       </Container>
+      {console.log(allDataJson)}
     </Layout>
   )
 }
 
 export const animalQuery = graphql`
-  query($id: String!, $name: String!) {
+  query($id: String!, $title: String!) {
     site {
       ...site
     }
@@ -114,11 +113,11 @@ export const animalQuery = graphql`
     }
     allDataJson (filter: {
       kind: {eq: "animal"}
-      name: {eq: $name}
+      title: {eq: $title}
     }){
       edges {
         node {
-          name
+          title
           order
           years
         }

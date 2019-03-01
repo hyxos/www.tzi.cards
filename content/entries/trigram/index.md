@@ -5,7 +5,6 @@ banner: './trigram_banner.png'
 ---
 
 import full_glyph from './full_glyph.png'
-console.log(full_glyph)
 
 >As above, so below
 

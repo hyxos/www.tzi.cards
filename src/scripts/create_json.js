@@ -10,7 +10,7 @@ function capFirst(string) {
 
 for (let data of tzi) {
     let tziObject = {
-        "name": capFirst(data[3]) + " " + capFirst(data[6]),
+        "title": capFirst(data[3]) + " " + capFirst(data[6]),
         "kind": 'niandai',
         "seniority": data[0],
         "order": data[1],
@@ -38,7 +38,7 @@ let data = tzi
 
 for (i = 0; i < 12; i++) {
     let animalObj = {
-        "name": capFirst(data[i][6]),
+        "title": capFirst(data[i][6]),
         "kind": "animal",
         "order": i+1,
         "animal": data[i][6],
