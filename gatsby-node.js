@@ -50,6 +50,8 @@ const createPosts = (createPage, createRedirect, edges) => {
         component: path.resolve(`./src/templates/niandai.js`),
         context: {
           id: node.id,
+          title: node.fields.title,
+          icon: node.frontmatter.icon,
           prev,
           next,
         },

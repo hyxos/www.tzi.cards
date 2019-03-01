@@ -6,18 +6,22 @@ import SEO from 'components/SEO'
 import { css } from '@emotion/core'
 import Container from 'components/Container'
 import Layout from '../components/Layout'
+import NiandaiTable from '../components/NiandaiTable'
 import { fonts } from '../lib/typography'
 import Share from '../components/Share'
 import config from '../../config/website'
 import { bpMaxSM } from '../lib/breakpoints'
+import theme from '../../config/theme'
 
 export default function Niandai({
-  data: { site, mdx },
+  data: { site, mdx, dJson, icon },
   pageContext: { next, prev },
 }) {
   const title = mdx.frontmatter.title
-  const banner = mdx.frontmatter.banner
-  const seniority = mdx.frontmatter.seniority
+  const banner = icon
+  const order = mdx.frontmatter.order
+  const tableData = dJson.edges[0].node
+  const bgColor = tableData['polarity'] === 'yin' ? theme.colors[tableData['color']] : ''
 
   return (
     <Layout site={site} frontmatter={mdx.frontmatter}>
@@ -53,7 +57,7 @@ export default function Niandai({
               }
             `}
           >
-            {seniority && <h2>Seniority: {seniority}</h2>}
+            {order && <h2>Order: {order}</h2>}
           </div>
           {banner && (
             <div
@@ -66,12 +70,15 @@ export default function Niandai({
             >
               <Img
                 sizes={banner.childImageSharp.fluid}
+                css={css`background-color: ${bgColor};`}
                 alt={site.siteMetadata.keywords.join(', ')}
               />
             </div>
           )}
           <br />
           <MDXRenderer>{mdx.code.body}</MDXRenderer>
+          <NiandaiTable data={tableData} />
+          {console.log(tableData)}
         </Container>
         {/* <SubscribeForm /> */}
       </article>
@@ -87,27 +94,47 @@ export default function Niandai({
   )
 }
 
-export const NiandaiQuery = graphql`
-  query($id: String!) {
+export const niandaiQuery = graphql`
+  query($id: String!, $title: String!, $icon: String!) {
     site {
       ...site
     }
     mdx(fields: { id: { eq: $id } }) {
       frontmatter {
         title
-        banner {
-          childImageSharp {
-            fluid(maxWidth: 900) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
-        }
         slug
         keywords
-        seniority
+        order
       }
       code {
         body
+      }
+    }
+    dJson: allDataJson (filter: {
+      kind: {eq: "niandai"}
+      title: {eq: $title}
+    }){
+      edges {
+        node {
+          title
+          seniority
+          order
+          color
+          polarity
+          animal_chinese
+          animal_pinyin
+          earthly_branch_chinese
+          earthly_branch_pinyin
+          earthly_branch_letter
+          years
+        }
+      }
+    }
+    icon: file(name: { eq: $icon } ) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
       }
     }
   }
