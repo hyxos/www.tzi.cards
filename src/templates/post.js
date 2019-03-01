@@ -19,6 +19,7 @@ export default function Post({
   const date = mdx.frontmatter.date
   const title = mdx.frontmatter.title
   const banner = mdx.frontmatter.banner
+  console.log(banner)
 
   return (
     <Layout site={site} frontmatter={mdx.frontmatter}>

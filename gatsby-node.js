@@ -38,6 +38,7 @@ const createPosts = (createPage, createRedirect, edges) => {
         context: {
           id: node.id,
           title: node.fields.title,
+          icon: node.frontmatter.icon,
           prev,
           next,
         },
@@ -82,6 +83,7 @@ exports.createPages = ({ actions, graphql }) =>
               posttype
               order
               seniority
+              icon
             }
             parent {
               ... on File {
@@ -196,7 +198,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       node,
       value: node.frontmatter.title,
     })
-
+    
     createNodeField({
       name: 'description',
       node,

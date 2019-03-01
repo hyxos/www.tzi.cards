@@ -6,18 +6,20 @@ import SEO from 'components/SEO'
 import { css } from '@emotion/core'
 import Container from 'components/Container'
 import Layout from '../components/Layout'
+import AnimalTable from '../components/AnimalTable'
 import { fonts } from '../lib/typography'
 import Share from '../components/Share'
 import config from '../../config/website'
 import { bpMaxSM } from '../lib/breakpoints'
 
 export default function Animal({
-  data: { site, mdx, allDataJson },
+  data: { site, mdx, dJson, icon },
   pageContext: { next, prev },
 }) {
   const title = mdx.frontmatter.title
-  const banner = mdx.frontmatter.banner
+  const banner = icon
   const order = mdx.frontmatter.order
+  const tableData = dJson.edges[0].node
 
   return (
     <Layout site={site} frontmatter={mdx.frontmatter}>
@@ -72,6 +74,8 @@ export default function Animal({
           )}
           <br />
           <MDXRenderer>{mdx.code.body}</MDXRenderer>
+          <AnimalTable data={tableData} />
+          {console.log(tableData)}
         </Container>
         {/* <SubscribeForm /> */}
       </article>
@@ -83,26 +87,18 @@ export default function Animal({
         />
         <br />
       </Container>
-      {console.log(allDataJson)}
     </Layout>
   )
 }
 
 export const animalQuery = graphql`
-  query($id: String!, $title: String!) {
+  query($id: String!, $title: String!, $icon: String!) {
     site {
       ...site
     }
     mdx(fields: { id: { eq: $id } }) {
       frontmatter {
         title
-        banner {
-          childImageSharp {
-            fluid(maxWidth: 900) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
-        }
         slug
         keywords
         order
@@ -111,7 +107,7 @@ export const animalQuery = graphql`
         body
       }
     }
-    allDataJson (filter: {
+    dJson: allDataJson (filter: {
       kind: {eq: "animal"}
       title: {eq: $title}
     }){
@@ -119,7 +115,19 @@ export const animalQuery = graphql`
         node {
           title
           order
+          animal_chinese
+          animal_pinyin
+          earthly_branch_chinese
+          earthly_branch_pinyin
+          earthly_branch_letter
           years
+        }
+      }
+    }
+    icon: file(name: { eq: $icon } ) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }
