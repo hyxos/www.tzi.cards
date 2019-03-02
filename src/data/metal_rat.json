@@ -11,12 +11,12 @@
    "animal": "rat",
    "animal_chinese": "鼠",
    "animal_pinyin": "shǔ",
-   "heavenly_stem_chinese": "子",
-   "heavenly_stem_pinyin": "zǐ",
-   "heavenly_stem_meaning": "child",
-   "earthly_branch_chinese": "庚",
-   "earthly_branch_pinyin": "gēng",
-   "earthly_branch_letter": "G",
+   "earthly_branch_chinese": "子",
+   "earthly_branch_pinyin": "zǐ",
+   "earthly_branch_meaning": "child",
+   "heavenly_stem_chinese": "庚",
+   "heavenly_stem_pinyin": "gēng",
+   "heavenly_stem_letter": "G",
    "years": [
       [
          "1900-01-31",

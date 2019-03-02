@@ -11,12 +11,12 @@
    "animal": "rabbit",
    "animal_chinese": "兔",
    "animal_pinyin": "tù",
-   "heavenly_stem_chinese": "卯",
-   "heavenly_stem_pinyin": "mǎo",
-   "heavenly_stem_meaning": "rabbit",
-   "earthly_branch_chinese": "癸",
-   "earthly_branch_pinyin": "guǐ",
-   "earthly_branch_letter": "K",
+   "earthly_branch_chinese": "卯",
+   "earthly_branch_pinyin": "mǎo",
+   "earthly_branch_meaning": "rabbit",
+   "heavenly_stem_chinese": "癸",
+   "heavenly_stem_pinyin": "guǐ",
+   "heavenly_stem_letter": "K",
    "years": [
       [
          "1903-01-29",

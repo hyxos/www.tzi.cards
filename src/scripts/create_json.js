@@ -22,12 +22,12 @@ for (let data of tzi) {
         "animal": data[6],
         "animal_chinese": data[7],
         "animal_pinyin": data[8],
-        "heavenly_stem_chinese": data[9],
-        "heavenly_stem_pinyin": data[10],
-        "heavenly_stem_meaning": data[11],
-        "earthly_branch_chinese": data[12],
-        "earthly_branch_pinyin": data[13],
-        "earthly_branch_letter": data[14],
+        "earthly_branch_chinese": data[9],
+        "earthly_branch_pinyin": data[10],
+        "earthly_branch_meaning": data[11],
+        "heavenly_stem_chinese": data[12],
+        "heavenly_stem_pinyin": data[13],
+        "heavenly_stem_letter": data[14],
         "years": years(data[3], data[6])
     }
     let fileName = data[3] + "_" + data[6]
@@ -44,9 +44,9 @@ for (i = 0; i < 12; i++) {
         "animal": data[i][6],
         "animal_chinese": data[i][7],
         "animal_pinyin": data[i][8],
-        "earthly_branch_chinese": data[i][12],
-        "earthly_branch_pinyin": data[i][13],
-        "earthly_branch_letter": data[i][14],
+        "earthly_branch_chinese": data[i][9],
+        "earthly_branch_pinyin": data[i][10],
+        "earthly_branch_meaning": data[i][11],
         "years": years(data[i][6])
     }
     let fileName = data[i][6]

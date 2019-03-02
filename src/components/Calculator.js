@@ -9,7 +9,7 @@ export default () => (
           edges {
             node {
             seniority
-            new_years
+            years
             }
           }
         }
@@ -17,7 +17,7 @@ export default () => (
     `}
     render={data => (
       <header>
-        <h1>{data.allDataJson.edges[0].node.new_years}</h1>
+        <h1>{data.allDataJson.edges[0].node.years}</h1>
       </header>
     )}
   />

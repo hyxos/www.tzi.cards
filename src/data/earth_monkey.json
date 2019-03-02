@@ -11,12 +11,12 @@
    "animal": "monkey",
    "animal_chinese": "猴",
    "animal_pinyin": "hóu",
-   "heavenly_stem_chinese": "申",
-   "heavenly_stem_pinyin": "shēn",
-   "heavenly_stem_meaning": "explain",
-   "earthly_branch_chinese": "戊",
-   "earthly_branch_pinyin": "wù",
-   "earthly_branch_letter": "E",
+   "earthly_branch_chinese": "申",
+   "earthly_branch_pinyin": "shēn",
+   "earthly_branch_meaning": "explain",
+   "heavenly_stem_chinese": "戊",
+   "heavenly_stem_pinyin": "wù",
+   "heavenly_stem_letter": "E",
    "years": [
       [
          "1908-02-02",

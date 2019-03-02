@@ -11,12 +11,12 @@
    "animal": "ox",
    "animal_chinese": "牛",
    "animal_pinyin": "niú",
-   "heavenly_stem_chinese": "丑",
-   "heavenly_stem_pinyin": "chǒu",
-   "heavenly_stem_meaning": "clown",
-   "earthly_branch_chinese": "辛",
-   "earthly_branch_pinyin": "xīn",
-   "earthly_branch_letter": "H",
+   "earthly_branch_chinese": "丑",
+   "earthly_branch_pinyin": "chǒu",
+   "earthly_branch_meaning": "clown",
+   "heavenly_stem_chinese": "辛",
+   "heavenly_stem_pinyin": "xīn",
+   "heavenly_stem_letter": "H",
    "years": [
       [
          "1901-02-19",

@@ -11,12 +11,12 @@
    "animal": "sheep",
    "animal_chinese": "羊",
    "animal_pinyin": "yáng",
-   "heavenly_stem_chinese": "未",
-   "heavenly_stem_pinyin": "wèi",
-   "heavenly_stem_meaning": "not",
-   "earthly_branch_chinese": "癸",
-   "earthly_branch_pinyin": "guǐ",
-   "earthly_branch_letter": "K",
+   "earthly_branch_chinese": "未",
+   "earthly_branch_pinyin": "wèi",
+   "earthly_branch_meaning": "not",
+   "heavenly_stem_chinese": "癸",
+   "heavenly_stem_pinyin": "guǐ",
+   "heavenly_stem_letter": "K",
    "years": [
       [
          "1943-02-05",

@@ -17,24 +17,52 @@ const animalStyles = css`
     }  
 `
 
+const formatNiandai = (niandai) => {
+  let begins = niandai[0]
+  let ends = niandai[1]
+  return (
+    <tr key={begins + "-" + ends}>
+      <td colSpan="1">{begins}</td><td colSpan="1" >{ends}</td>
+    </tr>
+  )
+}
+
+const extractYears = (years) => {
+  return (
+    years.map(formatNiandai)
+  )
+}
+
 const AnimalTable = ({ data }) => {
-  const animalInfo = Object.entries(data).map(([key, value]) => {
-    return (
-      <tr key={key}>
-        <td>{key}</td>
-        <td>{value.toString()}</td>
-      </tr>
-    );
-  })
   return (
     <div>
       <table css={animalStyles}>
+        <caption>{data.title}</caption>
         <tbody>
-          {animalInfo}
+          <tr>
+            <td colSpan="1">{data.title}</td>
+            <td colSpan="1">{data.animal_chinese}</td>
+            <td colSpan="1">{data.animal_pinyin}</td>
+          </tr>
+          <tr>
+            <td colSpan="1">Earthly Branch</td>
+            <td colSpan="1">{data.earthly_branch_chinese}</td>
+            <td colSpan="1">{data.earthly_branch_pinyin}</td>
+          </tr>
+          <tr>
+            <td colSpan="1">Order</td>
+            <td colSpan="2">{data.order}</td>
+          </tr>
+          <tr>
+            <td colSpan="1" rowSpan={data.years.length+1}>Years</td>
+            <td>Begins</td>
+            <td>Ends</td>
+          </tr>
+          {extractYears(data.years)}
         </tbody>
       </table>
     </div>
   )
-}
+} 
 
 export default AnimalTable

@@ -5,9 +5,9 @@
    "animal": "rat",
    "animal_chinese": "鼠",
    "animal_pinyin": "shǔ",
-   "earthly_branch_chinese": "甲",
-   "earthly_branch_pinyin": "jiǎ",
-   "earthly_branch_letter": "A",
+   "earthly_branch_chinese": "子",
+   "earthly_branch_pinyin": "zǐ",
+   "earthly_branch_meaning": "child",
    "years": [
       [
          "1900-01-31",

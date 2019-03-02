@@ -11,12 +11,12 @@
    "animal": "tiger",
    "animal_chinese": "虎",
    "animal_pinyin": "hǔ",
-   "heavenly_stem_chinese": "寅",
-   "heavenly_stem_pinyin": "yín",
-   "heavenly_stem_meaning": "respect",
-   "earthly_branch_chinese": "丙",
-   "earthly_branch_pinyin": "bǐng",
-   "earthly_branch_letter": "C",
+   "earthly_branch_chinese": "寅",
+   "earthly_branch_pinyin": "yín",
+   "earthly_branch_meaning": "respect",
+   "heavenly_stem_chinese": "丙",
+   "heavenly_stem_pinyin": "bǐng",
+   "heavenly_stem_letter": "C",
    "years": [
       [
          "1926-02-13",

@@ -1,4 +1,8 @@
-str1 = "hello a string"
-console.log(str1)
-str2 = str1.substring(3)
-console.log(str2)
+const rat = require('../data/rat.json')
+
+const exponentiate = (number) => {
+  return number * number
+}
+
+array = [343,53,531,5,3,1]
+console.log(array.map(exponentiate))

@@ -11,12 +11,12 @@
    "animal": "pig",
    "animal_chinese": "猪",
    "animal_pinyin": "zhū",
-   "heavenly_stem_chinese": "亥",
-   "heavenly_stem_pinyin": "hài",
-   "heavenly_stem_meaning": "pig",
-   "earthly_branch_chinese": "乙",
-   "earthly_branch_pinyin": "yǐ",
-   "earthly_branch_letter": "B",
+   "earthly_branch_chinese": "亥",
+   "earthly_branch_pinyin": "hài",
+   "earthly_branch_meaning": "pig",
+   "heavenly_stem_chinese": "乙",
+   "heavenly_stem_pinyin": "yǐ",
+   "heavenly_stem_letter": "B",
    "years": [
       [
          "1935-02-04",

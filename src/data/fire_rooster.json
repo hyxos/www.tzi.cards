@@ -11,12 +11,12 @@
    "animal": "rooster",
    "animal_chinese": "鸡",
    "animal_pinyin": "jī",
-   "heavenly_stem_chinese": "酉",
-   "heavenly_stem_pinyin": "yǒu",
-   "heavenly_stem_meaning": "unitary",
-   "earthly_branch_chinese": "丁",
-   "earthly_branch_pinyin": "dīng",
-   "earthly_branch_letter": "D",
+   "earthly_branch_chinese": "酉",
+   "earthly_branch_pinyin": "yǒu",
+   "earthly_branch_meaning": "unitary",
+   "heavenly_stem_chinese": "丁",
+   "heavenly_stem_pinyin": "dīng",
+   "heavenly_stem_letter": "D",
    "years": [
       [
          "1957-01-31",

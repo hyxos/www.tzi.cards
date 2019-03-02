@@ -11,12 +11,12 @@
    "animal": "snake",
    "animal_chinese": "蛇",
    "animal_pinyin": "shé",
-   "heavenly_stem_chinese": "巳",
-   "heavenly_stem_pinyin": "sì",
-   "heavenly_stem_meaning": "snake",
-   "earthly_branch_chinese": "乙",
-   "earthly_branch_pinyin": "yǐ",
-   "earthly_branch_letter": "B",
+   "earthly_branch_chinese": "巳",
+   "earthly_branch_pinyin": "sì",
+   "earthly_branch_meaning": "snake",
+   "heavenly_stem_chinese": "乙",
+   "heavenly_stem_pinyin": "yǐ",
+   "heavenly_stem_letter": "B",
    "years": [
       [
          "1905-02-04",

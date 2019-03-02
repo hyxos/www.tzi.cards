@@ -11,12 +11,12 @@
    "animal": "dragon",
    "animal_chinese": "龙",
    "animal_pinyin": "lóng",
-   "heavenly_stem_chinese": "辰",
-   "heavenly_stem_pinyin": "chén",
-   "heavenly_stem_meaning": "dragon",
-   "earthly_branch_chinese": "壬",
-   "earthly_branch_pinyin": "rén",
-   "earthly_branch_letter": "I",
+   "earthly_branch_chinese": "辰",
+   "earthly_branch_pinyin": "chén",
+   "earthly_branch_meaning": "dragon",
+   "heavenly_stem_chinese": "壬",
+   "heavenly_stem_pinyin": "rén",
+   "heavenly_stem_letter": "I",
    "years": [
       [
          "1952-01-27",

@@ -11,12 +11,12 @@
    "animal": "dog",
    "animal_chinese": "狗",
    "animal_pinyin": "gǒu",
-   "heavenly_stem_chinese": "戌",
-   "heavenly_stem_pinyin": "xū",
-   "heavenly_stem_meaning": "army",
-   "earthly_branch_chinese": "丙",
-   "earthly_branch_pinyin": "bǐng",
-   "earthly_branch_letter": "C",
+   "earthly_branch_chinese": "戌",
+   "earthly_branch_pinyin": "xū",
+   "earthly_branch_meaning": "army",
+   "heavenly_stem_chinese": "丙",
+   "heavenly_stem_pinyin": "bǐng",
+   "heavenly_stem_letter": "C",
    "years": [
       [
          "1946-02-02",

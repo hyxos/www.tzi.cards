@@ -11,12 +11,12 @@
    "animal": "horse",
    "animal_chinese": "马",
    "animal_pinyin": "mǎ",
-   "heavenly_stem_chinese": "午",
-   "heavenly_stem_pinyin": "wǔ",
-   "heavenly_stem_meaning": "horse",
-   "earthly_branch_chinese": "戊",
-   "earthly_branch_pinyin": "wù",
-   "earthly_branch_letter": "E",
+   "earthly_branch_chinese": "午",
+   "earthly_branch_pinyin": "wǔ",
+   "earthly_branch_meaning": "horse",
+   "heavenly_stem_chinese": "戊",
+   "heavenly_stem_pinyin": "wù",
+   "heavenly_stem_letter": "E",
    "years": [
       [
          "1918-02-11",

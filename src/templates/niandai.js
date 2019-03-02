@@ -21,7 +21,11 @@ export default function Niandai({
   const banner = icon
   const order = mdx.frontmatter.order
   const tableData = dJson.edges[0].node
-  const bgColor = tableData['polarity'] === 'yin' ? theme.colors[tableData['color']] : ''
+  const isBlack = (color) => {
+    return color === 'black' ? 'gray' : color
+  }
+  const elColor = isBlack(tableData['color'])
+  const bgColor = tableData['polarity'] === 'yin' ? theme.colors[elColor] : ''
 
   return (
     <Layout site={site} frontmatter={mdx.frontmatter}>
@@ -78,7 +82,6 @@ export default function Niandai({
           <br />
           <MDXRenderer>{mdx.code.body}</MDXRenderer>
           <NiandaiTable data={tableData} />
-          {console.log(tableData)}
         </Container>
         {/* <SubscribeForm /> */}
       </article>
@@ -117,6 +120,10 @@ export const niandaiQuery = graphql`
       edges {
         node {
           title
+          animal
+          element
+          element_chinese
+          element_pinyin
           seniority
           order
           color
@@ -125,7 +132,10 @@ export const niandaiQuery = graphql`
           animal_pinyin
           earthly_branch_chinese
           earthly_branch_pinyin
-          earthly_branch_letter
+          earthly_branch_meaning
+          heavenly_stem_chinese
+          heavenly_stem_pinyin
+          heavenly_stem_letter
           years
         }
       }

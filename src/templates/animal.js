@@ -18,7 +18,6 @@ export default function Animal({
 }) {
   const title = mdx.frontmatter.title
   const banner = icon
-  const order = mdx.frontmatter.order
   const tableData = dJson.edges[0].node
 
   return (
@@ -55,7 +54,6 @@ export default function Animal({
               }
             `}
           >
-            {order && <h2>Order: {order}</h2>}
           </div>
           {banner && (
             <div
@@ -75,7 +73,6 @@ export default function Animal({
           <br />
           <MDXRenderer>{mdx.code.body}</MDXRenderer>
           <AnimalTable data={tableData} />
-          {console.log(tableData)}
         </Container>
         {/* <SubscribeForm /> */}
       </article>
@@ -119,7 +116,7 @@ export const animalQuery = graphql`
           animal_pinyin
           earthly_branch_chinese
           earthly_branch_pinyin
-          earthly_branch_letter
+          earthly_branch_meaning
           years
         }
       }
