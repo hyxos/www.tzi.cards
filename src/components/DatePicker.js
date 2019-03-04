@@ -37,18 +37,6 @@ function DatePicker () {
     <option key={month} value={month}>{month}</option>
   )
 
-  function handleMonthChange(e) {
-    setMonth(e.target.value)
-  }
-
-  function handleDayChange(e) {
-    setDay(e.target.value)
-  }
-
-  function handleYearChange(e) {
-    setYear(e.target.value)
-  }
-
   useEffect(() => {
     setDate(moment(`${month + " " +  day + " " + year}`))
   })
@@ -59,17 +47,17 @@ function DatePicker () {
         <form action="#">
           <span>
             <label htmlFor="month">Month</label>
-            <select name="month" defaultValue={month} onChange={handleMonthChange}>
+            <select name="month" defaultValue={month} onChange={e => setMonth(e.target.value)}>
               {optionMonths}
             </select>
           </span>
           <span>
             <label htmlFor="day">Day</label>
-            <input name="day" type="text" defaultValue={day} onChange={handleDayChange}></input>
+            <input name="day" type="text" defaultValue={day} onChange={e => setDay(e.target.value)}></input>
           </span>
           <span>
             <label htmlFor="year">Year</label>
-            <input name="year" type="text" defaultValue={year} onChange={handleYearChange}></input>
+            <input name="year" type="text" defaultValue={year} onChange={e => setYear(e.target.value)}></input>
           </span>
         </form>
       </div>
