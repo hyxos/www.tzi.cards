@@ -20,7 +20,6 @@ export default ({ data: { site } }) => {
         `}
       >
         <DatePicker />
-        <Calculator />
       </Container>
     </Layout>
   )

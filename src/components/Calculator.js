@@ -1,28 +1,38 @@
 import React from 'react'
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, navigate } from "gatsby"
+import Moment from 'moment'
+import { extendMoment } from 'moment-range';
 
-const formatYears = (years) => 
-    <tr key={years[0] + "-" + years[1]}>
-      <td colSpan="1">{years[0]}</td><td colSpan="1" >{years[1]}</td>
-    </tr>
+const moment = extendMoment(Moment);
 
-const extractYears = (years) => years.map(formatYears)
-
-const formatNiandai = (niandai) => {
-  console.log(niandai)
-  return (
-    <React.Fragment>
-      <tr key={niandai.node.seniority}>
-        <td rowSpan={niandai.node.years.length + 1}>{niandai.node.seniority}</td>
-      </tr>
-      {extractYears(niandai.node.years)}
-    </React.Fragment>
-  )
+const findNiandai = (date, nianling) => {
+  let slug = ''
+  for (let niandai of nianling) {
+    let { element, animal, years } = niandai.node
+    let match = false
+    for ( let range of years) {
+      range = moment.range(range[0], range[1])
+      if (range.contains(date)) {
+        match = true
+        break
+      }
+      else {
+        continue
+      }
+    }
+    if (match === true) {
+      slug = element + "-" + animal
+      break
+    }
+    else {
+      
+      continue
+    }
+  } 
+  return slug
 }
 
-const extractNiandai = (niandai) => niandai.map(formatNiandai)
-
-export default () => (
+export default (props) => (
   <StaticQuery
     query={graphql`
       query newYears {
@@ -30,6 +40,8 @@ export default () => (
           edges {
             node {
             seniority
+            element
+            animal
             years
             }
           }
@@ -37,11 +49,14 @@ export default () => (
       }
     `}
     render={data => (
-      <table>
-        <tbody>
-          {extractNiandai(data.allDataJson.edges)}
-        </tbody>
-      </table>
-    )}
+      <form onSubmit={event => {
+        event.preventDefault()
+  
+        // TODO: do something with form values
+        navigate(findNiandai(props.date, data.allDataJson.edges))
+      }}>
+        <input type="submit" value="go"/>
+      </form>
+    )}  
   />
 )

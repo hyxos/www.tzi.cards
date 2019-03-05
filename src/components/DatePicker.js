@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { css } from '@emotion/core'
 import Moment from 'moment'
 import { extendMoment } from 'moment-range';
+import Calculator from './Calculator'
 
 const moment = extendMoment(Moment);
 
@@ -65,7 +66,7 @@ function DatePicker () {
         <table>
           <tbody>
             <tr>
-              <td>{date.format("MMM Do YYYY")}</td>
+              <td><Calculator date={date} /></td>
             </tr>
           </tbody>
         </table>
