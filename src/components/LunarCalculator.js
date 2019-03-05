@@ -6,7 +6,7 @@ import { extendMoment } from 'moment-range'
 
 const moment = extendMoment(Moment);
 
-const datePickerlStyles = css`
+const lunarCalculatorlStyles= css`
 .container {
   margin: 20px;
   padding: 20px;
@@ -53,7 +53,7 @@ const findNiandai = (date, nianling) => {
   return slug
 }
 
-function DatePicker () {
+function LunarCalculator () {
   const [date, setDate] = useState(new moment())
   const [month, setMonth] = useState(date.format('MMMM'))
   const [day, setDay] = useState(date.format('D'))
@@ -84,7 +84,7 @@ function DatePicker () {
       }
     `}
     render={data => (
-      <div css={datePickerlStyles}>
+      <div css={lunarCalculatorlStyles}>
       <div className="container">
         <form action="#" onSubmit={event => {
         event.preventDefault()
@@ -115,4 +115,4 @@ function DatePicker () {
   )
 }
 
-export default DatePicker
+export default LunarCalculator
