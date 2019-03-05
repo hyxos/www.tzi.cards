@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
+import { StaticQuery, graphql, navigate } from "gatsby"
 import { css } from '@emotion/core'
 import Moment from 'moment'
-import { extendMoment } from 'moment-range';
-import Calculator from './Calculator'
+import { extendMoment } from 'moment-range'
 
 const moment = extendMoment(Moment);
 
@@ -20,13 +20,38 @@ span {
   padding; 10px;
 }
 input {
-  width: 80px;
-  text-align: right;
+  width: 70px;
 }
 label {
   display: block;
 }
 `
+const findNiandai = (date, nianling) => {
+  let slug = ''
+  for (let niandai of nianling) {
+    let { element, animal, years } = niandai.node
+    let match = false
+    for ( let range of years) {
+      range = moment.range(range[0], range[1])
+      if (range.contains(date)) {
+        match = true
+        break
+      }
+      else {
+        continue
+      }
+    }
+    if (match === true) {
+      slug = element + "-" + animal
+      break
+    }
+    else {
+      
+      continue
+    }
+  } 
+  return slug
+}
 
 function DatePicker () {
   const [date, setDate] = useState(new moment())
@@ -43,9 +68,28 @@ function DatePicker () {
   })
 
   return (
-    <div css={datePickerlStyles}>
+    <StaticQuery
+    query={graphql`
+      query newYears {
+        allDataJson (filter: {kind: {eq: "niandai"}}){
+          edges {
+            node {
+            seniority
+            element
+            animal
+            years
+            }
+          }
+        }
+      }
+    `}
+    render={data => (
+      <div css={datePickerlStyles}>
       <div className="container">
-        <form action="#">
+        <form action="#" onSubmit={event => {
+        event.preventDefault()
+        navigate(findNiandai(date, data.allDataJson.edges))
+      }}>
           <span>
             <label htmlFor="month">Month</label>
             <select name="month" defaultValue={month} onChange={e => setMonth(e.target.value)}>
@@ -60,18 +104,14 @@ function DatePicker () {
             <label htmlFor="year">Year</label>
             <input name="year" type="text" defaultValue={year} onChange={e => setYear(e.target.value)}></input>
           </span>
+          <span>
+            <input type="submit" className="button-secondary" value="Go!"/>  
+          </span>
         </form>
       </div>
-      <div className="container">
-        <table>
-          <tbody>
-            <tr>
-              <td><Calculator date={date} /></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
     </div>
+    )}  
+  />
   )
 }
 

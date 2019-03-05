@@ -16,6 +16,8 @@ import Footer from '../components/Footer'
 export const globalStyles = css`
   .button-secondary {
     border-radius: 4px;
+    margin: 5px 5px;
+    width: 100px;
     padding: 12px 12px;
     background: ${theme.colors.secondary_light};
   }

@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import { css } from '@emotion/core'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
+import LunarCalculator from '../components/LunarCalculator'
 import Container from 'components/Container'
 import theme from '../../config/theme'
 
@@ -41,6 +42,9 @@ export default function Index({ data: { site, allMdx } }) {
             Buy Now!
           </a>
         </p>
+        <hr />
+        <h2 css={css`text-align: center;`}>Lunar Year Calculator</h2>
+        <LunarCalculator />
         <hr />
       </Container>
     </Layout>
