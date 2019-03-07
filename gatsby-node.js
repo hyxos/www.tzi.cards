@@ -114,11 +114,19 @@ exports.createPages = ({ actions, graphql }) =>
     if (_.isEmpty(data.allMdx)) {
       return Promise.reject('There are no posts!')
     }
-
     const { edges } = data.allMdx
+    const filterBlogPosts = (edge) =>{
+      if (edge.node.frontmatter.posttype == "blog") {
+        return true
+      }
+      else {
+        return false
+      }
+    }
+    const edgesBlogPosts = edges.filter(filterBlogPosts)
     const { createRedirect, createPage } = actions
     createPosts(createPage, createRedirect, edges)
-    createPaginatedPages(actions.createPage, edges, '/blog', {
+    createPaginatedPages(actions.createPage, edgesBlogPosts, '/blog', {
       categories: [],
     })
   })
@@ -201,6 +209,12 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: node.frontmatter.title,
     })
     
+    createNodeField({
+      name: 'posttype',
+      node,
+      value: node.frontmatter.posttype,
+    })
+
     createNodeField({
       name: 'description',
       node,
