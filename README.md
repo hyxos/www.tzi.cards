@@ -32,16 +32,16 @@
 
 ## Setup
 
-- `git clone git@github.com:eggheadio/gatsby-starter-egghead-blog.git`
-- `cd gatsby-starter-egghead-blog`
+- `git clone git@github.com:hyxos/www.tzi.cards.git`
+- `cd www.tzi.cards`
 - `npm install`
 - `npm run develop`
 - visit http://localhost:8000
 
 ## Setup via Gatsby CLI
 
-- `gatsby new gatsby-starter-egghead-blog git@github.com:eggheadio/gatsby-starter-egghead-blog.git`
-- `cd gatsby-starter-egghead-blog`
+- `gatsby new www.tzi.cards git@github.com:hyxos/www.tzi.cards.git`
+- `cd www.tzi.cards`
 - `npm install`
 - `gatsby develop`
 - visit http://localhost:8000
