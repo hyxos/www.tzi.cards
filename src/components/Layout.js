@@ -35,6 +35,20 @@ export const globalStyles = css`
         color: white;
     }
   }
+  .button-blue {
+    background-color: ${theme.colors.blue};;
+    border: 1px solid #d3d3d3;
+    border-radius: 9px;
+    color: black;
+    width: 100px;
+    margin: 5px 5px;
+    padding: 10px 12px;
+    text-align: center;
+    &:hover {
+        background-color: ${theme.colors.blue_dark};
+        color: white;
+    }
+  }
   ${bpMaxSM} {
     p,
     em,

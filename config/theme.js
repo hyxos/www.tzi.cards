@@ -29,6 +29,7 @@ const colors = {
   red: '#92140C',
   yellow: '#EFAA18',
   blue: '#336699',
+  blue_dark: `${darken(0.07, '#336699')}`,
   green: '#53B236',
 }
 

@@ -148,9 +148,6 @@ export const pageQuery = graphql`
       ...site
     }
     allMdx(
-      filter: {
-        frontmatter: {posttype: {eq: "blog"}}
-      }
       sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {

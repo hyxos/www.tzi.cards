@@ -105,7 +105,7 @@ function LunarCalculator () {
             <input name="year" type="text" defaultValue={year} onChange={e => setYear(e.target.value)}></input>
           </span>
           <span>
-            <input type="submit" className="button-secondary" value="Go!"/>  
+            <input type="submit" className="button-blue" value="Go!"/>  
           </span>
         </form>
       </div>

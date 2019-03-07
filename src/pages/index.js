@@ -1,11 +1,13 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import { css } from '@emotion/core'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import LunarCalculator from '../components/LunarCalculator'
 import Container from 'components/Container'
 import theme from '../../config/theme'
+import boc from '../../content/blog/breakoutcon/breakout_con_logo.png'
 
 export default function Index({ data: { site, allMdx } }) {
   return (
@@ -24,15 +26,6 @@ export default function Index({ data: { site, allMdx } }) {
           Inspired by the cosmic patterns behind the ancient <em>Lunar Calendar</em>,{" "}
           <strong>TZI Cards</strong> is a unique deck of sixty bridge sized playing cards.
         </p>
-        {/* Link to blog posts
-        <Link
-          to="/blog"
-          aria-label="Visit blog page"
-          className="button-secondary"
-        >
-          View all entries
-        </Link>
-        */}
         <p css={css`text-align: center;`}>
           <a
             href="https://shop.tzi.cards/products/tzi-playing-cards"
@@ -43,7 +36,20 @@ export default function Index({ data: { site, allMdx } }) {
           </a>
         </p>
         <hr />
+        <div css={css`text-align: center;`}>
+          <h2>Appearing at</h2>
+          <Link
+            to="/breakout-con-2019"
+            aria-label="Breakout Con 2019"
+          >
+          <img src={boc} />
+            <br />
+            Breakout Con 2019
+        </Link>
+        </div>
+        <hr />
         <h2 css={css`text-align: center;`}>Lunar Year Calculator</h2>
+        Use the calculator below to check out the element and animal for Lunar New Years between 1900 and 2080.
         <LunarCalculator />
         <hr />
       </Container>
