@@ -147,7 +147,11 @@ export const pageQuery = graphql`
     site {
       ...site
     }
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMdx(
+      filter: {
+        frontmatter: {posttype: {eq: "blog"}}
+      }
+      sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           excerpt(pruneLength: 300)
@@ -164,6 +168,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            posttype
             date(formatString: "MMMM DD, YYYY")
             banner {
               childImageSharp {
