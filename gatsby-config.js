@@ -77,6 +77,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        path: `${__dirname}/content/games/fighting-numbers`,
+        name: 'fighting-numbers',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         path: `${__dirname}/content/animals`,
         name: 'animals',
       },
