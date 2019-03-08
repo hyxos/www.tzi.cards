@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { css } from '@emotion/core'
 import theme from '../../config/theme'
-import logo from '../images/tzi_logo_color.png'
+import logo from '../images/black_tzi_glyph.svg'
 import Container from './Container'
 import { StaticQuery, graphql } from 'gatsby'
 
@@ -18,6 +18,7 @@ const Header = ({
       flex-shrink: 0;
       background: none;
       padding: 30px 0 0 0;
+      margin: auto;
       background: ${dark ? '#090909' : `${bgColor}` || 'none'};
     `}
   >
@@ -26,7 +27,9 @@ const Header = ({
         css={css`
           width: 100%;
           display: flex;
+          flex-direction: row;
           justify-content: space-between;
+          align-content: space-between;
           align-items: center;
           color: ${headerColor};
           a {
@@ -39,52 +42,39 @@ const Header = ({
           }
         `}
       >
+        <span css={css`width: 80px;`}>
         <Link to="/" aria-label="go to homepage" activeClassName="active">
-          <img className="" src={logo} alt="TZI Logo"
-            style={{
-            height: '70px',
-            marginBottom:'0',
-            }}
+          <img src={logo} alt="TZI Logo"
+            css={css`
+            background-color: #FAEBD7;
+            border: 1px solid #080808;
+            border-radius: 5px;
+            height: 60px;
+            margin-bottom: 0;
+            `
+            }
           />
         </Link>
+        </span>
+        <span css={css`width: 80px;`}>
         <Link to="/deck" aria-label="go to deck" activeClassName="active">
           Deck
         </Link>
-        <Link to="/games" aria-label="go to deck" activeClassName="active">
+        </span>
+        <span css={css`width: 80px;`}>
+        <Link to="/games" aria-label="go to deck" activeClassName="active" >
           Games
         </Link>
-        <a href="https://shop.tzi.cards">
-          Store
-        </a>
-        <div
-          css={css`
-            font-size: 16px;
-            line-height: 1.25;
-            display: flex;
-            align-items: center;
-            a {
-              color: ${dark ? '#fbfbfb' : 'rgba(0,0,0,0.85)'};
-              text-decoration: none;
-              & + a {
-                margin-left: 32px;
-              }
-            }
-            .active {
-              display: none;
-              visibility: hidden;
-            }
-          `}
-        >
-          {/*
-          <Link
-            to="/blog"
-            activeClassName="active"
-            aria-label="View blog page"
+        </span>
+        <span css={css`width: 80px;`}>
+        <a
+            href="https://shop.tzi.cards/products/tzi-playing-cards"
+            aria-label="Shop"
+            className="button-tertiary"
           >
-            Blog
-          </Link>
-          */}
-        </div>
+            Shop
+        </a>
+        </span>
       </nav>
     </Container>
   </header>

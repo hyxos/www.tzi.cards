@@ -1,6 +1,8 @@
 import Typography from 'typography'
 import '../fonts/fonts.css'
-import themeTrajan from 'typography-theme-trajan'
+import stAnnesTheme from 'typography-theme-st-annes'
+
+stAnnesTheme.baseFontSize = '18px'
 
 export const fonts = {
   regular: 'Inter UI Regular',
@@ -11,7 +13,7 @@ export const fonts = {
   boldItalic: 'Inter UI Bold Italic',
 }
 
-const typography = new Typography(themeTrajan)
+const typography = new Typography(stAnnesTheme)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {

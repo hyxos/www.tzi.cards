@@ -25,14 +25,19 @@ export default function Index({ data: { site, allMdx } }) {
           Inspired by the cosmic patterns behind the ancient <em>Lunar Calendar</em>,{" "}
           <strong>TZI Cards</strong> is a unique deck of sixty bridge sized playing cards.
         </p>
-        <p css={css`text-align: center;`}>
-          <a
-            href="https://shop.tzi.cards/products/tzi-playing-cards"
-            aria-label="Buy Now"
-            className="button-tertiary"
-          >
-            Buy Now!
-          </a>
+        <p><h3>Explore TZI Cards</h3>
+          <ul>
+            <li>
+              Learn about the cards and see the details of the <Link to="/deck" aria-label="go to deck" activeClassName="active">Deck</Link>.
+            </li>
+            <li>
+              Check out the rules for the <Link to="/games" aria-label="go to deck" activeClassName="active" >Games</Link>.
+            </li>
+            <li>
+              Learn about the backstory and <Link to="/lore" aria-label="go to deck" activeClassName="active" >Lore</Link>.
+            </li>
+          </ul>
+
         </p>
         <hr />
         <div css={css`text-align: center;`}>
@@ -41,15 +46,17 @@ export default function Index({ data: { site, allMdx } }) {
             to="/breakout-con-2019"
             aria-label="Breakout Con 2019"
           >
-          <img src={boc} />
+            <img src={boc} />
             <br />
             Breakout Con 2019
         </Link>
         </div>
         <hr />
-        <h2 css={css`text-align: center;`}>Lunar Year Calculator</h2>
-        Use the calculator below to check out the element and animal for Lunar New Years between 1900 and 2080.
+        <p css={css`text-align: center;`}>
+        <h2>Lunar Year Calculator</h2>
+          Calculate the Lunar New Years from 1900 to 2080.
         <LunarCalculator />
+        </p>
         <hr />
       </Container>
     </Layout>

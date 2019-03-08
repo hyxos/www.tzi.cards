@@ -12,6 +12,11 @@ const brand = {
   //primary: '#6420E5',
   secondary: '#EFAA18',
   tertiary: '#53B236',
+  gray: '#A397A2',
+  blue: '#336699',
+  blue_dark: `${darken(0.07, '#336699')}`,
+  blue_light: `${lighten(0.25, '#336699')}`,
+
 }
 
 const colors = {
@@ -24,8 +29,8 @@ const colors = {
   white: '#fff',
   bg_color: '#fafafa',
   body_color: 'rgba(0,0,0,0.85)',
-  link_color: brand.primary,
-  link_color_hover: `${darken(0.07, brand.primary)}`,
+  link_color: brand.blue_light,
+  link_color_hover: `${darken(0.07, brand.blue_dark)}`,
   red: '#92140C',
   yellow: '#EFAA18',
   blue: '#336699',

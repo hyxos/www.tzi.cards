@@ -55,7 +55,9 @@
     "semantic-ui-less": "^2.4.1",
     "semantic-ui-react": "^0.84.0",
     "serve": "^10.1.2",
-    "typography": "^0.16.18",
+    "typography": "^0.16.19",
+    "typography-theme-doelger": "^0.16.19",
+    "typography-theme-st-annes": "^0.16.19",
     "typography-theme-trajan": "^0.1.3",
     "yup": "^0.26.10"
   },

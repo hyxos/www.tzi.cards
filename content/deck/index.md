@@ -4,13 +4,13 @@ title: "The TZI Deck"
 ---
 ## An Ancient Past
 
-TZI Cards draw their inspiration from a variety of sources, primarily the ancient Chinese system of *Ganzhi*. Explore the origins and background of the cards in the [Lore](lore) section.
+TZI Cards draw their inspiration from a variety of sources, primarily the ancient Chinese system of *Ganzhi*. (See [Lore](lore)).
 
 ## A New Beginning
-TZI Cards incorporate a new figure, the [TZI Glyph](tzi-glpyh) which can be seen as not only as way to uniquely identify each card but also to reveal patterns previously obscured.
+**TZI Cards** incorporate a new figure, the [TZI Glyph](tzi-glpyh) which can be seen as not only as way to uniquely identify each card but also to reveal patterns previously obscured.
       
 ### TZI Cards vs Traditional Playing Cards
-If you are already familiar with playing games with traditional playing cards, in order to help explain the organization of a deck of TZI Cards, here are a few key differences that can be kept in mind...
+If you are already familiar with traditional playing cards here are a few key differences to keep in mind...
 
 #### Seniority vs Rank
 
@@ -26,12 +26,14 @@ By contrast, TZI Cards instead are composed of five [Elements](elements): [Wood]
 
 #### Animals vs Numbered and Face Cards
 
-Though each TZI Card has an [order](order) that goes into determining their [seniority](seniority), they are usually referred to by using a combination of the [element](elements) and [animal](animals) that appear on the card.
+Though each TZI Card has an [order](order) and [seniority](seniority), they are usually referred to by using a combination of the [element](elements) and [animal](animals) that appear on the card.
 
-Since there are five elements and twelve animals, this produces a deck of sixty cards, as opposed to the fourty-eight in a deck of tradtional playing cards.
+Since there are five elements and twelve animals, this produces a deck of sixty cards, in contrast to the fourty-eight in a deck of tradtional playing cards.
 
 #### The Sky is the Limit
 
 Many games that can be played with traditional playing cards can be adapted to play with the TZI Cards deck.
 
 We encourage you to try playing your favourite card game with the TZI Cards deck (e.g. Rummy, Poker, etc.). Children's games like Old Maid or Go Fish can be fun as well!
+
+Next Up -> [Games](games)

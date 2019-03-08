@@ -7,13 +7,8 @@ chapter: 1
 section: 1
 excerpt: "Every card contains a unique combination of signs and symbols and words"
 ---
-<blockquote>
-    <p>
-        Every symbol has many names, every name has many symbols.
-        <br />
-        <small>~Mu Mao~ <em>The Book of TZI</em></small>
-    </p>
-</blockquote>
+
+>Every symbol has many names, every name has many symbols. <br /><br />~Mu Mao~ The Book of TZI
 
 The TZI cards are composed using a combination of numbers and symbols. All words on the cards are expressed using [Traditional Chinese](https://en.wikipedia.org/wiki/Traditional_Chinese_characters "Traditional Chinese Characters") and modern [Pinyin](https://en.wikipedia.org/wiki/Pinyin "Pinyin") to assist with pronunciation. Each card contains the following parts:
 
