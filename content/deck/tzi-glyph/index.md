@@ -7,6 +7,8 @@ section: 1
 subsection: 4
 excerpt: "The lines and dots in each TZI Glyph are unique and can be decoded to reveal different layers of meaning"
 ---
+Visually inspired by the [Trigram of Heaven](trigram): ☰. The TZI Glyph can be used as a key to differentiate each card and reveal patterns that exist between the cards.
+
 * [The Trigram of Heaven](trigram "Trigram of Heaven")
 * Vertical Bars
   * Indicates which [square](formations#squares "Squares") the animal belongs to
