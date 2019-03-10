@@ -17,7 +17,7 @@ Guided by the [TZI Glyph](tzi-glyph), players compete against opponents to build
 ### 2 - 6 Players, 30 Minutes, Ages 8+
 Official Rules Coming Soon
 #### Summary
-A trick taking game where players compete to collect the majority of tricks. Game focuses on [seniority](seniority "Seniority"), the [animals](animals "Animals") and the [elements](elements "Elements").
+A trick-taking game. Players compete to collect the most of tricks. Game focuses on [seniority](seniority "Seniority"), the [animals](animals "Animals") and the [elements](elements "Elements").
 
 ---
 ## Dojo
