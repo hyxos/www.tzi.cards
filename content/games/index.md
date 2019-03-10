@@ -3,7 +3,7 @@ slug: games
 title: "Games from TZI Land"
 ---
 >Translating ancient Chinese metaphysics into game rules 
-is more difficult than I anticipated.<br /><br /> ~Mu Mao~ - **The Book of TZI**
+is more difficult than we anticipated.<br /><br /> ~Mu Mao~ - **The Book of TZI**
 
 ---
 ## Tǔ Zǐ

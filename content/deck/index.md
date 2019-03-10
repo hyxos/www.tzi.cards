@@ -7,7 +7,7 @@ title: "The TZI Deck"
 TZI Cards draw their inspiration from a variety of sources, primarily the ancient Chinese system of *Ganzhi*. (See [Lore](lore)).
 
 ## A New Beginning
-**TZI Cards** incorporate a new figure, the [TZI Glyph](tzi-glpyh) which can be seen as not only as way to uniquely identify each card but also to reveal patterns previously obscured.
+**TZI Cards** incorporate a new figure, the [TZI Glyph](tzi-glpyh) which can be seen as not only as way to uniquely identify each card but also to reveal patterns previously obscured (See [Formations](formations)).
       
 ### TZI Cards vs Traditional Playing Cards
 If you are already familiar with traditional playing cards here are a few key differences to keep in mind...
@@ -28,7 +28,7 @@ By contrast, TZI Cards instead are composed of five [Elements](elements): [Wood]
 
 Though each TZI Card has an [order](order) and [seniority](seniority), they are usually referred to by using a combination of the [element](elements) and [animal](animals) that appear on the card.
 
-Since there are five elements and twelve animals, this produces a deck of sixty cards, in contrast to the fourty-eight in a deck of tradtional playing cards.
+Since there are five elements and twelve animals, this produces a deck of sixty cards, in contrast to the fifty-two in a deck of tradtional playing cards.
 
 #### The Sky is the Limit
 
