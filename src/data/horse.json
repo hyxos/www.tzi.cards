@@ -1,7 +1,10 @@
 {
    "title": "Horse",
+   "slug": "horse",
+   "latin": "wu",
    "kind": "animal",
    "order": 7,
+   "polarity": "yang",
    "animal": "horse",
    "animal_chinese": "马",
    "animal_pinyin": "mǎ",

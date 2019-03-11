@@ -1,7 +1,10 @@
 {
    "title": "Sheep",
+   "slug": "sheep",
+   "latin": "wei",
    "kind": "animal",
    "order": 8,
+   "polarity": "yin",
    "animal": "sheep",
    "animal_chinese": "羊",
    "animal_pinyin": "yáng",

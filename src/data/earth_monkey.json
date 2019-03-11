@@ -1,7 +1,10 @@
 {
    "title": "Earth Monkey",
+   "slug": "earth-monkey",
+   "snake": "earth_monkey",
    "kind": "niandai",
    "seniority": 45,
+   "cohort": 4,
    "order": 9,
    "color": "yellow",
    "element": "earth",

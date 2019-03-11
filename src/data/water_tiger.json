@@ -1,7 +1,10 @@
 {
    "title": "Water Tiger",
+   "slug": "water-tiger",
+   "snake": "water_tiger",
    "kind": "niandai",
    "seniority": 39,
+   "cohort": 4,
    "order": 3,
    "color": "blue",
    "element": "water",

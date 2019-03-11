@@ -1,7 +1,10 @@
 {
    "title": "Fire Monkey",
+   "slug": "fire-monkey",
+   "snake": "fire_monkey",
    "kind": "niandai",
    "seniority": 33,
+   "cohort": 3,
    "order": 9,
    "color": "red",
    "element": "fire",

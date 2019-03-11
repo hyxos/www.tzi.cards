@@ -1,7 +1,10 @@
 {
    "title": "Metal Pig",
+   "slug": "metal-pig",
+   "snake": "metal_pig",
    "kind": "niandai",
    "seniority": 48,
+   "cohort": 4,
    "order": 12,
    "color": "black",
    "element": "metal",

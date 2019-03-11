@@ -1,7 +1,10 @@
 {
    "title": "Earth Dragon",
+   "slug": "earth-dragon",
+   "snake": "earth_dragon",
    "kind": "niandai",
    "seniority": 5,
+   "cohort": 1,
    "order": 5,
    "color": "yellow",
    "element": "earth",

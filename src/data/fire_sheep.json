@@ -1,7 +1,10 @@
 {
    "title": "Fire Sheep",
+   "slug": "fire-sheep",
+   "snake": "fire_sheep",
    "kind": "niandai",
    "seniority": 44,
+   "cohort": 4,
    "order": 8,
    "color": "red",
    "element": "fire",

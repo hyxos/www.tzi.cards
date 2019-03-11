@@ -1,7 +1,10 @@
 {
    "title": "Dragon",
+   "slug": "dragon",
+   "latin": "chen",
    "kind": "animal",
    "order": 5,
+   "polarity": "yang",
    "animal": "dragon",
    "animal_chinese": "龙",
    "animal_pinyin": "lóng",

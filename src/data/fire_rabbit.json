@@ -1,7 +1,10 @@
 {
    "title": "Fire Rabbit",
+   "slug": "fire-rabbit",
+   "snake": "fire_rabbit",
    "kind": "niandai",
    "seniority": 4,
+   "cohort": 1,
    "order": 4,
    "color": "red",
    "element": "fire",

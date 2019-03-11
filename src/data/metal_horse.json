@@ -1,7 +1,10 @@
 {
    "title": "Metal Horse",
+   "slug": "metal-horse",
+   "snake": "metal_horse",
    "kind": "niandai",
    "seniority": 7,
+   "cohort": 1,
    "order": 7,
    "color": "black",
    "element": "metal",

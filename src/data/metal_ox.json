@@ -1,7 +1,10 @@
 {
    "title": "Metal Ox",
+   "slug": "metal-ox",
+   "snake": "metal_ox",
    "kind": "niandai",
    "seniority": 38,
+   "cohort": 4,
    "order": 2,
    "color": "black",
    "element": "metal",

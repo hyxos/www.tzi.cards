@@ -1,7 +1,10 @@
 {
    "title": "Earth Tiger",
+   "slug": "earth-tiger",
+   "snake": "earth_tiger",
    "kind": "niandai",
    "seniority": 15,
+   "cohort": 2,
    "order": 3,
    "color": "yellow",
    "element": "earth",

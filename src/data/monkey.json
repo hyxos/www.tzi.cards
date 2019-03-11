@@ -1,7 +1,10 @@
 {
    "title": "Monkey",
+   "slug": "monkey",
+   "latin": "shen",
    "kind": "animal",
    "order": 9,
+   "polarity": "yang",
    "animal": "monkey",
    "animal_chinese": "猴",
    "animal_pinyin": "hóu",

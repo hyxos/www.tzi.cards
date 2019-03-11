@@ -1,7 +1,10 @@
 {
    "title": "Wood Rabbit",
+   "slug": "wood-rabbit",
+   "snake": "wood_rabbit",
    "kind": "niandai",
    "seniority": 52,
+   "cohort": 5,
    "order": 4,
    "color": "green",
    "element": "wood",

@@ -1,7 +1,10 @@
 {
    "title": "Fire Pig",
+   "slug": "fire-pig",
+   "snake": "fire_pig",
    "kind": "niandai",
    "seniority": 24,
+   "cohort": 2,
    "order": 12,
    "color": "red",
    "element": "fire",

@@ -1,7 +1,10 @@
 {
    "title": "Water Dog",
+   "slug": "water-dog",
+   "snake": "water_dog",
    "kind": "niandai",
    "seniority": 59,
+   "cohort": 5,
    "order": 11,
    "color": "blue",
    "element": "water",

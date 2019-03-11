@@ -1,7 +1,10 @@
 {
    "title": "Water Horse",
+   "slug": "water-horse",
+   "snake": "water_horse",
    "kind": "niandai",
    "seniority": 19,
+   "cohort": 2,
    "order": 7,
    "color": "blue",
    "element": "water",

@@ -1,7 +1,10 @@
 {
    "title": "Pig",
+   "slug": "pig",
+   "latin": "hai",
    "kind": "animal",
    "order": 12,
+   "polarity": "yin",
    "animal": "pig",
    "animal_chinese": "猪",
    "animal_pinyin": "zhū",

@@ -1,7 +1,10 @@
 {
    "title": "Tiger",
+   "slug": "tiger",
+   "latin": "yin",
    "kind": "animal",
    "order": 3,
+   "polarity": "yang",
    "animal": "tiger",
    "animal_chinese": "虎",
    "animal_pinyin": "hǔ",

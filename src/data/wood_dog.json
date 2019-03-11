@@ -1,7 +1,10 @@
 {
    "title": "Wood Dog",
+   "slug": "wood-dog",
+   "snake": "wood_dog",
    "kind": "niandai",
    "seniority": 11,
+   "cohort": 1,
    "order": 11,
    "color": "green",
    "element": "wood",

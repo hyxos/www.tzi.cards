@@ -1,7 +1,10 @@
 {
    "title": "Earth Sheep",
+   "slug": "earth-sheep",
+   "snake": "earth_sheep",
    "kind": "niandai",
    "seniority": 56,
+   "cohort": 5,
    "order": 8,
    "color": "yellow",
    "element": "earth",

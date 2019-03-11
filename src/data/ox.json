@@ -1,7 +1,10 @@
 {
    "title": "Ox",
+   "slug": "ox",
+   "latin": "cho",
    "kind": "animal",
    "order": 2,
+   "polarity": "yin",
    "animal": "ox",
    "animal_chinese": "牛",
    "animal_pinyin": "niú",

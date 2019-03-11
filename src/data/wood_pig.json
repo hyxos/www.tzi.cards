@@ -1,7 +1,10 @@
 {
    "title": "Wood Pig",
+   "slug": "wood-pig",
+   "snake": "wood_pig",
    "kind": "niandai",
    "seniority": 12,
+   "cohort": 1,
    "order": 12,
    "color": "green",
    "element": "wood",

@@ -1,7 +1,10 @@
 {
    "title": "Earth Pig",
+   "slug": "earth-pig",
+   "snake": "earth_pig",
    "kind": "niandai",
    "seniority": 36,
+   "cohort": 3,
    "order": 12,
    "color": "yellow",
    "element": "earth",

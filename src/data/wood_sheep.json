@@ -1,7 +1,10 @@
 {
    "title": "Wood Sheep",
+   "slug": "wood-sheep",
+   "snake": "wood_sheep",
    "kind": "niandai",
    "seniority": 32,
+   "cohort": 3,
    "order": 8,
    "color": "green",
    "element": "wood",

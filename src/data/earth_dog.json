@@ -1,7 +1,10 @@
 {
    "title": "Earth Dog",
+   "slug": "earth-dog",
+   "snake": "earth_dog",
    "kind": "niandai",
    "seniority": 35,
+   "cohort": 3,
    "order": 11,
    "color": "yellow",
    "element": "earth",

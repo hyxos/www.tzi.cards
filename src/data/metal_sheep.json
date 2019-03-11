@@ -1,7 +1,10 @@
 {
    "title": "Metal Sheep",
+   "slug": "metal-sheep",
+   "snake": "metal_sheep",
    "kind": "niandai",
    "seniority": 8,
+   "cohort": 1,
    "order": 8,
    "color": "black",
    "element": "metal",

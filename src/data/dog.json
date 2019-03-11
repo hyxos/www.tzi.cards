@@ -1,7 +1,10 @@
 {
    "title": "Dog",
+   "slug": "dog",
+   "latin": "shu",
    "kind": "animal",
    "order": 11,
+   "polarity": "yang",
    "animal": "dog",
    "animal_chinese": "狗",
    "animal_pinyin": "gǒu",

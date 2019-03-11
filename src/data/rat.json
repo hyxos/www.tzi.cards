@@ -1,7 +1,10 @@
 {
    "title": "Rat",
+   "slug": "rat",
+   "latin": "tzi",
    "kind": "animal",
    "order": 1,
+   "polarity": "yang",
    "animal": "rat",
    "animal_chinese": "鼠",
    "animal_pinyin": "shǔ",

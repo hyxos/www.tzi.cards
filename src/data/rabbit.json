@@ -1,7 +1,10 @@
 {
    "title": "Rabbit",
+   "slug": "rabbit",
+   "latin": "mao",
    "kind": "animal",
    "order": 4,
+   "polarity": "yin",
    "animal": "rabbit",
    "animal_chinese": "兔",
    "animal_pinyin": "tù",

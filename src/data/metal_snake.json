@@ -1,7 +1,10 @@
 {
    "title": "Metal Snake",
+   "slug": "metal-snake",
+   "snake": "metal_snake",
    "kind": "niandai",
    "seniority": 18,
+   "cohort": 2,
    "order": 6,
    "color": "black",
    "element": "metal",

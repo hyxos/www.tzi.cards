@@ -1,7 +1,10 @@
 {
    "title": "Wood Rat",
+   "slug": "wood-rat",
+   "snake": "wood_rat",
    "kind": "niandai",
    "seniority": 1,
+   "cohort": 1,
    "order": 1,
    "color": "green",
    "element": "wood",

@@ -1,7 +1,10 @@
 {
    "title": "Water Pig",
+   "slug": "water-pig",
+   "snake": "water_pig",
    "kind": "niandai",
    "seniority": 60,
+   "cohort": 5,
    "order": 12,
    "color": "blue",
    "element": "water",

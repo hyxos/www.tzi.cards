@@ -1,7 +1,10 @@
 {
    "title": "Water Rabbit",
+   "slug": "water-rabbit",
+   "snake": "water_rabbit",
    "kind": "niandai",
    "seniority": 40,
+   "cohort": 4,
    "order": 4,
    "color": "blue",
    "element": "water",

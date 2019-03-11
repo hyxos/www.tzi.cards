@@ -1,7 +1,10 @@
 {
    "title": "Wood Rooster",
+   "slug": "wood-rooster",
+   "snake": "wood_rooster",
    "kind": "niandai",
    "seniority": 22,
+   "cohort": 2,
    "order": 10,
    "color": "green",
    "element": "wood",

@@ -1,7 +1,10 @@
 {
    "title": "Wood Dragon",
+   "slug": "wood-dragon",
+   "snake": "wood_dragon",
    "kind": "niandai",
    "seniority": 41,
+   "cohort": 4,
    "order": 5,
    "color": "green",
    "element": "wood",

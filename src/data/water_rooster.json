@@ -1,7 +1,10 @@
 {
    "title": "Water Rooster",
+   "slug": "water-rooster",
+   "snake": "water_rooster",
    "kind": "niandai",
    "seniority": 10,
+   "cohort": 1,
    "order": 10,
    "color": "blue",
    "element": "water",

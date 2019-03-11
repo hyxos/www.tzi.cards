@@ -1,7 +1,10 @@
 {
    "title": "Metal Rooster",
+   "slug": "metal-rooster",
+   "snake": "metal_rooster",
    "kind": "niandai",
    "seniority": 58,
+   "cohort": 5,
    "order": 10,
    "color": "black",
    "element": "metal",

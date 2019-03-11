@@ -1,7 +1,10 @@
 {
    "title": "Earth Horse",
+   "slug": "earth-horse",
+   "snake": "earth_horse",
    "kind": "niandai",
    "seniority": 55,
+   "cohort": 5,
    "order": 7,
    "color": "yellow",
    "element": "earth",

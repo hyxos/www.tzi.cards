@@ -1,7 +1,10 @@
 {
    "title": "Fire Ox",
+   "slug": "fire-ox",
+   "snake": "fire_ox",
    "kind": "niandai",
    "seniority": 14,
+   "cohort": 2,
    "order": 2,
    "color": "red",
    "element": "fire",

@@ -1,7 +1,10 @@
 {
    "title": "Water Ox",
+   "slug": "water-ox",
+   "snake": "water_ox",
    "kind": "niandai",
    "seniority": 50,
+   "cohort": 5,
    "order": 2,
    "color": "blue",
    "element": "water",

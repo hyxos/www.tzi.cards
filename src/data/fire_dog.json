@@ -1,7 +1,10 @@
 {
    "title": "Fire Dog",
+   "slug": "fire-dog",
+   "snake": "fire_dog",
    "kind": "niandai",
    "seniority": 23,
+   "cohort": 2,
    "order": 11,
    "color": "red",
    "element": "fire",

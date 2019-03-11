@@ -1,7 +1,10 @@
 {
    "title": "Wood Horse",
+   "slug": "wood-horse",
+   "snake": "wood_horse",
    "kind": "niandai",
    "seniority": 31,
+   "cohort": 3,
    "order": 7,
    "color": "green",
    "element": "wood",

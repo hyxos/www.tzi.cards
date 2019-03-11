@@ -1,7 +1,10 @@
 {
    "title": "Wood Monkey",
+   "slug": "wood-monkey",
+   "snake": "wood_monkey",
    "kind": "niandai",
    "seniority": 21,
+   "cohort": 2,
    "order": 9,
    "color": "green",
    "element": "wood",

@@ -1,7 +1,10 @@
 {
    "title": "Fire Tiger",
+   "slug": "fire-tiger",
+   "snake": "fire_tiger",
    "kind": "niandai",
    "seniority": 3,
+   "cohort": 1,
    "order": 3,
    "color": "red",
    "element": "fire",

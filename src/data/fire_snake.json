@@ -1,7 +1,10 @@
 {
    "title": "Fire Snake",
+   "slug": "fire-snake",
+   "snake": "fire_snake",
    "kind": "niandai",
    "seniority": 54,
+   "cohort": 5,
    "order": 6,
    "color": "red",
    "element": "fire",

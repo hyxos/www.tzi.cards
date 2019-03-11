@@ -1,7 +1,10 @@
 {
    "title": "Earth Rabbit",
+   "slug": "earth-rabbit",
+   "snake": "earth_rabbit",
    "kind": "niandai",
    "seniority": 16,
+   "cohort": 2,
    "order": 4,
    "color": "yellow",
    "element": "earth",

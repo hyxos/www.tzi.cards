@@ -1,7 +1,10 @@
 {
    "title": "Earth Rat",
+   "slug": "earth-rat",
+   "snake": "earth_rat",
    "kind": "niandai",
    "seniority": 25,
+   "cohort": 3,
    "order": 1,
    "color": "yellow",
    "element": "earth",

@@ -1,7 +1,10 @@
 {
    "title": "Metal Tiger",
+   "slug": "metal-tiger",
+   "snake": "metal_tiger",
    "kind": "niandai",
    "seniority": 27,
+   "cohort": 3,
    "order": 3,
    "color": "black",
    "element": "metal",

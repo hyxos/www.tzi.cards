@@ -1,7 +1,10 @@
 {
    "title": "Rooster",
+   "slug": "rooster",
+   "latin": "yow",
    "kind": "animal",
    "order": 10,
+   "polarity": "yin",
    "animal": "rooster",
    "animal_chinese": "鸡",
    "animal_pinyin": "jī",

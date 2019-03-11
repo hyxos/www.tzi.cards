@@ -1,7 +1,10 @@
 {
    "title": "Water Rat",
+   "slug": "water-rat",
+   "snake": "water_rat",
    "kind": "niandai",
    "seniority": 49,
+   "cohort": 5,
    "order": 1,
    "color": "blue",
    "element": "water",

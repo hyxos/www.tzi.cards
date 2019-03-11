@@ -1,7 +1,10 @@
 {
    "title": "Water Snake",
+   "slug": "water-snake",
+   "snake": "water_snake",
    "kind": "niandai",
    "seniority": 30,
+   "cohort": 3,
    "order": 6,
    "color": "blue",
    "element": "water",

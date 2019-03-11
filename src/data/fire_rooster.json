@@ -1,7 +1,10 @@
 {
    "title": "Fire Rooster",
+   "slug": "fire-rooster",
+   "snake": "fire_rooster",
    "kind": "niandai",
    "seniority": 34,
+   "cohort": 3,
    "order": 10,
    "color": "red",
    "element": "fire",

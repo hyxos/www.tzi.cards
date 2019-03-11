@@ -1,7 +1,10 @@
 {
    "title": "Earth Rooster",
+   "slug": "earth-rooster",
+   "snake": "earth_rooster",
    "kind": "niandai",
    "seniority": 46,
+   "cohort": 4,
    "order": 10,
    "color": "yellow",
    "element": "earth",
