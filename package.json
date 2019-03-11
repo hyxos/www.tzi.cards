@@ -5,8 +5,8 @@
   "author": "hyxos.io <tzi@tzi.cards> (https://hyxos.io)",
   "repository": "https://github.com/hyxos/www.tzi.cards.git",
   "dependencies": {
-    "@emotion/core": "^10.0.7",
-    "@emotion/styled": "^10.0.7",
+    "@emotion/core": "^10.0.9",
+    "@emotion/styled": "^10.0.9",
     "@mdx-js/mdx": "^0.16.8",
     "@mdx-js/tag": "^0.16.8",
     "core-js": "^2.6.5",
@@ -51,6 +51,7 @@
     "react-live": "^1.12.0",
     "react-markdown": "^4.0.6",
     "react-share": "^2.4.0",
+    "react-simple-flex-grid": "^1.2.3",
     "react-typography": "^0.16.18",
     "semantic-ui-less": "^2.4.1",
     "semantic-ui-react": "^0.84.0",

@@ -91,6 +91,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        path: `${__dirname}/content/earthly-branches`,
+        name: 'earthly-branches',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         path: `${__dirname}/content/elements`,
         name: 'elements',
       },

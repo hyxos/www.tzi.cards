@@ -1,27 +1,31 @@
 import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
 import { css } from '@emotion/core'
-import { StaticQuery, graphql } from 'gatsby';
-
-export const gridCss = css`
-  .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-  }
-
-  .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-  }
-`
+import { Row, Col } from 'react-simple-flex-grid'
+import "react-simple-flex-grid/lib/main.css"
+import { navigate } from 'gatsby'
 
 const EarthlyBranchCell = props =>
-  <div>
-    {props.ch}
+  <div css={css`
+        text-align: center;
+        margin: 10px;
+        width: 90px;
+        border: 1px solid #eaeaea;
+        border-radius: 5px;
+        &:hover {background-color: #FAEBD7;  border: 1px solid #080808;};
+        `} 
+    onClick={() => {navigate(props.latin)}}>
+    <div css={css`
+      hieght: 100px;
+      font-family: serif;
+      font-size: 70px;
+      margin-bottom: none;
+    `}>
+      {props.ch}
+    </div>
+    <div>
+      {props.pinyin}
+    </div>
   </div>
 
 export default () => (
@@ -47,57 +51,57 @@ export default () => (
     render={data => {
       const cells = data.allDataJson.edges.map(({ node }) => (
         <div key={node.id}>
-          <EarthlyBranchCell ch={node.earthly_branch_chinese} pinyin={node.earthly_branch_pinyin} />
+          <EarthlyBranchCell ch={node.earthly_branch_chinese} latin={node.latin } pinyin={node.earthly_branch_pinyin} />
         </div>
         )
       )
-      
+
       return (
-        <div css={gridCss}>
-          <div className="row">
-            <div className="column">
+        <div>
+          <Row gutter={15} justify="space-around" align="middle">
+            <Col span={3}>
               {cells[0]}
-            </div>
-            <div className="column">
+            </Col>
+            <Col span={3}>
               {cells[4]}
-            </div>
-            <div className="column">
+            </Col>
+            <Col span={3}> 
               {cells[8]}
-            </div>
-          </div>
-          <div className="row">
-            <div className="column">
+            </Col>
+          </Row>
+          <Row gutter={15} justify="space-around">
+            <Col span={3}>
               {cells[9]}
-            </div>
-            <div className="column">
+            </Col>
+            <Col span={3}>
               {cells[1]}
-            </div>
-            <div className="column">
+            </Col>
+            <Col span={3}>
               {cells[5]}
-            </div>
-          </div>
-          <div className="row">
-            <div className="column">
+            </Col>
+          </Row>
+          <Row gutter={15} justify="space-around">
+            <Col span={3}>
               {cells[5]}
-            </div>
-            <div className="column">
+            </Col>
+            <Col span={3}>
               {cells[10]}
-            </div>
-            <div className="column">
+            </Col>
+            <Col span={3}>
               {cells[2]}
-            </div>
-          </div>
-          <div className="row">
-            <div className="column">
+            </Col>
+          </Row>
+          <Row gutter={15} justify="space-around">
+            <Col span={3}>
               {cells[3]}
-            </div>
-            <div className="column">
+            </Col>
+            <Col span={3}>
               {cells[7]}
-            </div>
-            <div className="column">
-              {cells[1]}
-            </div>
-          </div>
+            </Col>
+            <Col span={3}>
+              {cells[11]}
+            </Col>
+          </Row>
         </div>
       )
     }}

@@ -1,17 +1,18 @@
 const fs = require('fs')
 const path = require('path')
 const tzi = require('../data/tzi.json')
+let latin = ['tzi', 'cho', 'yeen', 'mao', 'chen', 'si', 'wu', 'wei', 'shen', 'yow', 'shu', 'hai']
 
 function capFirst(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-const indexMD = function (dirName, animalName, iconName, order = '', seniority = '') {
+const indexMD = function (dirName, animalName, iconName = '', order = '', seniority = '') {
     return `---
 slug: '${dirName}'
 title: '${animalName}'
 ${order ? ("order: " + order) : "seniority: " + seniority}
-icon: '${iconName}'
+${icon ? ("icon: " + iconName) : false}
 ---
 `
 }
@@ -32,6 +33,14 @@ for (i = 0; i < 12; i++) {
     let animalName = capFirst(tzi[i][6])
     let order = tzi[i][1]
     mkIndexFile(parentDir, dirName, indexMD(dirName, animalName, iconName, order))
+}
+
+for (i = 0; i < 12; i++) {
+  let parentDir = 'earthly-branches'
+  let dirName = latin[i]
+  let animalName = dirName
+  let order = tzi[i][1]
+  mkIndexFile(parentDir, dirName, indexMD(dirName, animalName, iconName, order))
 }
 
 for (let data of tzi) {

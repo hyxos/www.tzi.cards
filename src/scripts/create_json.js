@@ -41,7 +41,7 @@ for (let data of tzi) {
   crud.create(fileName, tziObject)
 }
 
-let latin = ['tzi', 'cho', 'yin', 'mao', 'chen', 'si', 'wu', 'wei', 'shen', 'yow', 'shu', 'hai']
+let latin = ['tzi', 'cho', 'yeen', 'mao', 'chen', 'si', 'wu', 'wei', 'shen', 'yow', 'shu', 'hai']
 let data = tzi
 
 for (i = 0; i < 12; i++) {
