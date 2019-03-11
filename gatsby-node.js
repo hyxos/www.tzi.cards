@@ -31,7 +31,7 @@ const createPosts = (createPage, createRedirect, edges) => {
         },
       })
     }
-    else if (node.frontmatter.order) {
+    else if (node.frontmatter.posttype === 'animal') {
       createPage({
         path: pagePath,
         component: path.resolve(`./src/templates/animal.js`),
@@ -44,7 +44,20 @@ const createPosts = (createPage, createRedirect, edges) => {
         },
       })
     }
-    else if (node.frontmatter.seniority) {
+    else if (node.frontmatter.posttype === 'earthly-branch') {
+      createPage({
+        path: pagePath,
+        component: path.resolve(`./src/templates/earthly_branch.js`),
+        context: {
+          id: node.id,
+          title: node.fields.title,
+          latin: node.fields.title.toLowerCase(),
+          prev,
+          next,
+        },
+      })
+    }
+    else if (node.frontmatter.posttype === 'niandai') {
       createPage({
         path: pagePath,
         component: path.resolve(`./src/templates/niandai.js`),
