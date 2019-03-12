@@ -6,64 +6,67 @@ const gridCss = css`
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5px;
   }
   .row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 5px;
   }
 
   .col {
     width: 32%;
+    text-align: center;
   }
 `
 
-export default function SquareGrid() {
+export default function SquareGrid({data}) {
   return (
     <div css={gridCss}>
       <div className="row">
         <div className="col">
-          <img src="https://via.placeholder.com/100" />
+          {data[0]}
         </div>
         <div className="col">
-          <img src="https://via.placeholder.com/100" />
+          {data[4]}
         </div>
         <div className="col">
-          <img src="https://via.placeholder.com/100" />
-        </div>  
+          {data[8]}
+        </div>
       </div>
       <div className="row">
         <div className="col">
-          <img src="https://via.placeholder.com/100" />
+          {data[9]}
         </div>
         <div className="col">
-          <img src="https://via.placeholder.com/100" />
+          {data[1]}
         </div>
         <div className="col">
-          <img src="https://via.placeholder.com/100" />
-        </div>  
-      </div><div className="row">
+          {data[5]}
+        </div>
+      </div>
+      <div className="row">
         <div className="col">
-          <img src="https://via.placeholder.com/100" />
+          {data[6]}
         </div>
         <div className="col">
-          <img src="https://via.placeholder.com/100" />
+          {data[10]}
         </div>
         <div className="col">
-          <img src="https://via.placeholder.com/100" />
-        </div>  
-      </div><div className="row">
+          {data[2]}
+        </div>
+      </div>
+      <div className="row">
         <div className="col">
-          <img src="https://via.placeholder.com/100" />
+          {data[3]}
         </div>
         <div className="col">
-          <img src="https://via.placeholder.com/100" />
+          {data[7]}
         </div>
         <div className="col">
-          <img src="https://via.placeholder.com/100" />
-        </div>  
+          {data[11]}
+        </div>
       </div>
     </div>
   )
