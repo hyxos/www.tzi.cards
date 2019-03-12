@@ -65,7 +65,7 @@ function LunarCalculator () {
 
   useEffect(() => {
     setDate(moment(`${month + " " +  day + " " + year}`))
-  })
+  }, [])
 
   return (
     <StaticQuery
