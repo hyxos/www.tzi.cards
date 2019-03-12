@@ -5,13 +5,13 @@ title: "Fighting Numbers"
 ## Fighting Numbers
 ### 2 - 6 players, 30 minutes, Ages 8+
 
-A trick taking game where players compete individually, or in partners, to achieve a winning score of 12. 
+A trick taking game where players compete to achieve a winning score of 12. 
 
 4 or 6 player game is played in partners. Partners sit opposite one another and tricks are collected together.
 
 Shuffle the deck
 First Rat deals
-Players (or partners) are trying to collect the majority of the tricks played in the round- 7 in total. Highest card (or lowest seniority) takes the trick. 
+Players (or partners) are trying to collect the most tricks played in the round- 7 in total. Highest card (or lowest seniority) takes the trick. 
 Deal 7 cards to each player. Remainder of deck is placed face down in the middle of the table and becomes the stockpile.
 First trick declares wangpai. Wangpai is determined at the beginning of each round. It is a special element and animal that beats other elements, despite actual seniority, and is decided in the first trick. In the case where more than one wangpai is played in a trick, lowest seniority wins.
 Each player looks through their hand and chooses one of their cards to submit for wangpai. When chosen, players place their card face down in front of them. Once all players have made a selection, players agree and all reveal their selections simultaneously. Highest rank wins wangpai, 1 being the highest, 60 the lowest.
