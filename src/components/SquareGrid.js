@@ -6,19 +6,17 @@ const gridCss = css`
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0;
+    margin-bottom: 5px;
   }
   .row {
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
     justify-content: space-between;
     align-items: center;
   }
 
   .col {
-    border: 1px solid black;
-    flex: 1;  
+    width: 32%;
   }
 `
 
