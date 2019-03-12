@@ -13,7 +13,7 @@ export default ({ data: { site } }) => {
       headerColor={theme.colors.white}
       headerBg={theme.brand.primary}
     >
-        <Container
+      <Container
         css={css`
           padding-bottom: 0;
         `}

@@ -7,17 +7,10 @@ section: 1
 subsection: 3
 excerpt: "There are twelve animals"
 ---
-There are 5 [cohorts](cohorts "Cohorts") of the twelve animals. They are always in the same [order](order "Order"), from Rat to Pig. The order is the number inside the hexagon.
 
-1. [Rat](rat 'Rat')
-1. [Ox](ox 'Ox')
-1. [Tiger](tiger 'Tiger')
-1. [Rabbit](rabbit 'Rabbit')
-1. [Dragon](dragon 'Dragon')
-1. [Snake](snake 'Snake')
-1. [Horse](horse 'Horse')
-1. [Sheep](sheep 'Sheep')
-1. [Monkey](monkey 'Monkey')
-1. [Rooster](rooster 'Rooster')
-1. [Dog](dog 'Dog')
-1. [Pig](pig 'Pig')
+import React from 'react'
+import AnimalGrid from '../../../src/components/AnimalGrid'
+
+<AnimalGrid/>
+
+There are many different versions of the story, but legend has it that Buddha invited all of the animals in the world to a race though only twelve showed up. These twelve became the the original animals of the Chinese Zodaic and their [order](order "Order") was determined during this epic event.

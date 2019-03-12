@@ -6,6 +6,8 @@ title: "The TZI Deck"
 
 TZI Cards draw their inspiration from a variety of sources, primarily the ancient Chinese system of *Ganzhi*. (See [Lore](lore)).
 
+The [elements](elements) and [animals](animals) of this system form the foundation upon which the deck is organized.
+
 ## A New Beginning
 **TZI Cards** incorporate a new figure, the [TZI Glyph](tzi-glpyh) which can be seen as not only as way to uniquely identify each card but also to reveal patterns previously obscured (See [Formations](formations)).
       
