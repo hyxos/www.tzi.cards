@@ -1,6 +1,7 @@
 ---
 slug: lore
 title: Lore
+banner: './tzi.png'
 ---
 
 [TZI Cards](https://www.tzi.cards) are organized according the ancient Chinese system of **Ganzhi (干支)**. The word, *TZI*, is a [romanization](https://en.wikipedia.org/wiki/Romanization) of the Chinese character [子](tzi), the first of the [Earthly Branches](earthly-branches). It is also associated with the first of the [animals](animals), the [Rat](rat).
