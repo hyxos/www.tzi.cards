@@ -25,7 +25,7 @@ export default function Index({ data: { site, allMdx } }) {
           Inspired by the cosmic patterns behind the ancient <em>Lunar Calendar</em>,{" "}
           <strong>TZI Cards</strong> is a unique deck of sixty bridge sized playing cards.
         </p>
-        <p><h3>Explore TZI Cards</h3>
+        <h3>Explore TZI Cards</h3>
           <ul>
             <li>
               Learn about the cards and see the details of the <Link to="/deck" aria-label="go to deck" activeClassName="active">Deck</Link>.
@@ -37,8 +37,6 @@ export default function Index({ data: { site, allMdx } }) {
               Learn about the backstory and <Link to="/lore" aria-label="go to deck" activeClassName="active" >Lore</Link>.
             </li>
           </ul>
-
-        </p>
         <hr />
         <div css={css`text-align: center;`}>
           <h2>Appearing at</h2>
@@ -52,11 +50,11 @@ export default function Index({ data: { site, allMdx } }) {
         </Link>
         </div>
         <hr />
-        <p css={css`text-align: center;`}>
+        <div css={css`text-align: center;`}>
         <h2>Lunar Year Calculator</h2>
           Calculate the Lunar New Years from 1900 to 2080.
         <LunarCalculator />
-        </p>
+        </div>
         <hr />
       </Container>
     </Layout>

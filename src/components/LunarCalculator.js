@@ -6,7 +6,7 @@ import { extendMoment } from 'moment-range'
 
 const moment = extendMoment(Moment);
 
-const lunarCalculatorlStyles= css`
+const lunarCalculatorlStyles = css`
 .container {
   margin: 20px;
   padding: 20px;
@@ -31,7 +31,7 @@ const findNiandai = (date, nianling) => {
   for (let niandai of nianling) {
     let { element, animal, years } = niandai.node
     let match = false
-    for ( let range of years) {
+    for (let range of years) {
       range = moment.range(range[0], range[1])
       if (range.contains(date)) {
         match = true
@@ -46,14 +46,14 @@ const findNiandai = (date, nianling) => {
       break
     }
     else {
-      
+
       continue
     }
-  } 
+  }
   return slug
 }
 
-function LunarCalculator () {
+function LunarCalculator() {
   const [date, setDate] = useState(new moment())
   const [month, setMonth] = useState(date.format('MMMM'))
   const [day, setDay] = useState(date.format('D'))
@@ -64,12 +64,12 @@ function LunarCalculator () {
   )
 
   useEffect(() => {
-    setDate(moment(`${month + " " +  day + " " + year}`))
-  }, [])
+    setDate(moment(`${month + " " + day + " " + year}`))
+  }, [month, day, year])
 
   return (
     <StaticQuery
-    query={graphql`
+      query={graphql`
       query newYears {
         allDataJson (filter: {kind: {eq: "niandai"}}){
           edges {
@@ -83,35 +83,35 @@ function LunarCalculator () {
         }
       }
     `}
-    render={data => (
-      <div css={lunarCalculatorlStyles}>
-      <div className="container">
-        <form action="#" onSubmit={event => {
-        event.preventDefault()
-        navigate(findNiandai(date, data.allDataJson.edges))
-      }}>
-          <span>
-            <label htmlFor="month">Month</label>
-            <select name="month" defaultValue={month} onChange={e => setMonth(e.target.value)}>
-              {optionMonths}
-            </select>
-          </span>
-          <span>
-            <label htmlFor="day">Day</label>
-            <input name="day" type="text" defaultValue={day} onChange={e => setDay(e.target.value)}></input>
-          </span>
-          <span>
-            <label htmlFor="year">Year</label>
-            <input name="year" type="text" defaultValue={year} onChange={e => setYear(e.target.value)}></input>
-          </span>
-          <span>
-            <input type="submit" className="button-blue" value="Go!"/>  
-          </span>
-        </form>
-      </div>
-    </div>
-    )}  
-  />
+      render={data => (
+        <div css={lunarCalculatorlStyles}>
+          <div className="container">
+            <form action="#" onSubmit={event => {
+              event.preventDefault()
+              navigate(findNiandai(date, data.allDataJson.edges))
+            }}>
+              <span>
+                <label htmlFor="month">Month</label>
+                <select name="month" defaultValue={month} onChange={e => setMonth(e.target.value)}>
+                  {optionMonths}
+                </select>
+              </span>
+              <span>
+                <label htmlFor="day">Day</label>
+                <input name="day" type="text" defaultValue={day} onChange={e => setDay(e.target.value)}></input>
+              </span>
+              <span>
+                <label htmlFor="year">Year</label>
+                <input name="year" type="text" defaultValue={year} onChange={e => setYear(e.target.value)}></input>
+              </span>
+              <span>
+                <input type="submit" className="button-blue" value="Go!" />
+              </span>
+            </form>
+          </div>
+        </div>
+      )}
+    />
   )
 }
 
