@@ -12,16 +12,27 @@ Fighting Numbers is a trick taking game where players compete to achieve a winni
 
 Play is divided into rounds. During each round, Wangpai is declared in the first trick, then players compete to win as many tricks that they can. In a 4- or 6-player game, players team up as partners. Partners sit opposite one another and tricks are collected together. Points are recorded at the end of the round.
 
+</div>
+
+<div id="seniority">
 
 ## Highest to Lowest
 
 For this game, seniority determines the winning card. Seniority is the number in the circle in the top left-hand corner of the the cards. It is a number between 1 and 60, 1 being the highest, or best card and 60 being the lowest, or worst card.
+
+</div>
+
+<div id="setup">
 
 ## Set up
 
 To play fighting numbers, you will need a pen and paper to keep track of scores from the rounds, and the TZI deck. Shuffle the cards and start dealing the cards face-up. The first player to get dealt a rat is the dealer for the first round. Deal moves clockwise for the following rounds.
 
 The dealer shuffles the cards again and gives each player 1 card at a time until all players have 7 cards. The remainder of the deck is placed face down in the middle of the table and becomes the stockpile. Those cards are out of play for the rest of the round, but become a holder for Wangpai. Players look at their hands and decide which card they're going to play for the first trick.
+
+</div>
+
+<div id="wangpai">
 
 ## Wangpai
 
@@ -32,9 +43,17 @@ Each player looks through their hand and chooses one of their cards to submit fo
 
 The Wangpai card is then placed face up on the top of the stock pile. For the remainder of the round, all cards sharing the *same element* or the *same animal* as the Wangpai card are considered Wangpai. 
 
+</div>
+
+<div id="winning-tricks">
+
+## Winning Tricks
+
 The losing cards from the first trick are taken by the winner and placed in front of them, face down. They have won the first trick, and now have the lead. Winner of the last trick always leads and play continues clockwise. 
 
-All players must play the same element that is lead, if they can. If unable to follow the element, the player may Wangpai the trick, or play any other card. Winner of the trick is the highest rank of Wangpai, otherwise the highest rank of the element lead. Remember lowest seniority is the highest rank. The winner of a trick leads the following trick.
+All players must play the same element that is lead, if they can. If unable to follow the element, the player may Wangpai the trick, or play any other card. Remember it is both the element and the animal that is Wangpai. 
+
+Winner of the trick is the highest rank of Wangpai, otherwise the highest rank of the element lead. Remember lowest seniority is the highest rank. The winner of a trick leads the following trick.
 
 Round continues until all 7 tricks are decided. Players (or partners) count how many tricks won.
 
