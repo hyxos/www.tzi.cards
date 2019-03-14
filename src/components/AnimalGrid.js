@@ -1,44 +1,58 @@
 import React from 'react'
 import TZIGrid from './TZIGrid'
-import { navigate } from 'gatsby'
+import { StaticQuery, graphql, navigate } from 'gatsby'
 import { css } from '@emotion/core'
+import Img from "gatsby-image"
 
 const animalLinkCss = css`
   &:hover {
     background-color: #eaeaea;
   }
 `
-// Import all of the files from the ../images/animals directory
-const importAll = require =>
-  require.keys().reduce((acc, next) => {
-    acc[next.replace("./", "")] = require(next);
-    return acc;
-  }, {});
 
-const images = importAll(
-  require.context("../images/animals/", false, /\.(png|jpe?g|svg)$/)
+export default () => (
+  <StaticQuery
+    query={graphql`
+    query {
+      allFile(filter: {
+        relativeDirectory: {eq: "animals"}
+        extension: {eq: "png"}
+    }) { 
+         edges {
+           node {
+            id
+            name
+            childImageSharp {
+            fluid(maxWidth: 300) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+           }
+         }
+       }
+     }
+    }
+    `}
+
+    render={data => {
+      let imgTags = data.allFile.edges.map(({ node }) => {  
+        let refStr = node.name.substring(0, node.name.length - 5)
+        return (
+          <div name={refStr} onClick={() => navigate(refStr)}>
+            <Img css={animalLinkCss} key={node.id} fluid={node.childImageSharp.fluid}  />
+          </div>
+      )})
+    
+      const animals = ["rat", "ox", "tiger", "rabbit", "dragon", "snake", "horse", "sheep", "monkey", "rooster", "dog", "pig" ]
+
+      // Sort image tags in proper order before sending to TZIGrid
+      imgTags = imgTags.sort(function(a,b) {
+        return animals.indexOf( a.props.name ) - animals.indexOf( b.props.name )})
+    
+      return (
+        <div>
+          <TZIGrid data={imgTags}/>
+        </div>
+      )
+    }}
+  />
 )
-  
-export default function AnimalGrid() {
-  // Map images into image tags
-  let imgTags = Object.keys(images).map(key => {  
-    let linkRef = key.substring(0, key.length - 9)
-    return (
-      <img css={animalLinkCss} key={key} src={images[key]} onClick={() => navigate(linkRef)} />
-  )})
-
-  const animals = ["rat", "ox", "tiger", "rabbit", "dragon", "snake", "horse", "sheep", "monkey", "rooster", "dog", "pig" ]
-  const imgstr = (animal) => `${animal}_icon.png`
-  const order = animals.map(imgstr)
-
-  // Sort image tags in proper order before sending to TZIGrid
-  imgTags = imgTags.sort(function(a,b) {
-    return order.indexOf( a.key ) - order.indexOf( b.key )})
-
-  return (
-    <div>
-      <TZIGrid data={imgTags}/>
-    </div>
-  )
-}
-

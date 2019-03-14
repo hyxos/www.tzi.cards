@@ -1,9 +1,8 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import { css } from '@emotion/core'
-import { Row, Col } from 'react-simple-flex-grid'
-import "react-simple-flex-grid/lib/main.css"
 import { navigate } from 'gatsby'
+import TZIGrid from './TZIGrid'
 
 const EarthlyBranchCell = props =>
   <div css={css`
@@ -58,50 +57,7 @@ export default () => (
 
       return (
         <div>
-          <Row gutter={15} justify="space-around" align="middle">
-            <Col span={3}>
-              {cells[0]}
-            </Col>
-            <Col span={3}>
-              {cells[4]}
-            </Col>
-            <Col span={3}> 
-              {cells[8]}
-            </Col>
-          </Row>
-          <Row gutter={15} justify="space-around">
-            <Col span={3}>
-              {cells[9]}
-            </Col>
-            <Col span={3}>
-              {cells[1]}
-            </Col>
-            <Col span={3}>
-              {cells[5]}
-            </Col>
-          </Row>
-          <Row gutter={15} justify="space-around">
-            <Col span={3}>
-              {cells[5]}
-            </Col>
-            <Col span={3}>
-              {cells[10]}
-            </Col>
-            <Col span={3}>
-              {cells[2]}
-            </Col>
-          </Row>
-          <Row gutter={15} justify="space-around">
-            <Col span={3}>
-              {cells[3]}
-            </Col>
-            <Col span={3}>
-              {cells[7]}
-            </Col>
-            <Col span={3}>
-              {cells[11]}
-            </Col>
-          </Row>
+          <TZIGrid data={cells} />
         </div>
       )
     }}
