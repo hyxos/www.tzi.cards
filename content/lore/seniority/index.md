@@ -1,19 +1,21 @@
 ---
 slug: "seniority"
-title: "Seniority of the Deck"
+title: "Seniority"
 tags: ['game', 'introduction', 'instructions', 'seniority']
 chapter: 1
 section: 4
 excerpt: "The Earthly Branches and Heavenly Stems combine to form a set of sixty units that follow a specific order."
+banner: seniority.png
 ---
 
-TZI Cards are inspired by the ancient system of Ganzhi. This system creates a product of the matrix of the Twelve Earthly Branches and Ten Heavenly Stems that follow a specific order.
+## Number One is First  
+Each card has their [seniority](seniority) indicated in the top left hand corner inside a circle. The numbers range from one ([Wood Rat](wood-rat)), to sixty ([Water Pig](water-pig)).  
 
-Each card has their *seniority* indicated in the top left hand corner inside a circle. The number is between 1 and 60.
+### Respect your Elders
+*Seniority* is the opposite of *rank* in traditional playing cards. (1) is the highest while (60) is the lowest.
 
-One (Wood Rat) is the highest seniority while sixty (Water Pig) is the lowest seniority.
-
-An index key card of the 60 glyphs in seniority, arranged in their cohorts, is included in a standard TZI deck.
+### But why? 
+The matrix product of the [Twelve Earthly Branches](earthly-branches) and [Ten Heavenly Stems](heavenly-stems) follow a specific order.
 
 <img alt="Glyph Index" src="images/glyph_card_90.png" style="width: 700px"/>
-
+<small>An index key card of the 60 glyphs in seniority, arranged in their cohorts, is included in a standard TZI deck.</small>

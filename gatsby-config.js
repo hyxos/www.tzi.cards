@@ -70,6 +70,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        path: `${__dirname}/content/formations`,
+        name: 'formations',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         path: `${__dirname}/content/games/tu-zi`,
         name: 'tu-zi',
       },

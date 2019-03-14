@@ -37,16 +37,17 @@ export default () => (
     `}
 
     render={data => {
-      let imgTags = data.allFile.edges.map(({ node }) => {  
-        let refStr = `glyphs/${node.name.substring(0, node.name.length - 6)}`
+      let imgTags = data.allFile.edges.map(({ node }) => {
+        let name = node.name.substring(0, node.name.length - 6)
+        let refStr = `glyphs/${name}`
         return (
-          <div name={refStr} css={glyphLinkCss} onClick={() => navigate(refStr)}>
-            <Img key={node.id} fluid={node.childImageSharp.fluid}  />
+          <div key={node.id} name={name} css={glyphLinkCss} onClick={() => navigate(refStr)}>
+            <Img fluid={node.childImageSharp.fluid}  />
           </div>
       )})
     
       let latin = ['tzi', 'cho', 'yeen', 'mao', 'chen', 'si', 'wu', 'wei', 'shen', 'yow', 'shu', 'hai']
-
+      console.log(imgTags)
       // Sort image tags in proper order before sending to TZIGrid
       imgTags = imgTags.sort(function(a,b) {
         return latin.indexOf( a.props.name ) - latin.indexOf( b.props.name )})

@@ -1,0 +1,4 @@
+---
+slug: triumvirate
+title: Triumvirate
+---

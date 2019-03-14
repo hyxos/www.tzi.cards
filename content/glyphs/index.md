@@ -1,6 +1,6 @@
 ---
 slug: "glyphs"
-title: "The Anatomy of a TZI Glyph"
+title: "The Twelve Glyphs"
 tags: ['game', 'introduction', 'instructions', 'glyph']
 chapter: 1
 section: 1
@@ -14,11 +14,11 @@ import GlyphGrid from '../../src/components/GlyphGrid'
 <GlyphGrid/>
 <br />
 
-Visually inspired by the [Trigram of Heaven](trigram): ☰. The TZI Glyph can be used as a key to differentiate each card and reveal patterns that exist between the cards.
+Visually inspired by the [Trigram of Heaven](trigram): ☰. The [TZI Glyph](glyphs) differentiates each card and reveals  relationships between the cards through [formations](formations).
 
 * Vertical Bars
-  * Indicates which [square](formations#squares "Squares") the animal belongs to
+  * Indicate the [Square](squares "Square")
 * Horizontal Bars
-  * Indicates which [trine](formationss#trines "Trines") the animal belongs to
-* Dots and the Cardinal Directions
-  * Location or lack of represents which [elements](elements "Elements")
+  * Indicate the [Trine](trines "Trine")
+* Dots
+  * Indicate the [Element](elements "Element")
