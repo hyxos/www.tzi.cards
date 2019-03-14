@@ -110,6 +110,7 @@ export const GlyphQuery = graphql`
       edges {
         node {
           animal
+          kind
           title
           order
           latin

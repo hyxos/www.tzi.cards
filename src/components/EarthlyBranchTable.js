@@ -1,28 +1,43 @@
 import React from 'react'
 import { css } from '@emotion/core'
 import { navigate } from 'gatsby'
+import theme from '../../config/theme'
 
 const earthlyBranchStyles = css`
-    table {
-        border-collapse: collapse;
-        border: 1px solid #d3d3d3;
+  div {
+    text-align: center;
+    margin: 10px 10px;
+  }
+  div > table {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #d3d3d3;
+  }
+  caption {
+    border: 15px solid #757d75;
+    padding: 10px 15px;
+    background-color: #FAEBD7;
+  }
+  td, td:first-of-type {
+    border: 1px solid #cecfd5;
+    padding: 10px 15px;
+    margin: 10px;
+  }
+  .tablelink {
+    &:hover {
+      background-color: ${theme.brand.blue_light};
     }
-    caption {
-        border: 15px solid #757d75;
-        padding: 10px 15px;
-        background-color: #FAEBD7;
+  }
+  .captitle {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  .link {
+    color:  ${theme.brand.blue};
+    &:hover {
+      color: ${theme.colors.link_color_hover}
     }
-    td, td:first-of-type {
-        border: 1px solid #cecfd5;
-        padding: 10px 15px;
-        margin: 10px;
-    }
-    .center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-    }
+  }
 `
 
 const formatNiandai = (niandai) => {
@@ -30,7 +45,7 @@ const formatNiandai = (niandai) => {
   let ends = niandai[1]
   return (
     <tr key={begins + "-" + ends}>
-      <td colSpan="1">{begins}</td><td colSpan="1" >{ends}</td>
+      <td colSpan="2">{begins}</td><td colSpan="2" >{ends}</td>
     </tr>
   )
 }
@@ -43,50 +58,56 @@ const extractYears = (years) => {
 
 const EarthlyBranchTable = ({ data }) => {
   return (
-    <table css={earthlyBranchStyles}>
+    <div css={earthlyBranchStyles}>
+      <table>
         <caption>
-        <svg xmlns="http://www.w3.org/2000/svg"
-          width="300"
-          hieght="300"
-          viewBox="0 0 300 300">
-          <text x="50%" y="40%"
-            textAnchor="middle"
-            dominantBaseline="central"
-            fontFamily="serif"
-            fontSize="250px">{data.earthly_branch_chinese}
-          </text>
-          <text x="50%" y="92%"
-            textAnchor="middle"
-            dominantBaseline="central"
-            fontSize="35px">{data.earthly_branch_pinyin}
-          </text>
-        </svg>
-      </caption>
-      <tbody>
-        <tr>
-          <td colSpan="1">Order</td>
-          <td colSpan="2">{data.order}</td>
-        </tr>
-        <tr>
-          <td colSpan="1">Romanization</td>
-          <td colSpan="2">{data.latin}</td>
-        </tr>
-        <tr>
-          <td colSpan="1" onClick={() => {navigate("animals")}}>Animal</td>
-          <td colSpan="2" onClick={() => {navigate(data.animal)}}>{data.animal}</td>
-        </tr>
-        <tr>
-          <td colSpan="1">Meaning</td>
-          <td colSpan="2">{data.earthly_branch_meaning}</td>
-        </tr>
-        <tr>
-          <td colSpan="1" rowSpan={data.years.length + 1}>Years</td>
-          <td>Begins</td>
-          <td>Ends</td>
-        </tr>
-        {extractYears(data.years)}
-      </tbody>
-    </table>
+          <svg xmlns="http://www.w3.org/2000/svg"
+            width="300"
+            hieght="300"
+            viewBox="0 0 300 300">
+            <text x="50%" y="40%"
+              textAnchor="middle"
+              dominantBaseline="central"
+              fontFamily="serif"
+              fontSize="250px">{data.earthly_branch_chinese}
+            </text>
+            <text x="50%" y="92%"
+              textAnchor="middle"
+              dominantBaseline="central"
+              fontSize="35px">{data.earthly_branch_pinyin}
+            </text>
+          </svg>
+        </caption>
+        <tbody>
+          <tr>
+            <td colSpan="1">Order</td>
+            <td colSpan="4">{data.order}</td>
+          </tr>
+          <tr>
+            <td colSpan="1" className="tablelink" onClick={() => navigate('glyphs')}>Glyph</td>
+            <td colSpan="4" className="tablelink" onClick={() => navigate(`glyphs/${data.latin}`)}>{data.latin}</td>
+          </tr>
+          <tr>
+            <td className="tablelink" colSpan="1" onClick={() => navigate('animals')}>Animal</td>
+            <td colSpan="2" className="tablelink" onClick={() => navigate(data.animal)}>{data.animal}</td>
+            <td colSpan="1" className="tablelink" onClick={() => navigate(data.animal)}>{data.animal_chinese}</td>
+            <td colSpan="1" className="tablelink" onClick={() => navigate(data.animal)}>{data.animal_pinyin}</td>
+          </tr>
+          <tr>
+            <td className="tablelink" colSpan="1" onClick={() => navigate('earthly-branches')}>Earthly Branch</td>
+            <td colSpan="2" className="tablelink" onClick={() => navigate(data.latin)} >{data.earthly_branch_meaning}</td>
+            <td colSpan="1" className="tablelink" onClick={() => navigate(data.latin)}>{data.earthly_branch_chinese}</td>
+            <td colSpan="1" className="tablelink" onClick={() => navigate(data.latin)}>{data.earthly_branch_pinyin}</td>
+          </tr>
+          <tr>
+            <td colSpan="1" rowSpan={data.years.length + 1}>Years</td>
+            <td colSpan="2">Begins</td>
+            <td colSpan="2">Ends</td>
+          </tr>
+          {extractYears(data.years)}
+        </tbody>
+      </table>
+    </div>
   )
 }
 

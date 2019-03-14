@@ -21,14 +21,20 @@ const glyphStyles = css`
     padding: 10px 15px;
     margin: 10px;
   }
-  .link {
+  .tablelink {
     &:hover {
       background-color: ${theme.brand.blue_light};
     }
   }
   .captitle {
     font-size: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+  }
+  .link {
+    color:  ${theme.brand.blue};
+    &:hover {
+      color: ${theme.colors.link_color_hover}
+    }
   }
 `
 
@@ -52,23 +58,29 @@ const GlyphTable = ({ data }) => {
   return (
     <div css={glyphStyles}>
       <table>
-        {console.log(data)}
         <caption>
           <div className="captitle">{data.latin}</div>
-          <div>Order: {data.order}</div>
         </caption>
         <tbody>
           <tr>
-            <td className="link" colSpan="1" onClick={() => navigate('animals')}>Animal</td>
-            <td colSpan="2" className="link" onClick={() => navigate(data.animal)}>{data.animal}</td>
-            <td colSpan="1" className="link" onClick={() => navigate(data.animal)}>{data.animal_chinese}</td>
-            <td colSpan="1" className="link" onClick={() => navigate(data.animal)}>{data.animal_pinyin}</td>
+            <td colSpan="1">Order</td>
+            <td colSpan="4">{data.order}</td>
           </tr>
           <tr>
-            <td className="link" colSpan="1" onClick={() => navigate('earthly-branches')}>Earthly Branch</td>
-            <td colSpan="2" className="link" onClick={() => navigate(data.latin)} >{data.earthly_branch_meaning}</td>
-            <td colSpan="1" className="link" onClick={() => navigate(data.latin)}>{data.earthly_branch_chinese}</td>
-            <td colSpan="1" className="link" onClick={() => navigate(data.latin)}>{data.earthly_branch_pinyin}</td>
+            <td colSpan="1" className="tablelink" onClick={() => navigate('glyphs')}>Glyph</td>
+            <td colSpan="4" className="tablelink" onClick={() => navigate(`glyphs/${data.latin}`)}>{data.latin}</td>
+          </tr>
+          <tr>
+            <td className="tablelink" colSpan="1" onClick={() => navigate('animals')}>Animal</td>
+            <td colSpan="2" className="tablelink" onClick={() => navigate(data.animal)}>{data.animal}</td>
+            <td colSpan="1" className="tablelink" onClick={() => navigate(data.animal)}>{data.animal_chinese}</td>
+            <td colSpan="1" className="tablelink" onClick={() => navigate(data.animal)}>{data.animal_pinyin}</td>
+          </tr>
+          <tr>
+            <td className="tablelink" colSpan="1" onClick={() => navigate('earthly-branches')}>Earthly Branch</td>
+            <td colSpan="2" className="tablelink" onClick={() => navigate(data.latin)} >{data.earthly_branch_meaning}</td>
+            <td colSpan="1" className="tablelink" onClick={() => navigate(data.latin)}>{data.earthly_branch_chinese}</td>
+            <td colSpan="1" className="tablelink" onClick={() => navigate(data.latin)}>{data.earthly_branch_pinyin}</td>
           </tr>
           <tr>
             <td colSpan="1" rowSpan={data.years.length + 1}>Years</td>

@@ -30,14 +30,6 @@ export default function Animal({
         `}
       >
         <Container>
-          <h1
-            css={css`
-              text-align: center;
-              margin-bottom: 20px;
-            `}
-          >
-            {title}
-          </h1>
           <div
             css={css`
               display: flex;
@@ -110,7 +102,9 @@ export const animalQuery = graphql`
     }){
       edges {
         node {
+          latin
           title
+          animal
           order
           animal_chinese
           animal_pinyin
