@@ -1,5 +1,5 @@
 ---
-slug: "tzi-glyph"
+slug: "glyphs"
 title: "The Anatomy of a TZI Glyph"
 tags: ['game', 'introduction', 'instructions', 'glyph']
 chapter: 1

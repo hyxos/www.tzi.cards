@@ -21,4 +21,4 @@ title: 'In The Box'
 
 ### One standard 60 card [TZI deck](deck "Deck")
 
-The standard TZI deck is 60 cards, composed of 12 different [animals](animals "Animals") of 5 different [elements](elements "Elements"). Each animal is represented by a [glyph](tzi-glyph "Tzi Glyph") composed of horizontal and vertical bars, as well as two strategically placed dots. 
+The standard TZI deck is 60 cards, composed of 12 different [animals](animals "Animals") of 5 different [elements](elements "Elements"). Each animal is represented by a [glyph](glyphs "Tzi Glyph") composed of horizontal and vertical bars, as well as two strategically placed dots. 

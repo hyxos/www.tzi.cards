@@ -14,7 +14,7 @@ If you haven't yet done so, check out [The Anatomy of a TZI Card](tzi-card "TZI 
 
 ## Once upon a time...
 
-Little Tǔ Zǐ loved playing games, but the thing she loved the most was *winning* games. It turns out, that even though she doesn't have the most [seniority](seniority "Seniority"), her [TZI Glyph](tzi-glyph "TZI Glyph") gives her a special advantage.
+Little Tǔ Zǐ loved playing games, but the thing she loved the most was *winning* games. It turns out, that even though she doesn't have the most [seniority](seniority "Seniority"), her [TZI Glyph](glyphs "TZI Glyph") gives her a special advantage.
 
 ## [Game Play](tu-zi-game-play "Tǔ Zǐ Game Play")
 * [Overview](tu-zi-game-play#overview "Overview")

@@ -91,6 +91,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        path: `${__dirname}/content/glyphs`,
+        name: 'glyphs',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         path: `${__dirname}/content/earthly-branches`,
         name: 'earthly-branches',
       },

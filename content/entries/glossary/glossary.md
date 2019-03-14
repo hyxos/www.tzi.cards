@@ -30,7 +30,7 @@ diversity
 * A Special Hand where all four trines and three squares are diverse using all five elements.
 * Scores 180
 
-[glyph](tzi-glyph "TZI Glyph")
+[glyph](glyphs "TZI Glyph")
 * Unique symbol composed of three vertical bars, three horizontal bars and two strategically placed dots.
 
 [grid](formations#grid "Grid")

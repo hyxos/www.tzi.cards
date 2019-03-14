@@ -10,7 +10,7 @@ is more difficult than we anticipated.<br /><br /> ~Mu Mao~ - **The Book of TZI*
 ### 2 - 5 Players, 30-90 Minutes, Ages 10+
 [Official Rules](tu-zi)
 #### Summary
-Guided by the [TZI Glyph](tzi-glyph), players compete against opponents to build the most [powerful formation](formations).
+Guided by the [TZI Glyph](glyphs), players compete against opponents to build the most [powerful formation](formations).
 
 ---
 ## Fighting Numbers

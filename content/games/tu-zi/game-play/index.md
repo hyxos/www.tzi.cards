@@ -187,7 +187,7 @@ When/If the last player completes their formation, they draw from the stock pile
 
 #### What Makes You So Special?
 
-By now, if you have been paying attention and are starting to get to know your way around the TZI Glyphs, you'll probably have noticed that the TZI Glyphs on the default *formation card* aren't just any TZI Glyphs. That's right, they are all TZI Glyphs of a certain element, that element being *earth*. (If you still don't get it, no worries. Check out [The Antomy of a TZI Glyph](tzi-glyph "The Anatomy of a TZI Glyph"))
+By now, if you have been paying attention and are starting to get to know your way around the TZI Glyphs, you'll probably have noticed that the TZI Glyphs on the default *formation card* aren't just any TZI Glyphs. That's right, they are all TZI Glyphs of a certain element, that element being *earth*. (If you still don't get it, no worries. Check out [The Antomy of a TZI Glyph](glyphs "The Anatomy of a TZI Glyph"))
 
 That's because in addition to the *colour* of the cards, the *dots* on the TZI Glyphs tell you what *element* the card is.
 

@@ -16,7 +16,7 @@ The TZI cards are composed using a combination of numbers and symbols. All words
 * [Element](elements "Element")
 * [Animal](animals "Animal")
 * [Animal Order](animals "Animal Order")
-* [TZI Glyph](tzi-glyph "TZI Glyph")
+* [TZI Glyph](glyphs "TZI Glyph")
 * [Seniority](seniority "Seniority")
 * [Earthly Branch](earthly-branches "Earthly Branches")
 * [Heavenly Stem](heavenly-stems "Heavenly Stem")

@@ -10,7 +10,7 @@ import full_glyph from './full_glyph.png'
 
 Described in the ancient Chinese work called the *I Ching* (see *[The Book of Changes](https://en.wikipedia.org/wiki/I_Ching 'I Ching')*), the **Trigram of Heaven** is the foremost symbol of the *[Bagua](https://en.wikipedia.org/wiki/Bagua 'Bagua')* or eight symbols of Taoist cosmology.
 
-The Trigram of Heaven is the inspiration for the [TZI Glyph](tzi-glyph 'TZI Glyph'), which adds vertical bars instead of broken lines to differentiate between figures.
+The Trigram of Heaven is the inspiration for the [TZI Glyph](glyphs 'TZI Glyph'), which adds vertical bars instead of broken lines to differentiate between figures.
 
 The *full* glyph is shown as an example below.
 
