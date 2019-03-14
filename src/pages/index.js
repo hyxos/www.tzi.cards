@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import { css } from '@emotion/core'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
@@ -7,8 +8,10 @@ import LunarCalculator from '../components/LunarCalculator'
 import Container from 'components/Container'
 import theme from '../../config/theme'
 import boc from '../../content/blog/breakoutcon/breakout_con_logo.png'
+import { bpMaxSM } from '../lib/breakpoints'
 
-export default function Index({ data: { site, allMdx } }) {
+export default function Index({ data: { site, icon } }) {
+  const banner = icon
   return (
     <Layout
       site={site}
@@ -20,7 +23,22 @@ export default function Index({ data: { site, allMdx } }) {
         css={css`
           padding-bottom: 0;
         `}
-      >
+      > 
+      {banner && (
+        <div
+          css={css`
+            padding: 30px;
+            ${bpMaxSM} {
+              padding: 0;
+            }
+          `}
+        >
+          <Img
+            sizes={banner.childImageSharp.fluid}
+            alt="front_page"
+          />
+        </div>
+      )}
         <p>
           Inspired by the cosmic patterns behind the ancient <em>Lunar Calendar</em>,{" "}
           <strong>TZI Cards</strong> is a unique deck of sixty bridge sized playing cards.
@@ -67,6 +85,13 @@ export const pageQuery = graphql`
       ...site
       siteMetadata {
         title
+      }
+    }
+    icon: file(name: { eq: "front_page" } ) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
       }
     }
     allMdx(

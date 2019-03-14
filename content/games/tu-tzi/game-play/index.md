@@ -1,6 +1,6 @@
 ---
-slug: 'tu-zi-game-play'
-title: 'Tǔ Zǐ Game Play'
+slug: 'tu-tzi-game-play'
+title: 'Tu Tzi Game Play'
 ---
 
 ### 2-5 Players, 30-90 Minutes
@@ -8,13 +8,13 @@ title: 'Tǔ Zǐ Game Play'
 <div id="overview">
 
 ## Overview
-In Tǔ Zǐ, players compete to build the most *[Powerful Formations](formations#powerful-formations "Formations")* to score points and win! 
+In Tu Tzi, players compete to build the most *[Powerful Formations](formations#powerful-formations "Formations")* to score points and win! 
 
 Play is divided into rounds. During each round, players take turns *recruiting* by drawing cards, *building* by adding cards to their formation, and *discarding*. *See [Turn Actions](#turn-actions "turn actions").*
 
 A round ends when the last player has completed their formation, or the stock pile is gone, whichever comes first. *See [Completing Round](#complete-round "Completing Round").*
 
-Prior to scoring , if a player has the Tǔ Zǐ card in their formation, they get one last opportunity to swap a card. *See [Tǔ Zǐ Phase](#tu-zi-phase "Tu Zi Phase").*
+Prior to scoring , if a player has the Tu Tzi card in their formation, they get one last opportunity to swap a card. *See [Tu Tzi Phase](#tu-tzi-phase "Tu Zi Phase").*
 
 Points for the round are recorded, and deal passes to the left, or clockwise. *See [Scoring](#scoring "Scoring")*
 
@@ -105,11 +105,11 @@ A turn is composed of three phases:
 
 Start your turn by *recruiting*- draw a card, either from the stock pile, or the discard pile- and add it to your hand.
 
-Which card should you draw? Remember, the goal of Tǔ Zǐ is toget the most points, by building the most *powerful formation*.
+Which card should you draw? Remember, the goal of Tu Tzi is toget the most points, by building the most *powerful formation*.
 
 What makes a formation *powerful*? Building your formation is like building a team. If you were a coach trying to make the greatest basketball team *eva*, you could just take in any rando who comes in off the street, but unless you were just unimaginably lucky that strategy isn't gonna cut it. 
 
-All players have strengths and weaknesses, and some work together better than others. A *powerful formation* is one that has certain qualities. The qualities that make a great team in Tǔ Zǐ are *Diversity* and *Unity*, or some combination of the two. *Diversity* means all different elements and *Unity* means they are all the same element. The difficulty of making a *powerful formation* increases as the formation becomes more powerful.
+All players have strengths and weaknesses, and some work together better than others. A *powerful formation* is one that has certain qualities. The qualities that make a great team in Tu Tzi are *Diversity* and *Unity*, or some combination of the two. *Diversity* means all different elements and *Unity* means they are all the same element. The difficulty of making a *powerful formation* increases as the formation becomes more powerful.
 
 Check out the section on [formations](formations "Formations") to get a better idea of what you are trying to accomplish.
 
@@ -176,14 +176,14 @@ The main portion of the round is over when all players have completed their form
 
 A complete formation should consist of exactly three squares and four trines. Every one of the twelve animals should be represented, though the different elements may vary. For beginners, the TZI Glyphs from each card should line up like they do in the default *formation card*. (see [*formations*](formations "Formations") for information on alternate arrangements).
 
-When/If the last player completes their formation, they draw from the stock pile accordingly if there are any cards left in it, and then discard exactly as they would in any other turn. The game immediately moves to the Tǔ Zǐ phase.
+When/If the last player completes their formation, they draw from the stock pile accordingly if there are any cards left in it, and then discard exactly as they would in any other turn. The game immediately moves to the Tu Tzi phase.
 
-<div id="tu-zi-phase">
+<div id="tu-tzi-phase">
 
-### The Tǔ Zǐ Phase  
+### The Tu Tzi Phase  
 
-<img alt="Tǔ Zǐ" src="images/25_earth_rat_icon.png" style="width: 100px;" /><br />
-<small>Behold the all-powerful Tǔ Zǐ</small>
+<img alt="Tu Tzi" src="images/25_earth_rat_icon.png" style="width: 100px;" /><br />
+<small>Behold the all-powerful Tu Tzi</small>
 
 #### What Makes You So Special?
 
@@ -191,9 +191,9 @@ By now, if you have been paying attention and are starting to get to know your w
 
 That's because in addition to the *colour* of the cards, the *dots* on the TZI Glyphs tell you what *element* the card is.
 
-And the glyph for Tǔ Zǐ is the most simple of them all. It's just a centered, yellow, *vertical line*. That's because when there are *no dots*, we are always dealing with a TZI Glyph of the [element](elements "Elements") earth.
+And the glyph for Tu Tzi is the most simple of them all. It's just a centered, yellow, *vertical line*. That's because when there are *no dots*, we are always dealing with a TZI Glyph of the [element](elements "Elements") earth.
 
-<img alt="Tǔ Zǐ" src="images/25_earth_rat_glyph.png" style="width: 100px;"/>
+<img alt="Tu Tzi" src="images/25_earth_rat_glyph.png" style="width: 100px;"/>
 <br />
 <small><em>Consider this glyph to be like a super symbol on earth rat's chest</em></small>
 
@@ -207,20 +207,20 @@ If you were wondering why this game has such a silly name, well now you know. We
 <br />
 <br />
 
-So, even though play is over for everyone else, the player who has Tǔ Zǐ in their final formation gets to switch any ONE of the cards in their formation with a card from: 
+So, even though play is over for everyone else, the player who has Tu Tzi in their final formation gets to switch any ONE of the cards in their formation with a card from: 
 * Their own hand 
 * Another player’s formation
 * Another player’s hand (blind draw)
 * The top card in the stock pile
 * The top card in the discard pile
 
-If the player with Tǔ Zǐ takes a card from another player's formation, they must have a card to exchange (e.g. Player 1 takes *green dragon* from their formation and switches it with *red dragon* from Player 2's formation). They cannot simply take a card from another player's formation and add it to their own!
+If the player with Tu Tzi takes a card from another player's formation, they must have a card to exchange (e.g. Player 1 takes *green dragon* from their formation and switches it with *red dragon* from Player 2's formation). They cannot simply take a card from another player's formation and add it to their own!
 
-There is, however, one way to stay safe from that sly yellow rat, [*special hands*](formations#special-hands "Special Hands") are immune to Tǔ Zǐ! She isn't allowed to work her magic on any player whose formation is a special hand.
+There is, however, one way to stay safe from that sly yellow rat, [*special hands*](formations#special-hands "Special Hands") are immune to Tu Tzi! She isn't allowed to work her magic on any player whose formation is a special hand.
 
 #### What About Me?
 
-I know, by this point some of you may be crying out, "It's not fair!" that Tǔ Zǐ is so special. Well, for the standard game, you'll just have to live with it. However, in the *alternative rules*, each player gets to be their own Tǔ Zǐ for the bonus.
+I know, by this point some of you may be crying out, "It's not fair!" that Tu Tzi is so special. Well, for the standard game, you'll just have to live with it. However, in the *alternative rules*, each player gets to be their own Tu Tzi for the bonus.
 
 *Check out the [Alternative Rules](alt-rules "Alternative Rules").*
 
@@ -234,13 +234,13 @@ I know, by this point some of you may be crying out, "It's not fair!" that Tǔ Z
 
 At the end of each round, the points from each player's formation are calculated and added to the points of the previous round (if any).
 
-Building [*Powerful Formations*](formations#powerful-formations "Powerful Formations") is the bread and butter of winning at Tǔ Zǐ. But just what is it that makes these formations *powerful* in the first place? It's all about *probabilities*.
+Building [*Powerful Formations*](formations#powerful-formations "Powerful Formations") is the bread and butter of winning at Tu Tzi. But just what is it that makes these formations *powerful* in the first place? It's all about *probabilities*.
 
 ### Probably Maybe
 
 We won't get into [probabality mathematics](https://en.wikipedia.org/wiki/Probability "Probability") here, but the jist is this: The points scored for building each formation are related to the *probability* of getting that formation; the *lower* the probability, the *higher* the points.
 
-In other words, the *probability* of forming a *basic* [Trine](formations#trines "Trines") or [Square](formations#squares "Squares"), through the course of a game of Tǔ Zǐ, is relatively high, so they're not worth any points. Forming a Unity Trine or a Unity Square however, is much more difficult. Since Unity is less likely to happen, it's worth more points.
+In other words, the *probability* of forming a *basic* [Trine](formations#trines "Trines") or [Square](formations#squares "Squares"), through the course of a game of Tu Tzi, is relatively high, so they're not worth any points. Forming a Unity Trine or a Unity Square however, is much more difficult. Since Unity is less likely to happen, it's worth more points.
 
 <br />
 
@@ -254,7 +254,7 @@ In other words, the *probability* of forming a *basic* [Trine](formations#trines
 | Unity Trine                   |  30   |
 | Unity Square                  |  50   |
 
-[*Special Hand*](formations#special-hands "Special Hands")  are even more difficult to pull off and therefore worth even more points! If you are able to create one of these formations during gameplay, they have the additional benefit of protecting you from Tǔ Zǐ at the end of the game.
+[*Special Hand*](formations#special-hands "Special Hands")  are even more difficult to pull off and therefore worth even more points! If you are able to create one of these formations during gameplay, they have the additional benefit of protecting you from Tu Tzi at the end of the game.
 
 In fact, you can potentially win the game in *one round* if you get that most special of special hands: [*Elemental Imperium*](formations#elemental-imperium "Elemental Imperium")!
 

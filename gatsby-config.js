@@ -77,8 +77,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/games/tu-zi`,
-        name: 'tu-zi',
+        path: `${__dirname}/content/games/tu-tzi`,
+        name: 'tu-tzi',
       },
     },
     {

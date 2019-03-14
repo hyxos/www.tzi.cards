@@ -16,9 +16,6 @@ import GlyphGrid from '../../src/components/GlyphGrid'
 
 Visually inspired by the [Trigram of Heaven](trigram): ☰. The [TZI Glyph](glyphs) differentiates each card and reveals  relationships between the cards through [formations](formations).
 
-* Vertical Bars
-  * Indicate the [Square](squares "Square")
-* Horizontal Bars
-  * Indicate the [Trine](trines "Trine")
-* Dots
-  * Indicate the [Element](elements "Element")
+* Horizontal Bars indicate [Trine](trines "Trine")
+* Vertical Bars indicate the [Square](squares "Square")
+* Dots indicate the [Element](elements "Element")

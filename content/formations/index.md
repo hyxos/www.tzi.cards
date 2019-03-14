@@ -14,7 +14,7 @@ Using the [TZI Glyphs](glyphs) to guide us, we can now arrange the cards in thre
 
 ## Powerful Formations
 
-Building *powerful formations* is the primary goal of gameplay for both [Tu Zi](tu-zi) and [Dojo](dojo). (-> [Games](games))
+Building *powerful formations* is the primary goal of gameplay for both [Tu Zi](tu-tzi) and [Dojo](dojo). (-> [Games](games))
 
 In addition to the basic types of formations, there are additional qualities that can make them *powerful*! 💪
 

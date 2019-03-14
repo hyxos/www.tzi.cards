@@ -12,7 +12,7 @@ TZI Cards re-imagines traditional playing cards, drawing inspiration from the [e
 
 # ![logo](./favicon-32x32.png)
 ## A New Beginning -> [Formations](formations)
-**TZI Cards** incorporate a new figure, the [TZI Glyph](glyphs) which provides a way to uniquely identify each card and reveal patterns previously obscured. This TZI Glyph enables the possibility of creating more than just a single game, but an entire *gaming system*!
+**TZI Cards** incorporate a new figure, the [TZI Glyph](glyphs) which provides a way to uniquely identify each card and reveal patterns previously obscured. TZI Cards aren't just a single game, but an entire *gaming system*!
 
 
 # 🃏

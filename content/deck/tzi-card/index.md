@@ -38,9 +38,9 @@ To refer to the card by its Ganzhi name you would use the *heavenly stem* plus t
 * 戊子 - wù zǐ
 
 When creating TZI, we found it useful to refer to the cards by their *element* name plus the *earthly branch*:
-* 土子 - tǔ zǐ
+* 土子 - Tu Tzi
 
-In fact, that is how the name of the first game developed for the deck ([Tu Zi](tu-zi "Tu Zi")), came about! 
+In fact, that is how the name of the first game developed for the deck ([Tu Zi](tu-tzi "Tu Zi")), came about! 
 
 
 
