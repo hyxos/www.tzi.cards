@@ -57,6 +57,19 @@ const createPosts = (createPage, createRedirect, edges) => {
         },
       })
     }
+    else if (node.frontmatter.posttype === 'glyph') {
+      createPage({
+        path: pagePath,
+        component: path.resolve(`./src/templates/glyph.js`),
+        context: {
+          id: node.id,
+          title: node.fields.title,
+          latin: node.fields.title.toLowerCase(),
+          prev,
+          next,
+        },
+      })
+    }
     else if (node.frontmatter.posttype === 'niandai') {
       createPage({
         path: pagePath,

@@ -9,8 +9,9 @@ excerpt: "There are twelve animals"
 ---
 
 import React from 'react'
-import AnimalGrid from '../../../src/components/AnimalGrid'
+import AnimalGrid from '../../src/components/AnimalGrid'
 
 <AnimalGrid/>
+<br />
 
 There are many different versions of the story, but legend has it that Buddha invited all of the animals in the world to a race though only twelve showed up. These twelve became the the original animals of the Chinese Zodaic and their [order](order "Order") was determined during this epic event.
