@@ -27,6 +27,7 @@ label {
 }
 `
 const findNiandai = (date, nianling) => {
+  console.log(date)
   let slug = ''
   for (let niandai of nianling) {
     let { element, animal, years } = niandai.node
@@ -54,17 +55,28 @@ const findNiandai = (date, nianling) => {
 }
 
 function LunarCalculator() {
-  const [date, setDate] = useState(new moment())
+  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+  const dd = (num) => {
+    return (num < 10 ? '0' +  String(num) : num)
+  }
+  const cleanDate = (date) => {
+    let year = date.getFullYear()
+    let month = dd(date.getMonth() + 1)
+    let day = date.getDate()
+    return `${month}-${day}-${year}`
+  }
+  const rawDate = new Date()
+  let cleanedDate = cleanDate(rawDate)
+  const [date, setDate] = useState(moment(cleanedDate, "MM-DD-YYYY"))
   const [month, setMonth] = useState(date.format('MMMM'))
   const [day, setDay] = useState(date.format('D'))
   const [year, setYear] = useState(date.format('YYYY'))
-  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
   const optionMonths = months.map((month) =>
     <option key={month} value={month}>{month}</option>
   )
 
   useEffect(() => {
-    setDate(moment(`${month + " " + day + " " + year}`))
+    setDate(moment(`${month + " " + day + " " + year}`, 'MMMM DD YYYY'))
   }, [month, day, year])
 
   return (
