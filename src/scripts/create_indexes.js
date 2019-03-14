@@ -47,6 +47,17 @@ for (i = 0; i < 12; i++) {
   mkIndexFile(parentDir, dirName, indexMD(dirName, animalName, posttype, iconName, order))
 }
 
+for (i = 0; i < 12; i++) {
+  let parentDir = 'glyphs'
+  let posttype = 'glyph'
+  let dirName = latin[i]
+  let slug = `glyphs/${dirName}`
+  let animalName = capFirst(dirName)
+  let iconName = dirName + "_glyph"
+  let order = tzi[i][1]
+  mkIndexFile(parentDir, dirName, indexMD(slug, animalName, posttype, iconName, order))
+}
+
 for (let data of tzi) {
     let parentDir = 'niandai'
     let posttype = 'niandai'
