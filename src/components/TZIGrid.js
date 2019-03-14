@@ -1,72 +1,74 @@
 import React from 'react'
+import { css } from '@emotion/core'
 
-const GridCell = ({data}) => (
-    <div>
-        <img src={`images/${data}.png`} 
-            style={{
-            width: '120px',
-            marginBottom: 0,
-        }}/>
-    </div>
-)
+const gridCss = css`
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
 
-const TZIGrid = ({data}) => (
- <div>
-     <div style={{
-         display: 'flex',
-         marginBottom: 0,
-     }}>
-         <div>
-             <GridCell data={data[0]} />
-         </div>
-         <div>
-             <GridCell data={data[1]} />
-         </div>         
-         <div>
-             <GridCell data={data[2]} />
-         </div>
-    </div>
-    <div style={{
-         display: 'flex',
-         marginBottom: 0,
-     }}>
-         <div>
-             <GridCell data={data[3]} />
-         </div>
-         <div>
-             <GridCell data={data[4]} />
-         </div>         
-         <div>
-             <GridCell data={data[5]} />
-         </div>
-    </div>
-    <div style={{
-         display: 'flex',
-         marginBottom: 0,     }}>
-         <div>
-             <GridCell data={data[6]} />
-         </div>
-         <div>
-             <GridCell data={data[7]} />
-         </div>         
-         <div>
-             <GridCell data={data[8]} />
-         </div>
-    </div>
-    <div style={{
-         display: 'flex',
-         marginBottom: 0,     }}>
-         <div>
-             <GridCell data={data[9]} />
-         </div>
-         <div>
-             <GridCell data={data[10]} />
-         </div>         
-         <div>
-             <GridCell data={data[11]} />
-         </div>
-    </div>
- </div>   
-)
+  .col {
+    width: 32%;
+    text-align: center;
+  }
+`
 
-export default TZIGrid
+export default function TZIGrid({data}) {
+  return (
+    <div css={gridCss}>
+      <div className="row">
+        <div className="col">
+          {data[0]}
+        </div>
+        <div className="col">
+          {data[4]}
+        </div>
+        <div className="col">
+          {data[8]}
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
+          {data[9]}
+        </div>
+        <div className="col">
+          {data[1]}
+        </div>
+        <div className="col">
+          {data[5]}
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
+          {data[6]}
+        </div>
+        <div className="col">
+          {data[10]}
+        </div>
+        <div className="col">
+          {data[2]}
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
+          {data[3]}
+        </div>
+        <div className="col">
+          {data[7]}
+        </div>
+        <div className="col">
+          {data[11]}
+        </div>
+      </div>
+    </div>
+  )
+}
+

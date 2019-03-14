@@ -1,5 +1,5 @@
 import React from 'react'
-import SquareGrid from './SquareGrid'
+import TZIGrid from './TZIGrid'
 import { navigate } from 'gatsby'
 import { css } from '@emotion/core'
 
@@ -31,13 +31,13 @@ export default function AnimalGrid() {
   const imgstr = (animal) => `${animal}_icon.png`
   const order = animals.map(imgstr)
 
-  // Sort image tags in proper order before sending to SquareGrid
+  // Sort image tags in proper order before sending to TZIGrid
   imgTags = imgTags.sort(function(a,b) {
     return order.indexOf( a.key ) - order.indexOf( b.key )})
 
   return (
     <div>
-      <SquareGrid data={imgTags}/>
+      <TZIGrid data={imgTags}/>
     </div>
   )
 }

@@ -9,7 +9,7 @@ TZI Cards draw their inspiration from a variety of sources, primarily the ancien
 The [elements](elements) and [animals](animals) of this system form the foundation upon which the deck is organized.
 
 ## A New Beginning
-**TZI Cards** incorporate a new figure, the [TZI Glyph](tzi-glpyh) which provides a way to uniquely identify each card and reveal patterns previously obscured (See [Formations](formations)).
+**TZI Cards** incorporate a new figure, the [TZI Glyph](tzi-glyph) which provides a way to uniquely identify each card and reveal patterns previously obscured (See [Formations](formations)).
       
 ### TZI Cards vs Traditional Playing Cards
 If you are already familiar with traditional playing cards here are a few key differences to keep in mind...
