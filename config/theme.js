@@ -15,7 +15,7 @@ const brand = {
   gray: '#A397A2',
   blue: '#336699',
   blue_dark: `${darken(0.07, '#336699')}`,
-  blue_light: `${lighten(0.25, '#336699')}`,
+  blue_light: `${lighten(0.50, '#336699')}`,
 
 }
 
@@ -30,7 +30,7 @@ const colors = {
   bg_color: '#fafafa',
   body_color: 'rgba(0,0,0,0.85)',
   link_color: brand.blue,
-  link_color_hover: `${lighten(0.25, brand.blue)}`,
+  link_color_hover: `${lighten(0.50, brand.blue)}`,
   red: '#92140C',
   yellow: '#EFAA18',
   blue: '#336699',

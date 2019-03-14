@@ -56,7 +56,7 @@ export default function Glyph({
                 }
               `}
             >
-              <Img
+              <Img css={css`border: 5px solid #eaeaea; border-radius: 5px;`}
                 sizes={banner.childImageSharp.fluid}
                 alt={site.siteMetadata.keywords.join(', ')}
               />
