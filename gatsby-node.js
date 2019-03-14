@@ -65,6 +65,7 @@ const createPosts = (createPage, createRedirect, edges) => {
           id: node.id,
           title: node.fields.title,
           latin: node.fields.title.toLowerCase(),
+          icon: node.frontmatter.icon,
           prev,
           next,
         },

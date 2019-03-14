@@ -6,17 +6,18 @@ import SEO from 'components/SEO'
 import { css } from '@emotion/core'
 import Container from 'components/Container'
 import Layout from '../components/Layout'
-import EarthlyBranchTable from '../components/EarthlyBranchTable'
+import GlyphTable from '../components/GlyphTable'
 import { fonts } from '../lib/typography'
 import Share from '../components/Share'
 import config from '../../config/website'
 import { bpMaxSM } from '../lib/breakpoints'
 
-export default function EarthlyBranch({
-  data: { site, mdx, dJson },
+export default function Glyph({
+  data: { site, mdx, dJson, icon },
   pageContext: { next, prev },
 }) {
   const title = mdx.frontmatter.title
+  const banner = icon
   const tableData = dJson.edges[0].node
 
   return (
@@ -46,9 +47,24 @@ export default function EarthlyBranch({
             `}
           >
           </div>
+          {banner && (
+            <div
+              css={css`
+                padding: 30px;
+                ${bpMaxSM} {
+                  padding: 0;
+                }
+              `}
+            >
+              <Img
+                sizes={banner.childImageSharp.fluid}
+                alt={site.siteMetadata.keywords.join(', ')}
+              />
+            </div>
+          )}
           <br />
           <MDXRenderer>{mdx.code.body}</MDXRenderer>
-          <EarthlyBranchTable data={tableData} />
+          <GlyphTable data={tableData} />
         </Container>
         {/* <SubscribeForm /> */}
       </article>
@@ -64,8 +80,8 @@ export default function EarthlyBranch({
   )
 }
 
-export const EarthlyBranchQuery = graphql`
-  query($id: String!, $latin  : String!) {
+export const GlyphQuery = graphql`
+  query($id: String!, $latin: String!, $icon: String!) {
     site {
       ...site
     }
@@ -78,6 +94,13 @@ export const EarthlyBranchQuery = graphql`
       }
       code {
         body
+      }
+    }
+    icon: file(name: { eq: $icon } ) {
+      childImageSharp {
+        fluid(maxWidth: 900) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
       }
     }
     dJson: allDataJson (filter: {
