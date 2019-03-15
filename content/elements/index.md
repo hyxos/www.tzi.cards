@@ -9,7 +9,7 @@ excerpt: "There are five root elements that represent different states of change
 banner: 'color_pentagram.png'
 ---
 
-import Elements from '../../../src/components/Elements'
+import Elements from '../../src/components/Elements'
 
 <Elements />
 

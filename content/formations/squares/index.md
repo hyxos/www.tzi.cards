@@ -4,8 +4,8 @@ title: 'The Three Squares'
 banner: square.png
 ---
 import React from 'react'
-import AnimalGrid from '../../src/components/AnimalGrid'
-import GlyphGrid from '../../src/components/GlyphGrid'
+import AnimalGrid from '../../../src/components/AnimalGrid'
+import GlyphGrid from '../../../src/components/GlyphGrid'
 
 > Is it a diamond or a square?
 

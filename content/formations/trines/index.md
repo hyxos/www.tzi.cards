@@ -4,8 +4,8 @@ title: "The Four Trines"
 banner: triangle.png
 ---
 import React from 'react'
-import AnimalGrid from '../../src/components/AnimalGrid'
-import GlyphGrid from '../../src/components/GlyphGrid'
+import AnimalGrid from '../../../src/components/AnimalGrid'
+import GlyphGrid from '../../../src/components/GlyphGrid'
 
 > I'm really trine to understand this...
 
