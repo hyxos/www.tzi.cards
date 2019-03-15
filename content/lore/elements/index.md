@@ -13,4 +13,45 @@ import Elements from '../../../src/components/Elements'
 
 <Elements />
 
-The five elements represent different states of change: [wood](wood "Wood"), [fire](fire "Fire"), [earth](earth "Earth"), [metal](metal "Metal") and [water](water "Water"). 
+# And Then Were Five
+
+It is said that the five [elements](elements) represent different states of change. 🤔
+
+On a less abstract note, it may be easier to think of them as symbols representing the remaining *seven luminaries* after taking away the moon and the sun (represented by [Yin](yin) and [Yang](yang)).
+
+## Cardinal Official
+
+![Four Directions](four_directions.png)
+
+## Connecting the Dots
+
+Every [TZI Card](/) has an element that can be determined by the color on the card and the placement of two dots. For yang polarity the glyph is the color, for yin polarity the background is the color
+
+### 🌲 Wood
+
+To the left
+![Wood Rat Glyph](wood_rat_glyph.png)
+
+### 🔥 Fire
+
+Up on top
+![Fire Monkey Glyph](fire_monkey_glyph.png)
+
+### 🌎 Earth
+
+Nada dotta
+![Earth Dragon Glyph](earth_dragon_glyph.png)
+
+### 🎸 Metal
+
+To the right
+![Metal Horse Glyph](metal_horse_glyph.png)
+
+### 🌊 Water
+
+Down below
+![Water Tiger Glyph](water_tiger_glyph.png)
+
+Next -> [The Twelve Animals](animals)
+
+

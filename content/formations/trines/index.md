@@ -7,7 +7,9 @@ import React from 'react'
 import AnimalGrid from '../../src/components/AnimalGrid'
 import GlyphGrid from '../../src/components/GlyphGrid'
 
-## What a Trio
+> I'm really trine to understand this...
+
+## ▲ What a Trio
 
 When three [TZI Cards](/) share the same number of horizontal bars in their TZI glyphs, they are said to be part of a [trine](trine).
 
@@ -47,9 +49,9 @@ In the form of their [TZI Glyphs](glyphs), the four trines can be recognized by 
 
 Trines can be one of three types, according to how many different [elements](elements) are represented.
 
-- Basic - contains two different elements. 
-- [Diversity](diversity) - contains three different elements.
-- [Unity](unity) - all elements are the same.
+- 🍦 Basic - contains two different elements. 
+- ‍🌈 [Diversity](diversity) - contains three different elements.
+- 🏴󠁳󠁳󠁵󠁹󠁿 [Unity](unity) - all elements are the same.
 
 <table id="trine-examples" style="width:100%">
     <caption><em>Examples</em></caption>

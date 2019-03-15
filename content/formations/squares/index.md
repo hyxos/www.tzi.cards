@@ -7,7 +7,10 @@ import React from 'react'
 import AnimalGrid from '../../src/components/AnimalGrid'
 import GlyphGrid from '../../src/components/GlyphGrid'
 
-## What a Square
+> Is it a diamond or a square?
+
+## ◻ A Square or What?
+
 When four [TZI Cards](/) share the same number of vertical bars in their [TZI glyphs](glyphs), they are said to be part of a [square](square).
 
 ### The Pillars of TZI
@@ -42,9 +45,9 @@ In the form of their [TZI Glyphs](glyphs), the three squares can be recognized b
 
 Squares can be one of three types, according to how many different [elements](elements) are represented.
 
-- Basic - contains two different elements. 
-- [Diversity](diversity) - contains three different elements.
-- [Unity](unity) - all elements are the same.
+- 🍦 Basic - contains two different elements. 
+- ‍🌈 [Diversity](diversity) - contains three different elements.
+- 🏴󠁳󠁳󠁵󠁹󠁿 [Unity](unity) - all elements are the same.
 
 <table id="square-examples" style="width:100%">
     <caption>Examples</caption>
