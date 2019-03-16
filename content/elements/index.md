@@ -13,7 +13,7 @@ import Elements from '../../src/components/Elements'
 
 <Elements />
 
-# And Then Were Five
+# And Then There Were Five
 
 It is said that the five [elements](elements) represent different states of change. 🤔
 

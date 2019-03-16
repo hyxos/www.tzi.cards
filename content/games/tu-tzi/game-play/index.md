@@ -131,7 +131,7 @@ Beginners may find it helpful to place all their cards face-up in front of them 
 
 Now, look at the the cards in your hand (or in front of you if you're playing open hand), can you complete a [square](formations#squares "Square") or [trine](formations#trines "Trines")? If so, (and you haven't already), place it on the table in front of you face-up. This is how you begin your grid formation! Use the TZI Glyph in the top left hand corner of the cards to help you see which cards belong in which group. Refer to the default *formation card* if you need help.
 
-[*Powerful formations*](formations#powerful-formations "Powerful Formations") are Trines and Squares where the *elements* are all different (see *diversity*), or all the same (see *Unity*). There are also *super powerful formations* called [*Special Hands*](formations#special-hands "Special Hands"), where the Trines and Squares align in an extra special way.
+[*Powerful formations*](formations#powerful-formations "Powerful Formations") are Trines and Squares where the *elements* are all different (see *diversity*), or all the same (see *Unity*). There are also *super powerful formations* called [*Special Hands*](special-hands "Special Hands"), where the Trines and Squares align in an extra special way.
 
 If you complete a Trine or Square, recruit an additional card from the stockpile or the discard pile. Sometimes it is possible to complete *both* a Trine and a Square with one card - in this case you pick up *two* cards.
 
@@ -216,7 +216,7 @@ So, even though play is over for everyone else, the player who has Tu Tzi in the
 
 If the player with Tu Tzi takes a card from another player's formation, they must have a card to exchange (e.g. Player 1 takes *green dragon* from their formation and switches it with *red dragon* from Player 2's formation). They cannot simply take a card from another player's formation and add it to their own!
 
-There is, however, one way to stay safe from that sly yellow rat, [*special hands*](formations#special-hands "Special Hands") are immune to Tu Tzi! She isn't allowed to work her magic on any player whose formation is a special hand.
+There is, however, one way to stay safe from that sly yellow rat, [*special hands*](special-hands "Special Hands") are immune to Tu Tzi! She isn't allowed to work her magic on any player whose formation is a special hand.
 
 #### What About Me?
 
@@ -254,20 +254,20 @@ In other words, the *probability* of forming a *basic* [Trine](formations#trines
 | Unity Trine                   |  30   |
 | Unity Square                  |  50   |
 
-[*Special Hand*](formations#special-hands "Special Hands")  are even more difficult to pull off and therefore worth even more points! If you are able to create one of these formations during gameplay, they have the additional benefit of protecting you from Tu Tzi at the end of the game.
+[*Special Hand*](special-hands "Special Hands")  are even more difficult to pull off and therefore worth even more points! If you are able to create one of these formations during gameplay, they have the additional benefit of protecting you from Tu Tzi at the end of the game.
 
-In fact, you can potentially win the game in *one round* if you get that most special of special hands: [*Elemental Imperium*](formations#elemental-imperium "Elemental Imperium")!
+In fact, you can potentially win the game in *one round* if you get that most special of special hands: [*Elemental Imperium*](elemental-imperium "Elemental Imperium")!
 
 If your final formation conforms to one of the special hands, then you score them according to the chart below.
 
-#### Scoring for [Special Hands](formations#special-hands "Special Hands")
-| [*Special Hand*](formations#special-hands "Special Hands")                | *Points* |
+#### Scoring for Special Hands
+| [Special Hand](special-hands "Special Hands")                | *Points* |
 |----------------------------------------------------------------------------|----------|
-| [Feng Shui](formations#feng-shui "Feng Shui")                                | 180   |
-| [Coup D'Etat](formations#coup-detat "Coup D'Etat")                           | 210   |
-| [Triumverate](formations#triumverate "Triumverate")                          | 250   |
-| [Church & State](formations#church-state "Church and State")                 | 300   |
-| [Elemental Imperium](formations#elemental-imperium "Elemental Imperium")     | 360   |
+| [Feng Shui](feng-shui "Feng Shui")                                | 180   |
+| [Coup D'Etat](coup-detat "Coup D'Etat")                           | 210   |
+| [Triumvirate](triumvirate "Triumvirate")                          | 250   |
+| [Church & State](church-state "Church and State")                 | 300   |
+| [Elemental Imperium](elemental-imperium "Elemental Imperium")     | 360   |
 
 </div>
 

@@ -27,6 +27,6 @@ Following the principles of [diversity](diversity) and [unity](unity), TZI Cards
 
 1. [Feng Shui](feng-shui "Feng Shui")
 1. [Coup D'Etat](coup-detat "Coup D'Etat")
-1. [Triumvirate](triumvirate "Triumverate")
+1. [Triumvirate](triumvirate "triumvirate")
 1. [Church & State](church-state "Church & State")
 1. [Elemental Imperium](elemental-imperium "Elemental Imperium")
