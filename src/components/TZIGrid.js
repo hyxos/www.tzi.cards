@@ -2,7 +2,7 @@ import React from 'react'
 import { css } from '@emotion/core'
 
 const gridCss = css`
-  img {
+  img, .eb {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -14,7 +14,6 @@ const gridCss = css`
     align-items: center;
     margin-bottom: 5px;
   }
-
   .col {
     width: 32%;
     text-align: center;
@@ -29,10 +28,10 @@ export default function TZIGrid({data}) {
           {data[0]}
         </div>
         <div className="col">
-          {data[4]}
+          {data[8]}
         </div>
         <div className="col">
-          {data[8]}
+          {data[4]}
         </div>
       </div>
       <div className="row">
@@ -40,10 +39,10 @@ export default function TZIGrid({data}) {
           {data[9]}
         </div>
         <div className="col">
-          {data[1]}
+          {data[5]}
         </div>
         <div className="col">
-          {data[5]}
+          {data[1]}
         </div>
       </div>
       <div className="row">
@@ -51,10 +50,10 @@ export default function TZIGrid({data}) {
           {data[6]}
         </div>
         <div className="col">
-          {data[10]}
+          {data[2]}
         </div>
         <div className="col">
-          {data[2]}
+          {data[10]}
         </div>
       </div>
       <div className="row">
@@ -62,10 +61,10 @@ export default function TZIGrid({data}) {
           {data[3]}
         </div>
         <div className="col">
-          {data[7]}
+          {data[11]}
         </div>
         <div className="col">
-          {data[11]}
+          {data[7]}
         </div>
       </div>
     </div>

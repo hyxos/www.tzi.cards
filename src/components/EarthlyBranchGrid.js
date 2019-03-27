@@ -5,7 +5,7 @@ import { navigate } from 'gatsby'
 import TZIGrid from './TZIGrid'
 
 const EarthlyBranchCell = props =>
-  <div css={css`
+  <div className="eb" css={css`
         text-align: center;
         margin: 10px;
         width: 90px;
