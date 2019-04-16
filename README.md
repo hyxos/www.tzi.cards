@@ -34,17 +34,10 @@
 
 ## Setup
 
-<<<<<<< HEAD
 - `git clone git@github.com:hyxos/www.tzi.cards.git`
 - `cd www.tzi.cards`
 - `npm install`
 - `npm run develop`
-=======
-- `git clone git@github.com:eggheadio/gatsby-starter-egghead-blog.git`
-- `cd gatsby-starter-egghead-blog`
-- `yarn`
-- `gatsby develop`
->>>>>>> upstream/master
 - visit http://localhost:8000
 
 ## Setup via Gatsby CLI

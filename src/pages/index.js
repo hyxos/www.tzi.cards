@@ -10,56 +10,8 @@ import theme from '../../config/theme'
 import boc from '../../content/blog/breakoutcon/breakout_con_logo.png'
 import { bpMaxSM } from '../lib/breakpoints'
 
-<<<<<<< HEAD
 export default function Index({ data: { site, icon } }) {
   const banner = icon
-=======
-const Hero = () => (
-  <section
-    css={css`
-      * {
-        color: ${theme.colors.white};
-      }
-      width: 100%;
-      background: ${theme.brand.primary};
-      padding: 20px 0 30px 0;
-      display: flex;
-    `}
-  >
-    <Container
-      css={css`
-        display: flex;
-        flex-direction: column;
-      `}
-    >
-      <h1
-        css={css`
-          position: relative;
-          z-index: 5;
-          line-height: 1.5;
-          margin: 0;
-          max-width: ${rhythm(15)};
-        `}
-      >
-        Your blog says the things you want to say.
-      </h1>
-    </Container>
-    <div
-      css={css`
-        height: 150px;
-        overflow: hidden;
-      `}
-    />
-  </section>
-)
-
-const Description = styled.p`
-  margin-bottom: 10px;
-  display: inline-block;
-`
-
-export default function Index({ data: { site, allMdx } }) {
->>>>>>> upstream/master
   return (
     <Layout
       site={site}
@@ -71,7 +23,6 @@ export default function Index({ data: { site, allMdx } }) {
         css={css`
           padding-bottom: 0;
         `}
-<<<<<<< HEAD
       > 
       {banner && (
         <div
@@ -81,47 +32,6 @@ export default function Index({ data: { site, allMdx } }) {
               padding: 0;
             }
           `}
-=======
-      >
-        {allMdx.edges.map(({ node: post }) => (
-          <div
-            key={post.id}
-            css={css`
-              margin-bottom: 40px;
-            `}
-          >
-            <h2
-              css={css({
-                marginBottom: rhythm(0.3),
-                transition: theme.transition.ease,
-                ':hover': {
-                  color: theme.brand.primary,
-                },
-              })}
-            >
-              <Link
-                to={post.frontmatter.slug}
-                aria-label={`View ${post.frontmatter.title}`}
-              >
-                {post.frontmatter.title}
-              </Link>
-            </h2>
-            <Description>
-              {post.excerpt}{' '}
-              <Link
-                to={post.frontmatter.slug}
-                aria-label={`View ${post.frontmatter.title}`}
-              >
-                Read Article →
-              </Link>
-            </Description>
-          </div>
-        ))}
-        <Link
-          to="/blog"
-          aria-label="Visit blog page"
-          className="button-secondary"
->>>>>>> upstream/master
         >
           <Img
             sizes={banner.childImageSharp.fluid}
