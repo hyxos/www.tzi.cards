@@ -18,7 +18,7 @@ export default function Index({ data: { site, icon } }) {
       headerBg={theme.brand.primary}
     >
       <Hero />
-      <Container
+      <Container maxWidth={900}
         css={css`
           padding-bottom: 0;
         `}

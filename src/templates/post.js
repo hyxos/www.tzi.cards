@@ -29,7 +29,7 @@ export default function Post({
           display: flex;
         `}
       >
-        <Container>
+        <Container maxWidth={600}>
           <h1
             css={css`
               text-align: center;

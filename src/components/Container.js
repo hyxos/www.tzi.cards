@@ -30,6 +30,6 @@ const Container = props => {
 }
 
 Container.defaultProps = {
-  maxWidth: 900
+  maxWidth: 600
 }
 export default Container
