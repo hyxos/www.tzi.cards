@@ -22,7 +22,7 @@ const Header = ({
       background: ${dark ? '#090909' : `${bgColor}` || 'none'};
     `}
   >
-    <Container noVerticalPadding>
+    <Container noVerticalPadding maxWidth={1200}>
       <nav
         css={css`
           width: 100%;
@@ -37,7 +37,7 @@ const Header = ({
           }
           a:hover {
             color: ${headerColor === theme.colors.white
-              ? 'white'
+              ? theme.brand.secondary
               : theme.colors.link_color_hover};
           }
         `}

@@ -1,9 +1,8 @@
 import React from 'react'
 import { css } from '@emotion/core'
 import Container from 'components/Container'
-import { rhythm } from '../lib/typography'
 import theme from '../../config/theme'
-import tzi_latin from '../images/tzi_latin_shadow.png'
+import tzi_latin from '../images/tzi.png'
 
 const Hero = () => (
     <section
@@ -12,7 +11,7 @@ const Hero = () => (
           color: ${theme.colors.white};
         }
         width: 100%;
-        background: ${theme.brand.primary};
+        background-image: linear-gradient(${theme.brand.primary}, ${theme.colors.primary_dark});
         padding: 0 0 0 0;
         display: flex;
       `}
@@ -29,23 +28,19 @@ const Hero = () => (
         >
             <img className="" src={tzi_latin} alt="TZI Logo"
                 style={{
-                width: '300px',
+                width: '350px',
                 marginBottom:'0',
                 }}
             />
-        </span>
-        <h4
-          css={css`
+            <h3 css={css`
             position: relative;
             z-index: 5;
             line-height: 1.5;
             margin: 0;
             text-align: center;
-            max-width: ${rhythm(20)};
-          `}
-        >
-          An Ancient Past, A New Beginning...
-        </h4>
+
+          `}>An Ancient Past, A New Beginning...</h3>
+        </span>
       </Container>
       <div
         css={css`

@@ -4,7 +4,7 @@ import { bpMaxSM } from 'lib/breakpoints'
 
 const Container = props => {
   const {
-    maxWidth = 600,
+    maxWidth = props.maxWidth,
     noHorizontalPadding = false,
     noVerticalPadding = false,
     ...restProps
@@ -29,4 +29,7 @@ const Container = props => {
   )
 }
 
+Container.defaultProps = {
+  maxWidth: 900
+}
 export default Container

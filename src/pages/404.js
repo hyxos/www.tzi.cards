@@ -1,13 +1,11 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import {  graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import { css } from '@emotion/core'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
-import LunarCalculator from '../components/LunarCalculator'
 import Container from 'components/Container'
 import theme from '../../config/theme'
-import boc from '../../content/blog/breakoutcon/breakout_con_logo.png'
 import { bpMaxSM } from '../lib/breakpoints'
 
 export default function Index({ data: { site, icon } }) {

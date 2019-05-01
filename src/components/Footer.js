@@ -7,7 +7,7 @@ import Container from './Container'
 
 const Footer = ({ author, noSubscribeForm }) => (
   <footer>
-    <Container
+    <Container maxWidth={1200}
       css={css`
         padding-top: 0;
         ${bpMaxSM} {

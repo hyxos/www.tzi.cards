@@ -21,6 +21,7 @@ const brand = {
 
 const colors = {
   primary_light: `${lighten(0.55, brand.primary)}`,
+  primary_dark: `${darken(0.10, brand.primary)}`,
   secondary_light: `${lighten(0.25, brand.secondary)}`,
   tertiary_light: `${lighten(0.25, brand.tertiary)}`,
   tertiary_dark: `${darken(0.20, brand.tertiary)}`,

@@ -3,6 +3,8 @@ slug: 'tu-tzi-game-play'
 title: 'Tu Tzi Game Play'
 ---
 
+import tutzi from '../../../../src/images/niandai/earth_rat_icon.png'
+
 ### 2-5 Players, 30-90 Minutes
 
 <div id="overview">
@@ -182,7 +184,7 @@ When/If the last player completes their formation, they draw from the stock pile
 
 ### The Tu Tzi Phase  
 
-<img alt="Tu Tzi" src="images/25_earth_rat_icon.png" style="width: 100px;" /><br />
+<img alt="Tu Tzi" src={tutzi} style="width: 100px;" /><br />
 <small>Behold the all-powerful Tu Tzi</small>
 
 #### What Makes You So Special?
