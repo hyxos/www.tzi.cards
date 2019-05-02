@@ -39,7 +39,7 @@ const Hero = () => (
             margin: 0;
             text-align: center;
 
-          `}>An Ancient Past, A New Beginning...</h3>
+          `}>An Ancient Past, A New Beginning</h3>
         </span>
       </Container>
       <div
