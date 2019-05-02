@@ -42,7 +42,12 @@ export default function Index({ data: { site, icon } }) {
           Inspired by the cosmic patterns behind the ancient <em>Lunar Calendar</em>,{" "}
           <strong>TZI Cards</strong> is a unique deck of sixty bridge sized playing cards.
         </p>
-        <div css={css`text-align: center;`}>
+        <div css={css`text-align: center;
+                      background: #afafaf;
+                      padding: 12px;
+                      border: 1px solid #d8d3df;
+                      border-radius: 4px;
+        `}>
           <h2>Lunar Year Calculator</h2>
           Calculate the Lunar New Years from 1900 to 2080.
           <LunarCalculator />

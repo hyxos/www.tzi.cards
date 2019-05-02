@@ -3,6 +3,7 @@ import { StaticQuery, graphql, navigate } from "gatsby"
 import { css } from '@emotion/core'
 import Moment from 'moment'
 import { extendMoment } from 'moment-range'
+import theme from '../../config/theme'
 
 const moment = extendMoment(Moment);
 
@@ -27,7 +28,6 @@ label {
 }
 `
 const findNiandai = (date, nianling) => {
-  console.log(date)
   let slug = ''
   for (let niandai of nianling) {
     let { element, animal, years } = niandai.node
@@ -47,8 +47,7 @@ const findNiandai = (date, nianling) => {
       break
     }
     else {
-
-      continue
+      slug = false
     }
   }
   return slug
@@ -71,12 +70,14 @@ function LunarCalculator() {
   const [month, setMonth] = useState(date.format('MMMM'))
   const [day, setDay] = useState(date.format('D'))
   const [year, setYear] = useState(date.format('YYYY'))
+  const [valid, setValid] = useState(true)
   const optionMonths = months.map((month) =>
     <option key={month} value={month}>{month}</option>
   )
 
   useEffect(() => {
     setDate(moment(`${month + " " + day + " " + year}`, 'MMMM DD YYYY'))
+    setValid(true)
   }, [month, day, year])
 
   return (
@@ -100,7 +101,8 @@ function LunarCalculator() {
           <div className="container">
             <form action="#" onSubmit={event => {
               event.preventDefault()
-              navigate(findNiandai(date, data.allDataJson.edges))
+              const niandai = findNiandai(date, data.allDataJson.edges)
+              niandai ? navigate(niandai) : setValid(false)
             }}>
               <span>
                 <label htmlFor="month">Month</label>
@@ -120,6 +122,18 @@ function LunarCalculator() {
                 <input type="submit" className="button-blue" value="Go!" />
               </span>
             </form>
+          </div>
+          <div css={css`background: ${valid ? theme.colors.green : theme.colors.red};
+                        color: ${valid ? "black" : "white"};
+                        height: 40px;
+                        margin: auto;
+                        padding: 5px;
+                        border: 1px solid white;
+          `}>
+            {valid ? 
+              date.toString().substr(0, date.toString().length - 18) : 
+              "Must be a date between 1900 and 2080"
+            }
           </div>
         </div>
       )}
