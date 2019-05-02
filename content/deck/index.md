@@ -4,11 +4,9 @@ title: "The TZI Deck"
 banner: "./deck.png"
 ---
 # ☯ 
-##  An Ancient Past --> [Lore](lore)
+##  An Ancient Past -> [Lore](lore)
 
 TZI Cards re-imagines traditional playing cards, drawing inspiration from the [elements](elements) and [animals](animals) of ancient Chinese system of *Ganzhi*.
-
-
 
 # ![logo](./favicon-32x32.png)
 ## A New Beginning -> [Formations](formations)
