@@ -4,7 +4,7 @@
 
 ## Production Server
 
-[www.tzi.cards](https://wwww.tzi.cards "www.tzi.cards")
+[www.tzi.cards](https://www.tzi.cards "www.tzi.cards")
 
 ### Status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/58d0c789-6b48-4b7f-be25-944ff0494f75/deploy-status)](https://app.netlify.com/sites/eloquent-wing-336603/deploys)
