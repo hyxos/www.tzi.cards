@@ -8,8 +8,25 @@ import LunarCalculator from '../components/LunarCalculator'
 import Container from 'components/Container'
 import theme from '../../config/theme'
 import { bpMaxSM } from '../lib/breakpoints'
+import styled from '@emotion/styled'
+import { rhythm } from '../lib/typography'
 
-export default function Index({ data: { site, icon } }) {
+const PostTitle = styled.h2`
+  margin-bottom: ${rhythm(0.3)};
+  transition: ${theme.transition.ease};
+  :hover {
+    color: ${theme.brand.primary};
+    transition: ${theme.transition.ease};
+  }
+`
+
+const Description = styled.p`
+  margin-bottom: 10px;
+  display: inline-block;
+`
+
+export default function Index({ data: { site, icon, allMdx } }) {
+  console.log(allMdx)
   const banner = icon
   return (
     <Layout
@@ -65,6 +82,39 @@ export default function Index({ data: { site, icon } }) {
             </li>
         </ul>
         <hr />
+        {allMdx.edges.map(({ node: post }) => (
+          <div
+            key={post.id}
+            css={css`
+              margin-bottom: 40px;
+            `}
+          >
+            <Link
+              to={post.frontmatter.slug}
+              aria-label={`View ${post.frontmatter.title}`}
+            >
+              <PostTitle>{post.frontmatter.title}</PostTitle>
+            </Link>
+            <Description>
+              {post.excerpt}{' '}
+              <Link
+                to={post.frontmatter.slug}
+                aria-label={`View ${post.frontmatter.title}`}
+              >
+                Read Article →
+              </Link>
+            </Description>
+            <span />
+          </div>
+        ))}
+        <Link
+          to="/blog"
+          aria-label="Visit blog page"
+          className="button-secondary"
+        >
+          View Blog
+        </Link>
+        <hr/>
       </Container>
     </Layout>
   )
@@ -88,7 +138,7 @@ export const pageQuery = graphql`
     allMdx(
       limit: 5
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { published: { ne: false } } }
+      filter: { frontmatter: { published: { ne: false }, posttype: {eq: "blog"} } }
     ) {
       edges {
         node {

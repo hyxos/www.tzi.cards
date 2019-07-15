@@ -48,6 +48,12 @@
 - `gatsby develop`
 - visit http://localhost:8000
 
+## License
+
+All *software* in this repository is licensed under an [MIT](https://github.com/hyxos/www.tzi.cards/blob/master/LICENSE ) Open Source Software license.
+
+All *content* in this repository is licensed under a Creative Commons Non-Commercial [(CC BY-NC-SA 2.0)](https://creativecommons.org/licenses/by-nc-sa/2.0/ "Attribution-NonCommercial-ShareAlike 2.0 Generic") license.
+
 ## History
 
 This project is a fork of Egghead's https://github.com/eggheadio/gatsby-starter-egghead-blog

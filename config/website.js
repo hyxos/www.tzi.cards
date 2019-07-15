@@ -23,6 +23,6 @@ module.exports = {
   // Social component
   twitter: 'https://twitter.com/tzi_cards/',
   twitterHandle: '@tzi_cards',
-  github: 'https://github.com/hyxos/',
+  github: 'https://github.com/hyxos/www.tzi.cards',
   linkedin: '',
 }
