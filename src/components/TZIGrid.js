@@ -10,12 +10,13 @@ const gridCss = css`
   .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 5px;
   }
   .col {
     width: 32%;
+    max-width: 200px;
     text-align: center;
   }
 `

@@ -1,6 +1,6 @@
 import React from 'react'
-import WoodRat from '../../static/images/01_wood_rat_card.png'
-import WoodOx from '../../static/images/02_wood_ox_card.png'
+import WoodRat from '../images/cards/01_wood_rat_card.png'
+import WoodOx from '../images/cards/02_wood_ox_card.png'
 import { css } from '@emotion/core'
 
 const ExampleStyles = css`
