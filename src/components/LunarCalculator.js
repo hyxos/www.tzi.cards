@@ -125,7 +125,7 @@ function LunarCalculator() {
           </div>
           <div css={css`background: ${valid ? theme.colors.green : theme.colors.red};
                         color: ${valid ? "black" : "white"};
-                        height: 40px;
+                        min-height: 40px;
                         margin: auto;
                         padding: 5px;
                         border: 1px solid white;
