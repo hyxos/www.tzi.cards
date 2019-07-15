@@ -26,7 +26,6 @@ const Description = styled.p`
 `
 
 export default function Index({ data: { site, icon, allMdx } }) {
-  console.log(allMdx)
   const banner = icon
   return (
     <Layout
@@ -93,6 +92,7 @@ export default function Index({ data: { site, icon, allMdx } }) {
               to={post.frontmatter.slug}
               aria-label={`View ${post.frontmatter.title}`}
             >
+              <Img sizes={post.frontmatter.banner.childImageSharp.sizes} />
               <PostTitle>{post.frontmatter.title}</PostTitle>
             </Link>
             <Description>
