@@ -34,7 +34,7 @@ export default function Index({ data: { site, icon, allMdx } }) {
       headerBg={theme.brand.primary}
     >
       <Hero />
-      <Container maxWidth={900}
+      <Container maxWidth={700}
         css={css`
           padding-bottom: 0;
         `}

@@ -1,11 +1,11 @@
 ---
-slug: mit-cc-license
-date: 2019-07-15
-title: 'Licensing and Releasing of www.tzi.cards'
-description: 'MIT License and Creative Commons Non-Commercial Licensing for www.tzi.cards'
+slug: first-edition-deadline
+date: 2019-07-16
+title: 'First Edition Shelving'
+description: 'The first edition of the deck will no longer be available'
 published: true  
 author: 'Mu Mao'
-banner: 'license.png'
+banner: '500x300.png'
 posttype: 'blog'
 ---
 
@@ -19,6 +19,6 @@ In addition, the content of this site is now open for your use in a variety of w
 
 ## Why are We Doing This?
 
-We have always wanted to open up TZI to the widest audience possible. And we love how the freedom of publishing straight to the internet provides greater accessibility to our product for everyone.
+We have always wanted to open up TZI to the widest audience possible. And we love how the freedom of publishing straight to the internet provides greater accessability to our product for everyone.
 
 This will also make it easier for others to help make this site and our product better. We use and rely on and use Open Source Software every day and want to open up our work to the community at large. Thank you to everyone who has supported us so far! We look forward to sharing more details soon.

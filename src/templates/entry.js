@@ -27,7 +27,7 @@ export default function Entry({
           display: flex;
         `}
       >
-        <Container maxWidth={900}>
+        <Container maxWidth={700}>
           <h1
             css={css`
               text-align: center;
